@@ -1,0 +1,109 @@
+- Prompt Engineering and ChatGPT By Russel Grant
+- How to Raise Successful People By Esther Wojcicki
+- AI and Machine Learning for Coders By Laurence Moroney
+- Thanks for the Feedback By Sheila Heen
+- Software Mistakes and Tradeoffs By Tomasz Lelek
+- Software Development Pearls By Karl Wiegers
+- Modern Software Engineering By David Farley
+- The Art of Leadership By Michael Lopp
+- Monolith to Microservices By Sam Newman
+- Beyond the Phoenix Project By Gene Kim
+- Until the End of Time By Brian Greene
+- The Fabric of the Cosmos By Brian Greene
+- The DevOps Handbook, Second Edition By Gene Kim
+- Sooner Safer Happier By Jonathan Smart
+- Clean Agile By Robert C. Martin
+- Team Topologies: Organizing Business and Technology Teams for Fast Flow By Matthew Skelton
+- The Fourth Turning By William Strauss
+- Trillion Dollar Coach By Eric Schmidt
+- Empowered By Marty Cagan
+- Noise By Daniel Kahneman
+- Right to Left By Mike Burrows
+- Clean Code By Robert C. Martin
+- Coaching Agile Teams: A Companion for ScrumMasters, Agile Coaches, and Project Managers in Transition By Lyssa Adkins
+- Mindset By Carol S. Dweck PhD
+- User Friendly By Cliff Kuang
+- The Design of Everyday Things By Don Norman
+- The Practice By Seth Godin
+- Formula X By Jurriaan Kamer
+- Escape Velocity By Geoffrey A. Moore
+- Accelerate By John P. Kotter
+- The Scrum Fieldbook By J. J. Sutherland
+- Doing Agile Right By Darrell K. Rigby
+- Agile Conversations By Douglas Squirrel
+- Talking to Strangers By Malcolm Gladwell
+- Escaping the Build Trap By Melissa Perri
+- Creativity, Inc. By Ed Catmull
+- Sense & Respond By Jeff Gothelf
+- Good to Great By Jim Collins
+- Understanding Software By Max Kanat-Alexander
+- The Pragmatic Programmer: 20th Anniversary Edition, 2nd Edition By David Thomas
+- The Infinite Game By Simon Sinek
+- The Art of War By Sun Tzu
+- The 7 Habits of Highly Effective People By Stephen R. Covey
+- The Unicorn Project By Gene Kim
+- The Power of Habit By Charles Duhigg
+- Beyond the Goal By Eliyahu M. Goldratt
+- The Goal By Eliyahu M. Goldratt
+- From Contempt to Curiosity By Caitlin Walker
+- The Future of the Mind By Michio Kaku
+- The Agile Samurai By Jonathan Rasmusson
+- Turn the Ship Around! By L. David Marquet
+- Solve for Happy By Mo Gawdat
+- Thinking, Fast and Slow By Daniel Kahneman
+- Sapiens By Yuval Noah Harari
+- The Service Startup By Tenny Pinheiro
+- Never Split the Difference By Chris Voss
+- How to Win Friends & Influence People By Dale Carnegie
+- Sprint By Jake Knapp
+- Inspired By Marty Cagan
+- Project to Product: How to Survive and Thrive in the Age of Digital Disruption with the Flow Framework By Mik Kersten
+- Measure What Matters By John Doerr
+- Leaders Eat Last By Simon Sinek
+- The Lean Product Playbook By Dan Olsen
+- Originals By Adam Grant
+- The Fifth Discipline By Peter M. Senge
+- It Doesn't Have to Be Crazy at Work By Jason Fried
+- Jobs to Be Done By Stephen Wunker
+- Radical Candor By Kim Scott
+- Thinking for a Living By Thomas H. Davenport
+- The Culture Code By Daniel Coyle
+- Getting Things Done By David Allen
+- The Hard Thing About Hard Things By Ben Horowitz
+- The Talent Code By Daniel Coyle
+- Talk Like TED By Carmine Gallo
+- Pitch Perfect By Bill McGowan
+- Toyota Kata By Mike Rother
+- Linchpin By Seth Godin
+- The Four By Scott Galloway
+- Accelerate: Building and Scaling High Performing Technology Organizations By Nicole Forsgren PhD
+- Principles By Ray Dalio
+- The Personal MBA: Master the Art of Business By Josh Kaufman
+- How to Measure Anything By Douglas W. Hubbard
+- Making Work Visible: Exposing Time Theft to Optimize Work & flow By Dominica Degrandis
+- Start with Why By Simon Sinek
+- A Seat at the Table By Mark Schwartz
+- Lean In By Sheryl Sandberg
+- The Five Dysfunctions of a Team By Patrick Lencioni
+- The Happiness Advantage By Shawn Achor
+- Scrum By Jeff Sutherland
+- Work Rules! By Laszlo Bock
+- Drive By Daniel H. Pink
+- Crucial Conversations By Kerry Patterson
+- Multipliers By Liz Wiseman
+- The Coaching Habit By Michael Bungay Stanier
+- Algorithms to Live By By Brian Christian
+- The Phoenix Project By Gene Kim
+- The Subtle Art of Not Giving a F*ck By Mark Manson
+- Switch By Dan Heath
+- 2 Second Lean: How to Grow People and Build a Fun Lean Culture at Work & at Home, 3rd Edition By Paul A. Akers
+- You Are a Badass By Jen Sincero
+- Manager 3.0 By Brad Karsh
+- Death by Meeting By Patrick Lencioni
+- Zero to One By Peter Thiel
+- Nonviolent Communication By Marshall Rosenberg PhD
+- The Innovator's Dilemma By Clayton M. Christensen
+- Leadership Secrets of Attila the Hun By Wess Roberts
+- The Advantage By Patrick Lencioni
+- The Lean Startup By Eric Ries
+- The Toyota Way By Jeffrey Liker

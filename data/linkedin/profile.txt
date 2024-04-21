@@ -1,0 +1,547 @@
+# Justin Beall
+
+Agile Software Innovator & Thought Leader | Passionate about Crafting Transformative Tech Solutions through Extreme Programming
+
+Education: Bachelor of Computer Science from The University of Akron
+
+Location: Medina, Ohio, United States  
+
+## About
+
+A seasoned Software Engineer and Entrepreneur specializing in Python, Node.js, Java, and .NET, I leverage technology to solve complex problems and streamline operations in today's dynamic digital landscape. As a former VP of Engineering and current leader at Artium and Dev3l Solutions, I focus on creating agile, scalable software solutions that drive business growth.
+
+Deeply committed to the principles of Extreme Programming and Agile methodologies, I guide teams towards high efficiency and innovation, emphasizing a growth mindset and continuous improvement. My recent projects include innovative data mining, and AI uses to enhance user experiences and operational capabilities in tech-driven sectors.
+
+A fervent advocate for thought leadership in technology, I frequently speak on servant leadership, agile coaching, and software craftsmanship. I engage with the tech community to share knowledge and drive forward the conversation about the future of technology and its impact on businesses and society.
+
+I continuously explore new trends, such as the no-code movement and thoughtful software practices, to lead teams in creating impactful and meaningful technology solutions. My journey is fueled by a passion for learning and an unyielding drive to enhance personal and community growth through technology.A seasoned Software Engineer and Entrepreneur specializing in Python, Node.js, Java, and .NET, I leverage technology to solve complex problems and streamline operations in today's dynamic digital landscape. As a former VP of Engineering and current leader at Artium and Dev3l Solutions, I focus on creating agile, scalable software solutions that drive business growth. Deeply committed to the principles of Extreme Programming and Agile methodologies, I guide teams towards high efficiency and innovation, emphasizing a growth mindset and continuous improvement. My recent projects include innovative data mining, and AI uses to enhance user experiences and operational capabilities in tech-driven sectors. A fervent advocate for thought leadership in technology, I frequently speak on servant leadership, agile coaching, and software craftsmanship. I engage with the tech community to share knowledge and drive forward the conversation about the future of technology and its impact on businesses and society. I continuously explore new trends, such as the no-code movement and thoughtful software practices, to lead teams in creating impactful and meaningful technology solutions. My journey is fueled by a passion for learning and an unyielding drive to enhance personal and community growth through technology.
+
+## Experience
+
+### Artium
+
+Staff Engineer · Full-time
+Jun 2022 - Present · 1 yr 11 mos
+United States · Remote
+
+#### Description
+
+As a Staff Engineer at Artium, an XP-focused consultancy, my role encompasses guiding software development teams through high-level architectural decisions, ensuring best practices in coding and system design. I facilitate the seamless integration of Extreme Programming principles to enhance productivity and deliver high-quality software solutions. Here’s a closer look at my contributions and the technologies I've worked with:
+
+- Lead and Innovate: I spearhead projects by fostering agile methodologies, particularly XP, to optimize project flow and client engagements. My efforts focus on aligning technical strategies with business objectives to drive growth and innovation.
+ 
+- Technical Mentorship: I mentor teams in adopting and implementing rigorous XP practices, which involve continuous integration, test-driven development (TDD), and frequent releases to adapt quickly to market changes.
+
+- Technology Implementation: Across various projects, I have successfully implemented cutting-edge technologies, ensuring robust, scalable, and efficient systems. This includes overhauling legacy systems to meet modern demands.
+
+Technologies, Platforms, and Languages:
+
+- Languages: Python, Node.js, Java, C#, JavaScript (ES6+), TypeScript
+- Frameworks and Libraries: .NET, Spring Boot, React.js, Angular, Vue.js, Mobile (React Native)
+- Databases: SQL Server, PostgreSQL, MongoDB, Redis
+- DevOps and CI/CD: Docker, Kubernetes, Jenkins, Azure DevOps
+- Cloud Technology: AWS, Azure, Google Cloud Platform
+- Other Tools and Technologies: GraphQL, RabbitMQ, KafkaAs a Staff Engineer at Artium, an XP-focused consultancy, my role encompasses guiding software development teams through high-level architectural decisions, ensuring best practices in coding and system design. I facilitate the seamless integration of Extreme Programming principles to enhance productivity and deliver high-quality software solutions. Here’s a closer look at my contributions and the technologies I've worked with: - Lead and Innovate: I spearhead projects by fostering agile methodologies, particularly XP, to optimize project flow and client engagements. My efforts focus on aligning technical strategies with business objectives to drive growth and innovation. - Technical Mentorship: I mentor teams in adopting and implementing rigorous XP practices, which involve continuous integration, test-driven development (TDD), and frequent releases to adapt quickly to market changes. - Technology Implementation: Across various projects, I have successfully implemented cutting-edge technologies, ensuring robust, scalable, and efficient systems. This includes overhauling legacy systems to meet modern demands. Technologies, Platforms, and Languages: - Languages: Python, Node.js, Java, C#, JavaScript (ES6+), TypeScript - Frameworks and Libraries: .NET, Spring Boot, React.js, Angular, Vue.js, Mobile (React Native) - Databases: SQL Server, PostgreSQL, MongoDB, Redis - DevOps and CI/CD: Docker, Kubernetes, Jenkins, Azure DevOps - Cloud Technology: AWS, Azure, Google Cloud Platform - Other Tools and Technologies: GraphQL, RabbitMQ, Kafka
+
+#### Skills
+
+Web Applications · Node.js · Web Services · Python · Amazon Web Services (AWS) · Product Discovery · CSS · Mob Programming · Refactoring · Extract, Transform, Load (ETL) · Spring · TypeScript · SQL · Pinecone Vector DB · Leadership · React.js · Bootstrap · DevOps · Git · HTML · Software Development · Java · OpenAI · Test Driven Development · MongoDB · Web Development · JavaScript · Android · Ruby · AngularJS · Serverless ComputingSkills: Web Applications · Node.js · Web Services · Python · Amazon Web Services (AWS) · Product Discovery · CSS · Mob Programming · Refactoring · Extract, Transform, Load (ETL) · Spring · TypeScript · SQL · Pinecone Vector DB · Leadership · React.js · Bootstrap · DevOps · Git · HTML · Software Development · Java · OpenAI · Test Driven Development · MongoDB · Web Development · JavaScript · Android · Ruby · AngularJS · Serverless Computing
+
+---
+
+### DEV3L Solutions
+
+Agile Ninja / XP Engineer / OwnerAgile Ninja / XP Engineer / Owner · Full-time
+Apr 2019 - Jun 2022 · 3 yrs 3 mos
+Medina, Ohio, United States · Hybrid
+
+#### Description
+
+At Dev3l Solutions, as both the owner and an XP Engineer, I focused on leveraging my vast technical expertise and leadership skills to provide top-tier agile consulting and software development services. Here’s how I applied my skills in this role:
+
+- Consultancy and Agile Coaching: I offered consultancy services specializing in agile methodologies and extreme programming. My role involved helping clients integrate agile practices into their development processes to streamline workflow and enhance product quality.
+
+- Project Leadership: I managed multiple projects from inception to delivery, ensuring the integration of solid architectural practices and continuous feedback loops, which are crucial in XP. My leadership directly contributed to the marked improvement in project outcomes and client satisfaction.
+
+- Technical Expertise and Innovation: Led the technical strategy for developing robust web applications and services using modern technologies. I also facilitated workshops on mob programming and refactoring, which helped teams improve their code quality and efficiency.
+
+Technologies, Platforms, and Languages:
+
+- Languages: Python, Java, JavaScript, TypeScript, SQL
+- Frameworks and Libraries: Node.js, React.js, AngularJS, Spring, Bootstrap, Mobile (iOS/Android)
+- Databases and Storage Solutions: MongoDB, SQL Server
+- Cloud and DevOps: Amazon Web Services (AWS), Docker, Kubernetes, Serverless Computing
+- Other Tools and Technologies: Git, HTML, CSS, Web Development, ETL processes
+
+This role at Dev3l Solutions allowed me to harness my technical and leadership skills to foster an environment of growth and innovation, ensuring the delivery of high-quality software solutions and the successful adoption of agile practices.At Dev3l Solutions, as both the owner and an XP Engineer, I focused on leveraging my vast technical expertise and leadership skills to provide top-tier agile consulting and software development services. Here’s how I applied my skills in this role: - Consultancy and Agile Coaching: I offered consultancy services specializing in agile methodologies and extreme programming. My role involved helping clients integrate agile practices into their development processes to streamline workflow and enhance product quality. - Project Leadership: I managed multiple projects from inception to delivery, ensuring the integration of solid architectural practices and continuous feedback loops, which are crucial in XP. My leadership directly contributed to the marked improvement in project outcomes and client satisfaction. - Technical Expertise and Innovation: Led the technical strategy for developing robust web applications and services using modern technologies. I also facilitated workshops on mob programming and refactoring, which helped teams improve their code quality and efficiency. Technologies, Platforms, and Languages: - Languages: Python, Java, JavaScript, TypeScript, SQL - Frameworks and Libraries: Node.js, React.js, AngularJS, Spring, Bootstrap, Mobile (iOS/Android) - Databases and Storage Solutions: MongoDB, SQL Server - Cloud and DevOps: Amazon Web Services (AWS), Docker, Kubernetes, Serverless Computing - Other Tools and Technologies: Git, HTML, CSS, Web Development, ETL processes This role at Dev3l Solutions allowed me to harness my technical and leadership skills to foster an environment of growth and innovation, ensuring the delivery of high-quality software solutions and the successful adoption of agile practices.
+
+#### Skills
+
+Web Applications · Node.js · Web Services · Python · Amazon Web Services (AWS) · Product Discovery · CSS · Mob Programming · Refactoring · Extract, Transform, Load (ETL) · Spring · TypeScript · SQL · Leadership · React.js · Bootstrap · DevOps · Git · HTML · Software Development · Java · Test Driven Development · MongoDB · Web Development · JavaScript · Android · AngularJS · Serverless ComputingSkills: Web Applications · Node.js · Web Services · Python · Amazon Web Services (AWS) · Product Discovery · CSS · Mob Programming · Refactoring · Extract, Transform, Load (ETL) · Spring · TypeScript · SQL · Leadership · React.js · Bootstrap · DevOps · Git · HTML · Software Development · Java · Test Driven Development · MongoDB · Web Development · JavaScript · Android · AngularJS · Serverless Computing
+
+---
+
+### LeanDog
+
+Agile Technical Coach · Contract
+May 2019 - May 2022 · 3 yrs 1 mo
+Cleveland, Ohio · Hybrid
+
+#### Description
+
+In collaboration with my business, Dev3l Solutions, I engaged as an Agile Technical Coach at LeanDog, where I was instrumental in driving agile transformation and elevating software development practices among teams. Here’s a detailed account of my contributions:
+
+- Partnership and Collaboration: I managed subcontracting initiatives through a strategic partnership between LeanDog and Dev3l Solutions and led joint projects, effectively blending resources and expertise to maximize project success and client satisfaction.
+
+Agile Coaching and Team Empowerment: I implemented agile methodologies, such as Scrum and Kanban, and championed XP practices to enhance team dynamics and project delivery. My coaching efforts significantly boosted process efficiency, promoting a culture of rapid iteration and feedback.
+
+- Technical Instruction and Leadership: I designed and conducted TDD (Test-Driven Development) courses, which became a cornerstone of the development process improvement at LeanDog. My workshops focused on practical, hands-on applications of TDD, empowering developers to write more reliable and maintainable code.
+
+Innovative Problem Solving: I played a key role in problem-solving sessions, guiding teams through complex challenges using mob programming and collaborative approaches to coding and design.
+
+Technologies, Platforms, and Languages:
+
+- Languages: Python, Java, TypeScript, .C#
+- Frameworks and Libraries: Node.js, React.js, Spring, Bootstrap
+- DevOps and Cloud Solutions: Applied DevOps methodologies and embraced serverless computing, enhancing deployment practices and infrastructure management.
+
+This role significantly amalgamated my coaching abilities with my entrepreneurial spirit, enabling both LeanDog and Dev3l Solutions to flourish through enhanced software development practices and team training.In collaboration with my business, Dev3l Solutions, I engaged as an Agile Technical Coach at LeanDog, where I was instrumental in driving agile transformation and elevating software development practices among teams. Here’s a detailed account of my contributions: - Partnership and Collaboration: I managed subcontracting initiatives through a strategic partnership between LeanDog and Dev3l Solutions and led joint projects, effectively blending resources and expertise to maximize project success and client satisfaction. Agile Coaching and Team Empowerment: I implemented agile methodologies, such as Scrum and Kanban, and championed XP practices to enhance team dynamics and project delivery. My coaching efforts significantly boosted process efficiency, promoting a culture of rapid iteration and feedback. - Technical Instruction and Leadership: I designed and conducted TDD (Test-Driven Development) courses, which became a cornerstone of the development process improvement at LeanDog. My workshops focused on practical, hands-on applications of TDD, empowering developers to write more reliable and maintainable code. Innovative Problem Solving: I played a key role in problem-solving sessions, guiding teams through complex challenges using mob programming and collaborative approaches to coding and design. Technologies, Platforms, and Languages: - Languages: Python, Java, TypeScript, .C# - Frameworks and Libraries: Node.js, React.js, Spring, Bootstrap - DevOps and Cloud Solutions: Applied DevOps methodologies and embraced serverless computing, enhancing deployment practices and infrastructure management. This role significantly amalgamated my coaching abilities with my entrepreneurial spirit, enabling both LeanDog and Dev3l Solutions to flourish through enhanced software development practices and team training.
+
+#### Skills
+
+Web Applications · Node.js · Web Services · Python · CSS · Mob Programming · Refactoring · Extract, Transform, Load (ETL) · Spring · TypeScript · SQL · Leadership · React.js · Bootstrap · DevOps · Git · HTML · Software Development · Java · Test Driven Development · MongoDB · Web Development · JavaScript · Ruby · Serverless ComputingSkills: Web Applications · Node.js · Web Services · Python · CSS · Mob Programming · Refactoring · Extract, Transform, Load (ETL) · Spring · TypeScript · SQL · Leadership · React.js · Bootstrap · DevOps · Git · HTML · Software Development · Java · Test Driven Development · MongoDB · Web Development · JavaScript · Ruby · Serverless Computing
+
+---
+
+### nVisti / Applied Ballistics
+
+Software Engineering Consultant · Contract
+Jan 2019 - Mar 2022 · 3 yrs 3 mos
+Medina, Ohio, United States · hybrid
+
+#### Description
+
+At nVisti - Applied Ballistics, I advanced in extended long-range shooting science, underpinned by studies from works by Bryan Litz. As a Software Engineer, I significantly leveraged this domain knowledge and technical skills to enhance product features and internal processes. 
+
+Test-Driven Development: I implemented TDD in developing new Python web applications, achieving nearly 100% code coverage. This ensured high-quality code and set a strong foundation for future development scalability.
+
+- Event Tracking Application: Developed a custom Python application to track events and collect de-identified user data for analytics. This tool has been crucial for our customers in understanding user interactions and improving product offerings.
+
+- Integration Projects: I engineered an integration with Dropbox using Python, which automated data management and enhanced the efficiency of existing user processes. I also created and managed a Shopify storefront, integrating e-commerce platform webhooks to enable smooth device upgrades.
+
+- Legacy Systems Maintenance: I provided maintenance and bug fixes for legacy PHP applications, ensuring uninterrupted service and system reliability.
+
+- Mobile Application Management: I managed multiple iOS and Android applications through coding, building, and release processes, including contributions to native iOS (Objective C / Swift) and Android (Java) projects. This role included overseeing updates and compliance with the latest standards of the respective app stores.
+
+Technologies, Platforms, and Languages:
+
+- Languages: Python, Objective C, Swift, Java, PHP
+- Frameworks and Libraries: iOS SDK, Android SDK
+- Web Development: Python web frameworks, Shopify, PHP
+- Tools and Platforms: Dropbox API, Shopify webhooks, Git, various continuous integration tools
+
+This role allowed me to blend my technical skills with my growing expertise in ballistics, driving innovation in product development and improvements in operational processes.At nVisti - Applied Ballistics, I advanced in extended long-range shooting science, underpinned by studies from works by Bryan Litz. As a Software Engineer, I significantly leveraged this domain knowledge and technical skills to enhance product features and internal processes. Test-Driven Development: I implemented TDD in developing new Python web applications, achieving nearly 100% code coverage. This ensured high-quality code and set a strong foundation for future development scalability. - Event Tracking Application: Developed a custom Python application to track events and collect de-identified user data for analytics. This tool has been crucial for our customers in understanding user interactions and improving product offerings. - Integration Projects: I engineered an integration with Dropbox using Python, which automated data management and enhanced the efficiency of existing user processes. I also created and managed a Shopify storefront, integrating e-commerce platform webhooks to enable smooth device upgrades. - Legacy Systems Maintenance: I provided maintenance and bug fixes for legacy PHP applications, ensuring uninterrupted service and system reliability. - Mobile Application Management: I managed multiple iOS and Android applications through coding, building, and release processes, including contributions to native iOS (Objective C / Swift) and Android (Java) projects. This role included overseeing updates and compliance with the latest standards of the respective app stores. Technologies, Platforms, and Languages: - Languages: Python, Objective C, Swift, Java, PHP - Frameworks and Libraries: iOS SDK, Android SDK - Web Development: Python web frameworks, Shopify, PHP - Tools and Platforms: Dropbox API, Shopify webhooks, Git, various continuous integration tools This role allowed me to blend my technical skills with my growing expertise in ballistics, driving innovation in product development and improvements in operational processes.
+
+#### Skills
+
+Web Applications · Node.js · Web Services · Python · Amazon Web Services (AWS) · CSS · Refactoring · Extract, Transform, Load (ETL) · SQL · Bootstrap · DevOps · Git · HTML · Software Development · Java · MongoDB · Web Development · JavaScript · Android · Serverless ComputingSkills: Web Applications · Node.js · Web Services · Python · Amazon Web Services (AWS) · CSS · Refactoring · Extract, Transform, Load (ETL) · SQL · Bootstrap · DevOps · Git · HTML · Software Development · Java · MongoDB · Web Development · JavaScript · Android · Serverless Computing
+
+---
+
+### Skiplist
+
+Vice President Of Engineering · Full-time
+Mar 2018 - Apr 2019 · 1 yr 2 mos
+Cleveland/Akron, Ohio Area · Hybrid
+
+#### Description
+
+As the inaugural VP of Engineering at Skiplist, I was pivotal in establishing and leading the consulting arm, focusing on delivering innovative software solutions and acting as an integral engineering team for our clients. Here’s an outline of my role and contributions:
+
+- Innovative Project Leadership: Developed a React.js/Python (Eve)/SQL application designed to enhance physical therapy sessions by integrating with HTML5/Flash games. This project improved patient engagement and demonstrated our capability to blend healthcare with cutting-edge technology.
+
+- Critical Application Development: Acted as the primary contributor to a business-critical application using React, Node.js, and MongoDB. This project underscored our staff augmentation model, where we seamlessly integrated into client teams to boost their engineering capabilities.
+
+- Cultivation of Learning Culture: Initiated and led a learning group within Skiplist, focusing on books related to business and productivity. This group fostered a culture of continuous learning and self-improvement, enhancing our team's business acumen and productivity.
+
+- Agile Development Practices: Championed using mob programming and collaborative pairing techniques to create several small applications. This approach accelerated development and ensured high code quality and team cohesion.
+
+Technologies, Platforms, and Languages:
+
+- Languages: Python, JavaScript, TypeScript, Java, SQL
+- Frameworks and Libraries: React.js, Node.js, Spring, AngularJS, Bootstrap
+- Databases and Storage Solutions: MongoDB, SQL Server
+- Cloud and DevOps: Amazon Web Services (AWS), Serverless Computing
+- Other Tools and Technologies: Git, HTML, CSS, ETL processes
+
+During my tenure at Skiplist, I was instrumental in driving technological innovation and leadership, establishing robust software development practices, and fostering an environment conducive to learning and growth.As the inaugural VP of Engineering at Skiplist, I was pivotal in establishing and leading the consulting arm, focusing on delivering innovative software solutions and acting as an integral engineering team for our clients. Here’s an outline of my role and contributions: - Innovative Project Leadership: Developed a React.js/Python (Eve)/SQL application designed to enhance physical therapy sessions by integrating with HTML5/Flash games. This project improved patient engagement and demonstrated our capability to blend healthcare with cutting-edge technology. - Critical Application Development: Acted as the primary contributor to a business-critical application using React, Node.js, and MongoDB. This project underscored our staff augmentation model, where we seamlessly integrated into client teams to boost their engineering capabilities. - Cultivation of Learning Culture: Initiated and led a learning group within Skiplist, focusing on books related to business and productivity. This group fostered a culture of continuous learning and self-improvement, enhancing our team's business acumen and productivity. - Agile Development Practices: Championed using mob programming and collaborative pairing techniques to create several small applications. This approach accelerated development and ensured high code quality and team cohesion. Technologies, Platforms, and Languages: - Languages: Python, JavaScript, TypeScript, Java, SQL - Frameworks and Libraries: React.js, Node.js, Spring, AngularJS, Bootstrap - Databases and Storage Solutions: MongoDB, SQL Server - Cloud and DevOps: Amazon Web Services (AWS), Serverless Computing - Other Tools and Technologies: Git, HTML, CSS, ETL processes During my tenure at Skiplist, I was instrumental in driving technological innovation and leadership, establishing robust software development practices, and fostering an environment conducive to learning and growth.
+
+#### Skills
+
+Web Applications · Node.js · Web Services · Python · Amazon Web Services (AWS) · CSS · Mob Programming · Refactoring · Extract, Transform, Load (ETL) · Spring · TypeScript · SQL · Leadership · React.js · Bootstrap · DevOps · Git · HTML · Software Development · Java · Test Driven Development · MongoDB · Web Development · JavaScript · Android · AngularJS · Serverless ComputingSkills: Web Applications · Node.js · Web Services · Python · Amazon Web Services (AWS) · CSS · Mob Programming · Refactoring · Extract, Transform, Load (ETL) · Spring · TypeScript · SQL · Leadership · React.js · Bootstrap · DevOps · Git · HTML · Software Development · Java · Test Driven Development · MongoDB · Web Development · JavaScript · Android · AngularJS · Serverless Computing
+
+---
+
+### OnShift
+
+Software Engineer Technical Lead · Full-time
+Jul 2015 - May 2018 · 2 yrs 11 mos
+Cleveland, Ohio, United States · On-site
+
+#### Description
+
+At OnShift, I had the opportunity to advance through multiple roles, culminating in leadership positions where I significantly impacted our development processes and team dynamics. My journey through these roles allowed me to drive innovation, mentor teams, and promote a culture of continuous learning and agility. Here’s a breakdown of my contributions:
+
+- Leadership and Team Management: Led various teams, including the mobile API and data integrations teams, with responsibilities ranging from technical leadership to agile coaching. I successfully advocated for and implemented XP practices, reducing our legacy app's cycle time from 23 days to just 1-2 days.
+
+- Agile and DevOps Transformations: I championed a comprehensive agile transformation across the organization, incorporating principles of lean, DevOps, scrum, and Kanban. My initiatives included setting up Jenkins for continuous delivery, advocating trunk-based development, and introducing 'Saw Time'—dedicated hours for learning and growth within the regular work schedule.
+
+- Training and Development: Founded and ran a 'lunch and learn' program for non-developers, introduced a bi-weekly workshop on cutting-edge technologies like blockchain and machine learning, and started a reading group that tackled 11 significant books over 2.5 years.
+
+- Innovation in Practices and Tools: Enhanced security protocols by demonstrating potential security breaches and advocating for heightened web security awareness.
+
+Technologies, Tools, and Skills:
+
+- Languages: Python (Flask), JavaScript (jQuery, Backbone, ReactJS), SQL
+- Frameworks and Platforms: Microservices, AWS, Docker, Atlassian Suite
+- DevOps and Continuous Integration: Jenkins, Automated Testing, DevOps practices
+- Databases: PostgreSQL
+
+My tenure at OnShift showcased my technical acumen across a broad range of technologies and highlighted my passion for leading teams through transformative practices, thereby enhancing productivity, software quality, and team morale.At OnShift, I had the opportunity to advance through multiple roles, culminating in leadership positions where I significantly impacted our development processes and team dynamics. My journey through these roles allowed me to drive innovation, mentor teams, and promote a culture of continuous learning and agility. Here’s a breakdown of my contributions: - Leadership and Team Management: Led various teams, including the mobile API and data integrations teams, with responsibilities ranging from technical leadership to agile coaching. I successfully advocated for and implemented XP practices, reducing our legacy app's cycle time from 23 days to just 1-2 days. - Agile and DevOps Transformations: I championed a comprehensive agile transformation across the organization, incorporating principles of lean, DevOps, scrum, and Kanban. My initiatives included setting up Jenkins for continuous delivery, advocating trunk-based development, and introducing 'Saw Time'—dedicated hours for learning and growth within the regular work schedule. - Training and Development: Founded and ran a 'lunch and learn' program for non-developers, introduced a bi-weekly workshop on cutting-edge technologies like blockchain and machine learning, and started a reading group that tackled 11 significant books over 2.5 years. - Innovation in Practices and Tools: Enhanced security protocols by demonstrating potential security breaches and advocating for heightened web security awareness. Technologies, Tools, and Skills: - Languages: Python (Flask), JavaScript (jQuery, Backbone, ReactJS), SQL - Frameworks and Platforms: Microservices, AWS, Docker, Atlassian Suite - DevOps and Continuous Integration: Jenkins, Automated Testing, DevOps practices - Databases: PostgreSQL My tenure at OnShift showcased my technical acumen across a broad range of technologies and highlighted my passion for leading teams through transformative practices, thereby enhancing productivity, software quality, and team morale.
+
+#### Skills
+
+Web Applications · Node.js · Web Services · Python · CSS · Mob Programming · Refactoring · Extract, Transform, Load (ETL) · SQL · Leadership · React.js · Bootstrap · DevOps · Git · HTML · Software Development · Java · Test Driven Development · Web Development · JavaScript · AndroidSkills: Web Applications · Node.js · Web Services · Python · CSS · Mob Programming · Refactoring · Extract, Transform, Load (ETL) · SQL · Leadership · React.js · Bootstrap · DevOps · Git · HTML · Software Development · Java · Test Driven Development · Web Development · JavaScript · Android
+
+---
+
+### Explorys, an IBM Company
+
+Senior Software Engineer · Full-time
+
+Oct 2014 - Jul 2015 · 10 mosOct 2014 - Jul 2015 · 10 mos
+Cleveland, Ohio, United States · On-siteCleveland, Ohio, United States · On-site
+
+#### Description
+
+At Explorys, I utilized my expertise in software development to design, develop, and maintain robust Java REST web services and Ruby on Rails applications, focusing on data governance, security, and enterprise integration. Here's a detailed look at my role and contributions:
+
+- Software Design and Development: Developed secure and scalable web services and applications, significantly enhancing our data governance and enterprise integration capabilities.
+
+- Agile Practices and Professional Development: I advocated for and led the adoption of the '10-time' initiative, encouraging the team to take every other Friday off for skill enhancement and innovation—an effort that significantly improved team productivity and morale. Additionally, I applied concepts from the Lean Dog ATDD (Acceptance Test Driven Development) course to our projects, enhancing our testing practices.
+
+- Security Enhancements: We innovated our security protocols by transitioning password storage from LDAP to MySQL using a Java-native adaptive one-way hashing algorithm. We also implemented two-factor authentication integration with administration and verification using Duo Security API, bolstering our application's security framework.
+
+Documentation and Knowledge Sharing: I advocated for and implemented a comprehensive documentation strategy using Confluence to eliminate tribal knowledge, ensuring that all team members had access to up-to-date, critical information.
+
+- Mentorship and Team Leadership: Actively mentored junior engineers on software craftsmanship best practices, including automated testing and security. My mentorship helped team members enhance their technical skills and better manage their projects.
+
+Technologies, Tools, and Skills:
+
+- Languages: Java, Ruby on Rails, JavaScript, SQL
+- Frameworks and Libraries: Rails, Cucumber, jQuery, Backbone, React
+- Tools and Platforms: Git, SVN, Maven, Jenkins, Atlassian Suite, Docker
+- Databases and Big Data: MySQL, HadoopAt Explorys, I utilized my expertise in software development to design, develop, and maintain robust Java REST web services and Ruby on Rails applications, focusing on data governance, security, and enterprise integration. Here's a detailed look at my role and contributions: - Software Design and Development: Developed secure and scalable web services and applications, significantly enhancing our data governance and enterprise integration capabilities. - Agile Practices and Professional Development: I advocated for and led the adoption of the '10-time' initiative, encouraging the team to take every other Friday off for skill enhancement and innovation—an effort that significantly improved team productivity and morale. Additionally, I applied concepts from the Lean Dog ATDD (Acceptance Test Driven Development) course to our projects, enhancing our testing practices. - Security Enhancements: We innovated our security protocols by transitioning password storage from LDAP to MySQL using a Java-native adaptive one-way hashing algorithm. We also implemented two-factor authentication integration with administration and verification using Duo Security API, bolstering our application's security framework. Documentation and Knowledge Sharing: I advocated for and implemented a comprehensive documentation strategy using Confluence to eliminate tribal knowledge, ensuring that all team members had access to up-to-date, critical information. - Mentorship and Team Leadership: Actively mentored junior engineers on software craftsmanship best practices, including automated testing and security. My mentorship helped team members enhance their technical skills and better manage their projects. Technologies, Tools, and Skills: - Languages: Java, Ruby on Rails, JavaScript, SQL - Frameworks and Libraries: Rails, Cucumber, jQuery, Backbone, React - Tools and Platforms: Git, SVN, Maven, Jenkins, Atlassian Suite, Docker - Databases and Big Data: MySQL, Hadoop
+
+#### Skills
+
+Java · Software Development · Agile Methodologies · Ruby · Web Development · SQL · Git · JavaScript · MySQL · Cucumber · Hadoop · JenkinsSkills: Java · Software Development · Agile Methodologies · Ruby · Web Development · SQL · Git · JavaScript · MySQL · Cucumber · Hadoop · Jenkins
+
+---
+
+### Masonite
+
+Senior Java Web Developer · Full-time
+Oct 2013 - Oct 2014 · 1 yr 1 mo
+Tampa/St. Petersburg, Florida Area · On-site
+
+#### Description
+
+During my tenure at Masonite as a Senior Java Web Developer, I spearheaded numerous initiatives to streamline development processes, enhance application security and efficiency, and ensure high standards in software quality. Here’s a detailed look at my contributions:
+
+- Continuous Integration Setup: Configured a continuous integration/build server using Jenkins on a new Windows VM Instance, which significantly streamlined our development process. Created ANT build scripts for each project to produce a singular deployable artifact, enhancing consistency across all environments.
+
+- Build Optimization: I incorporated CSS/JS minification into the build process using YUI Compressor for improved load times and performance. I also led the creation and enforcement of JUnit tests for new code and integrated test suites to run for each build, ensuring robustness.
+
+- REST API Development: I utilized the Spring Framework for new developments, including MVC and RESTful web services. Using the Spring Test Client, we created automated integration tests for REST API endpoints, elevating the reliability of our web services.
+
+Integration and Security Enhancements: I implemented new Spring RESTful web services to interact seamlessly with internal .NET applications and an external iPad application.
+
+Technological Upgrades: I updated Java from version 5 to 7.0_51, with plans to transition to Java 8, and upgraded Tomcat from version 6.x to 7.0_53.
+
+- Best Practices and Standards: I created company-wide standards and best practices documentation for Java and JSP, fostering a consistent and high-quality development environment.
+
+Technologies and Tools:
+
+- Programming Languages and Frameworks: Java, JavaScript, Spring Framework
+- Web Technologies: HTML, CSS, RESTful Web Services, SVN
+- Database and Server Management: MS SQL Server, Apache Tomcat
+- Development Tools: Jenkins, Eclipse IDE, ANT, YUI CompressorDuring my tenure at Masonite as a Senior Java Web Developer, I spearheaded numerous initiatives to streamline development processes, enhance application security and efficiency, and ensure high standards in software quality. Here’s a detailed look at my contributions: - Continuous Integration Setup: Configured a continuous integration/build server using Jenkins on a new Windows VM Instance, which significantly streamlined our development process. Created ANT build scripts for each project to produce a singular deployable artifact, enhancing consistency across all environments. - Build Optimization: I incorporated CSS/JS minification into the build process using YUI Compressor for improved load times and performance. I also led the creation and enforcement of JUnit tests for new code and integrated test suites to run for each build, ensuring robustness. - REST API Development: I utilized the Spring Framework for new developments, including MVC and RESTful web services. Using the Spring Test Client, we created automated integration tests for REST API endpoints, elevating the reliability of our web services. Integration and Security Enhancements: I implemented new Spring RESTful web services to interact seamlessly with internal .NET applications and an external iPad application. Technological Upgrades: I updated Java from version 5 to 7.0_51, with plans to transition to Java 8, and upgraded Tomcat from version 6.x to 7.0_53. - Best Practices and Standards: I created company-wide standards and best practices documentation for Java and JSP, fostering a consistent and high-quality development environment. Technologies and Tools: - Programming Languages and Frameworks: Java, JavaScript, Spring Framework - Web Technologies: HTML, CSS, RESTful Web Services, SVN - Database and Server Management: MS SQL Server, Apache Tomcat - Development Tools: Jenkins, Eclipse IDE, ANT, YUI Compressor
+
+#### Skills
+
+Web Applications · Web Services · SVN · CSS · Refactoring · SQL · DevOps · HTML · Software Development · Java · Web Development · JavaScriptSkills: Web Applications · Web Services · SVN · CSS · Refactoring · SQL · DevOps · HTML · Software Development · Java · Web Development · JavaScript
+
+---
+
+### MTD Products
+
+WebSphere Portal Developer · Full-time
+Oct 2012 - Oct 2013 · 1 yr 1 mo
+Valley City, OH · On-site
+
+#### Description
+
+At MTD Products Inc., I was a WebSphere Portal Developer, maintaining and enhancing portal applications and developing new portlet solutions. My role was pivotal in transitioning certain development practices to more agile-focused approaches and upgrading key system components. Here's a detailed look at my contributions:
+
+- WebSphere Portal Maintenance and Development: Maintaining existing WebSphere Portal (6.1) applications and creating new portlets up to version 8.0. This included gathering requirements from business customers, structuring those into iterations, and delivering tested, reliable code within tight deadlines.
+
+- Agile Integration and Process Improvement: Introduced Agile concepts from previous roles, such as defining success criteria for tasks and advocating using tools like Trello over traditional methods like Excel for better tracking and requirement management. This led to more dynamic and efficient team collaboration and project management.
+
+- System Upgrades and Troubleshooting: I led the upgrade of the WebSphere Portal from version 6.1 to 8.0 and the portlets from version 6.1 to 8.0 while troubleshooting and resolving emerging issues. I also set up a new WebSphere Portal 8.0 server configured with LDAP and Data Sources to optimize the production environment.
+
+- Technology Adoption: Advocated for and implemented the use of Spring MVC and Spring JDBC Templates as alternatives to in-house DAO architecture, significantly enhancing the development lifecycle and maintainability of the applications.
+
+Technologies and Tools:
+
+- Frameworks and Platforms: WebSphere Portal, Spring MVC
+- Programming Languages: Java
+- Database Systems: Oracle, MS SQL Server
+- Team Collaboration Tools: Trello
+- Development Environment: Rational Application Developer (RAD), Windows
+
+At MTD Products Inc., I effectively combined my technical acuity with innovative process enhancements to foster a more agile, efficient, and robust development environment.At MTD Products Inc., I was a WebSphere Portal Developer, maintaining and enhancing portal applications and developing new portlet solutions. My role was pivotal in transitioning certain development practices to more agile-focused approaches and upgrading key system components. Here's a detailed look at my contributions: - WebSphere Portal Maintenance and Development: Maintaining existing WebSphere Portal (6.1) applications and creating new portlets up to version 8.0. This included gathering requirements from business customers, structuring those into iterations, and delivering tested, reliable code within tight deadlines. - Agile Integration and Process Improvement: Introduced Agile concepts from previous roles, such as defining success criteria for tasks and advocating using tools like Trello over traditional methods like Excel for better tracking and requirement management. This led to more dynamic and efficient team collaboration and project management. - System Upgrades and Troubleshooting: I led the upgrade of the WebSphere Portal from version 6.1 to 8.0 and the portlets from version 6.1 to 8.0 while troubleshooting and resolving emerging issues. I also set up a new WebSphere Portal 8.0 server configured with LDAP and Data Sources to optimize the production environment. - Technology Adoption: Advocated for and implemented the use of Spring MVC and Spring JDBC Templates as alternatives to in-house DAO architecture, significantly enhancing the development lifecycle and maintainability of the applications. Technologies and Tools: - Frameworks and Platforms: WebSphere Portal, Spring MVC - Programming Languages: Java - Database Systems: Oracle, MS SQL Server - Team Collaboration Tools: Trello - Development Environment: Rational Application Developer (RAD), Windows At MTD Products Inc., I effectively combined my technical acuity with innovative process enhancements to foster a more agile, efficient, and robust development environment.
+
+#### Skills
+
+Web Applications · Web Services · SVN · CSS · Refactoring · SQL · Websphere · HTML · Software Development · Java · Web Development · JavaScriptSkills: Web Applications · Web Services · SVN · CSS · Refactoring · SQL · Websphere · HTML · Software Development · Java · Web Development · JavaScript
+
+---
+
+### Western Reserve Group
+
+Web Developer · Full-time
+Feb 2010 - Oct 2012 · 2 yrs 9 mos
+Wooster, OH · On-site
+
+I served as a Web Developer, maintaining and enhancing a suite of JEE web applications across diverse insurance products. My role also involved introducing agile methodologies and fostering a collaborative team environment. Here’s a detailed look at my role and contributions:
+
+- Project Leadership and Execution: Spearheaded yearly and bi-yearly revisions of existing JEE projects (including Auto, Home, Farm, and Business Owners Liability) by interpreting business requirements, drafting specifications, writing test criteria, and developing code.
+
+- Web Development and Maintenance: I extensively worked with Java/web development technologies such as JSP/JSTL, jQuery, Struts, Spring, and AJAX. I updated project builds and server environments to streamline and standardize deployment processes across all environments.
+
+Integration and Collaboration: I collaborated with external vendors to support comparative rating additions and updates to crucial insurance products. Additionally, I coordinated with central banks like JPMorgan Chase and First Merit to maintain and enhance a positive pay verification system.
+
+Agile Practices and Mentorship: I adjusted and supported the product team's transition from a waterfall to an agile development style, enhancing project flexibility and team responsiveness. I also mentored junior Java developers, guiding them through project tasks and fostering their professional growth.
+
+- Knowledge Management: Advocated for and contributed to internal wiki documentation, promoting knowledge sharing and ensuring that valuable information was accessible to all team members.
+
+Technologies and Tools:
+
+- Programming Languages and Frameworks: Java, .NET, JavaScript
+- Web Technologies: HTML, CSS, AJAX, Cryptography (BouncyCastle), JUnit, SFTP (JSCH), IBM WSDL2Java
+- Development Environments: Rational Application Developer (RAD), WebSphere Application Server, Tomcat, SQL Server 2008, MySQL
+- Collaboration Tools: SVN, Internal WikiI served as a Web Developer, maintaining and enhancing a suite of JEE web applications across diverse insurance products. My role also involved introducing agile methodologies and fostering a collaborative team environment. Here’s a detailed look at my role and contributions: - Project Leadership and Execution: Spearheaded yearly and bi-yearly revisions of existing JEE projects (including Auto, Home, Farm, and Business Owners Liability) by interpreting business requirements, drafting specifications, writing test criteria, and developing code. - Web Development and Maintenance: I extensively worked with Java/web development technologies such as JSP/JSTL, jQuery, Struts, Spring, and AJAX. I updated project builds and server environments to streamline and standardize deployment processes across all environments. Integration and Collaboration: I collaborated with external vendors to support comparative rating additions and updates to crucial insurance products. Additionally, I coordinated with central banks like JPMorgan Chase and First Merit to maintain and enhance a positive pay verification system. Agile Practices and Mentorship: I adjusted and supported the product team's transition from a waterfall to an agile development style, enhancing project flexibility and team responsiveness. I also mentored junior Java developers, guiding them through project tasks and fostering their professional growth. - Knowledge Management: Advocated for and contributed to internal wiki documentation, promoting knowledge sharing and ensuring that valuable information was accessible to all team members. Technologies and Tools: - Programming Languages and Frameworks: Java, .NET, JavaScript - Web Technologies: HTML, CSS, AJAX, Cryptography (BouncyCastle), JUnit, SFTP (JSCH), IBM WSDL2Java - Development Environments: Rational Application Developer (RAD), WebSphere Application Server, Tomcat, SQL Server 2008, MySQL - Collaboration Tools: SVN, Internal Wiki
+
+#### Skills
+
+Web Applications · Web Services · SVN · CSS · Refactoring · SQL · Websphere · HTML · Software Development · Java · Web Development · JavaScriptSkills: Web Applications · Web Services · SVN · CSS · Refactoring · SQL · Websphere · HTML · Software Development · Java · Web Development · JavaScript
+
+---
+
+### Text & Data Technologies, Inc.
+
+Application Developer · Full-time
+Oct 2008 - Feb 2010 · 1 yr 5 mos
+Akron, Ohio, United States · On-site
+
+#### Description
+
+As an Application Developer, I demonstrated robust capabilities in developing and maintaining JEE applications while managing legacy systems' continuity. Here’s a detailed account of my contributions:
+
+- Application Development: Architected and developed a new Jail/Prosecutor JEE application, utilizing technologies such as JSP/JSTL, Struts, Tiles, Hibernate, and Spring deployed on Tomcat servers.
+
+- Legacy System Enhancement: Took charge of maintaining and stabilizing legacy applications, including those written in Progress 4GL. My efforts led to the revival of critical systems, ensuring their continued operational relevance and stability.
+
+- Learning and Adaptation: Quickly adapted to and became proficient in Progress 4GL to effectively manage older systems and integrate new functionalities, displaying an ability to learn and apply new technologies swiftly.
+
+- Customer Support and Troubleshooting: Provided direct customer support, performing advanced troubleshooting and network solutions at remote client sites, which enhanced client satisfaction and system reliability.
+
+- Agile Methodology Implementation: I initiated the adoption of agile development methodologies using tools like Rally to improve our development organization, which enhanced team productivity and project management.
+
+- Mentorship and Code Review: Mentor a junior developer and review code from remote developers, ensuring code quality and consistency across the development team.
+
+Technologies and Tools:
+
+- Programming Languages and Frameworks: Java, JavaScript, Progress 4GL
+- Web Technologies: HTML, CSS, JSP/JSTL, Struts, Hibernate, Spring
+- Databases and Servers: MySQL, Tomcat, Proprietary Application Servers
+- Development Tools: Eclipse IDE, SVN, Rally
+
+My diverse role accentuated my ability to handle both the development of new applications and the maintenance of complex legacy systems, thereby significantly contributing to the company’s technological advancement and operational efficiency.As an Application Developer, I demonstrated robust capabilities in developing and maintaining JEE applications while managing legacy systems' continuity. Here’s a detailed account of my contributions: - Application Development: Architected and developed a new Jail/Prosecutor JEE application, utilizing technologies such as JSP/JSTL, Struts, Tiles, Hibernate, and Spring deployed on Tomcat servers. - Legacy System Enhancement: Took charge of maintaining and stabilizing legacy applications, including those written in Progress 4GL. My efforts led to the revival of critical systems, ensuring their continued operational relevance and stability. - Learning and Adaptation: Quickly adapted to and became proficient in Progress 4GL to effectively manage older systems and integrate new functionalities, displaying an ability to learn and apply new technologies swiftly. - Customer Support and Troubleshooting: Provided direct customer support, performing advanced troubleshooting and network solutions at remote client sites, which enhanced client satisfaction and system reliability. - Agile Methodology Implementation: I initiated the adoption of agile development methodologies using tools like Rally to improve our development organization, which enhanced team productivity and project management. - Mentorship and Code Review: Mentor a junior developer and review code from remote developers, ensuring code quality and consistency across the development team. Technologies and Tools: - Programming Languages and Frameworks: Java, JavaScript, Progress 4GL - Web Technologies: HTML, CSS, JSP/JSTL, Struts, Hibernate, Spring - Databases and Servers: MySQL, Tomcat, Proprietary Application Servers - Development Tools: Eclipse IDE, SVN, Rally My diverse role accentuated my ability to handle both the development of new applications and the maintenance of complex legacy systems, thereby significantly contributing to the company’s technological advancement and operational efficiency.
+
+#### Skills
+
+Web Applications · Web Services · SVN · CSS · SQL · HTML · Software Development · Java · Web Development · JavaScriptSkills: Web Applications · Web Services · SVN · CSS · SQL · HTML · Software Development · Java · Web Development · JavaScript
+
+---
+
+### Westfield Insurance
+
+Web Developer Intern · Full-time
+Feb 2007 - Oct 2007 · 9 mos
+Westfield Center, Ohio, United States · On-site
+
+#### Description
+
+During my internship as a Java Web Developer at Westfield Insurance, I developed and maintained JEE applications, gaining profound insights into corporate-level software engineering practices and project management. Here’s an overview of my responsibilities and skills enhancement:
+
+- Application Development and Maintenance: Participated in developing and maintaining JEE applications, employing IBM's Rational Application Developer (RAD), which enhanced my coding efficiency and adherence to best practices.
+
+- Enterprise Environment Exposure: Operated within a sophisticated enterprise environment using IBM WebSphere Application Server and DB2, which solidified my understanding of large-scale software deployments and database management.
+
+- Quality Assurance and Requirements Management: I performed quality control testing and managed application requirements, which were crucial for maintaining high software performance standards and user satisfaction.
+
+Tool Utilization and Skill Development: I utilized a variety of development tools, including CaliberRM for requirements management and Quality Control Testing Center for software testing, which were pivotal in polishing my software development and testing skills.
+
+Technologies and Tools:
+
+- Development Tools: IBM Rational Application Developer (RAD), SVN
+- Server and Database Technologies: IBM WebSphere Application Server, DB2
+- Web Technologies: HTML, CSS, JavaScript
+- Other Tools: Quality Control Testing Center, CaliberRM
+
+This internship at Westfield Insurance was fundamental in developing my technical skills and understanding of web applications in a real-world insurance industry setting. It laid a strong foundation for my future roles in software development.During my internship as a Java Web Developer at Westfield Insurance, I developed and maintained JEE applications, gaining profound insights into corporate-level software engineering practices and project management. Here’s an overview of my responsibilities and skills enhancement: - Application Development and Maintenance: Participated in developing and maintaining JEE applications, employing IBM's Rational Application Developer (RAD), which enhanced my coding efficiency and adherence to best practices. - Enterprise Environment Exposure: Operated within a sophisticated enterprise environment using IBM WebSphere Application Server and DB2, which solidified my understanding of large-scale software deployments and database management. - Quality Assurance and Requirements Management: I performed quality control testing and managed application requirements, which were crucial for maintaining high software performance standards and user satisfaction. Tool Utilization and Skill Development: I utilized a variety of development tools, including CaliberRM for requirements management and Quality Control Testing Center for software testing, which were pivotal in polishing my software development and testing skills. Technologies and Tools: - Development Tools: IBM Rational Application Developer (RAD), SVN - Server and Database Technologies: IBM WebSphere Application Server, DB2 - Web Technologies: HTML, CSS, JavaScript - Other Tools: Quality Control Testing Center, CaliberRM This internship at Westfield Insurance was fundamental in developing my technical skills and understanding of web applications in a real-world insurance industry setting. It laid a strong foundation for my future roles in software development.
+
+#### Skills
+
+Web Applications · Web Services · SVN · CSS · SQL · Websphere · HTML · Software Development · Java · Web Development · JavaScript
+
+## Projects
+
+### Conference Talk: Principles of Code - Five Key Points to Better SystemsConference Talk: Principles of Code - Five Key Points to Better Systems
+
+Jan 2023
+
+Empower your development practices by embracing essential design principles from my CodeMash 2023 talk aimed at creating superior software systems. Start by prioritizing simple design; adhere to Kent Beck's rules by ensuring your code is clear, passes tests, and remains effortless to understand and maintain. Embrace the SOLID principles to build scalable and maintainable object-oriented software: assign only one responsibility per class, make objects extendable without modifications, allow seamless substitution of superclass objects with subclass ones, utilize interfaces judiciously to prevent unnecessary complexities, and depend on abstractions rather than concretions.
+
+Implement Test-Driven Development (TDD) to enhance reliability and robustness: begin with a failing test, write the minimum code needed to pass the test, and then refactor to optimize. Use the ZOMBIES strategy for problem-solving—approach complex problems incrementally to maintain clarity and manageability within your solutions. Finally, consistently apply the Boy Scout Rule: continuously improve the code's state each time you touch it, gradually reducing technical debt and enhancing the system's health.
+
+Presented at:
+- CodeMash 2023
+
+### Conference Talk: Agile From the Trenches - Closing the Gap in the RoomConference Talk: Agile From the Trenches - Closing the Gap in the Room
+
+Aug 2019
+
+Dive deep into the critical difference between just 'doing' agile and genuinely 'being' agile—the key to fostering lasting change. Drawing from a decade of experiences as a military veteran, full-stack engineer, entrepreneur, and agile technical coach, I’ve identified recurring themes of systemic dysfunction that often plague organizations but are rarely addressed at the individual level.
+
+I urge attendees to embrace the principles of morale, growth, and excellence as actionable pathways to ignite personal transformation and catalyze organizational change. The stories and insights I share are grounded in my journey, dramatically shifting gears after being nurtured by a servant leader and attending the Agile Alliance Technical Conference. This experience transformed my approach from merely 'doing' to deeply 'being' agile—embracing autonomy, mastering continuous improvement, and fostering a purpose-driven approach to technology and teamwork.
+
+I break down standard practices that subtly maintain the status quo and introduce strategic, grassroots methods to build a vibrant, agile culture—one individual, one team at a time. You'll learn to differentiate between superficial and substantive implementations of Agile, equipped with strategies for cultural change that start with your day-to-day challenges.
+
+Explore how to improve your teams' work and think about the agile journey—they're not just part of the crew; they're the heart of the ship.
+
+Presented At:
+ - Agile Coach Camp DC 2019
+
+### Conference Talk: Closing the Remote Engineering GapConference Talk: Closing the Remote Engineering Gap
+
+Jun 2019
+
+In my talk, I shared critical insights on transforming remote engineering teams into centers of productivity and creativity. As we embrace a remote-first work culture, it’s crucial to understand its inherent benefits, such as immense flexibility and access to a global talent pool. However, we also face challenges, like potential losses in communication nuances naturally present in a physical workspace.
+
+My agenda was to empower teams to implement agile digital rituals, using robust communication tools such as Zoom, Tuple, Slack, and Trello, which help mirror the collaborative dynamism of in-person interactions. We discussed creating structured engagements and facilitating casual interactions to foster team cohesion and embed a strong sense of culture and community among remote workers.
+
+Moreover, technology plays a pivotal role in this transition. By leveraging real-time collaboration tools, we maintain a continuous communication flow and ensure quick feedback loops essential for agile environments. It’s about transforming theoretical knowledge into practical applications that enhance our daily operations and interactions.
+
+Leadership, too, transforms in remote environments. Adopting a servant leadership model and proactive management helps unlock the full potential of remote settings, ensuring that teams feel supported and valued.
+
+The journey of adapting to a remote-first environment is ongoing. We learn from every interaction, tweak our strategies, and continuously seek to improve our approaches to meet evolving team dynamics and business needs. We can close the gap between remote and physical engineering teams by fostering an environment that promotes growth, learning, and adaptability, making geographical distances irrelevant to success.
+
+Presented At:
+ - Agile & Beyond 2019
+
+### Conference Talk: Knowledge Consumption VelocityConference Talk: Knowledge Consumption Velocity
+
+Jun 2018
+
+Elevate your skillset by adopting Knowledge Consumption Velocity (KCV) as your metric for professional growth. Measure and manage your learning activities rigorously, like using a pedometer to track steps, to enhance your growth reliably. Foster a learning-oriented culture in your workplace where time dedicated to development is revered and actively encouraged at all leadership levels. Create structured, defendable daily learning sessions—these could involve deep reading, coding challenges, or insightful professional discussions, fostering an environment of constant advancement and innovation.
+
+Visualize your learning trajectory using modern tools to track progress, celebrate achievements, and identify areas for improvement. KCV isn't just about consumption but application; integrate your learnings into practical scenarios to solidify skills across technologies, leadership, and agile methodologies. Share your progress and insights openly in community gatherings like conferences and meetups, enhancing communal knowledge and networking. Finally, engage in social journaling or digital platforms to chart your learning endeavors in real time, catalyzing personal and professional transformation.
+
+Begin mapping your Knowledge Consumption Velocity today—it’s the first step towards transforming theoretical learning into measurable, actionable insights that propel you toward excellence. Let KCV be the catalyst for tracking and boosting your continuous educational journey.
+
+Presented At:
+ - Cleveland Agile Meetup (CleAG), June 2018
+ - Agile2018
+ - Agile2019 (Flash talk)
+
+Recording:
+ - Agile 2019: https://drive.google.com/file/d/1KQjQj0VkoU5F4UwMsGporuLD_B-jr5in/view
+
+### Meetup Presentation: Collaborative Python Programming w/ Visual Studio CodeMeetup Presentation: Collaborative Python Programming w/ Visual Studio Code
+
+Oct 2018
+
+In October 2018, as Visual Studio Code began making significant waves in the developer community, I had the pleasure of leading a groundbreaking session at the Cleveland Python Meetup titled "Collaborative Python Programming w/ Visual Studio Code". As an avid advocate for traditional coding methods, I introduced an innovative twist by employing VS Code's newly minted tool, the VS Live Share plugin. This plugin bridges geographical gaps and fosters unparalleled direct collaboration in the developer's environment.
+
+The session focused on the famous "Fizz Buzz" problem—a coding challenge that effectively assesses a programmer's grasp of basic concepts despite its simplicity. What set this presentation apart was the collaborative approach in solving this challenge through Test-Driven Development (TDD) in Python. Participants, although initially reticent, were soon engrossed, thanks to the real-time interactive nature of VS Live Share.
+
+Each participant could directly engage with the same codebase concurrently without setting up their environment, witnessing the immediate impact of their contributions. This enhanced learning and demonstrated the power of collaborative tools in real-world programming scenarios. As the session progressed, the initial timidity turned into enthusiastic participation, with every attendee eager to input their code.
+
+The tools discussed, particularly VS Live Share, underscore a significant shift towards more collaborative and inclusive coding sessions. It was exhilarating to see participants transition from passive attendees to active contributors, truly embodying the spirit of communal learning and problem-solving.
+
+Presented At:
+- Cleveland Python Meetup, October 2018
+
+### Lightning Talk: How to [Un]Successfully Run a Reading GroupLightning Talk: How to [Un]Successfully Run a Reading Group
+
+Aug 2017
+
+A lightning talk using humor and practical advice to communicate the enduring importance of continual learning for organizational culture.
+
+I started the talk with a bit of humor, using the Derek Zoolander meme to point out that our formal education is just the beginning of our career learning journey. The meme featuring Goku transforming into a Super Saiyan was next, illustrating how tiny, consistent improvements can have monumental effects on our careers, transforming us from average engineers to legendary figures.
+
+Shia LaBeouf's "Just Do It" meme drove home my next point: the best time to start a reading group is now. Then, I highlighted the importance of setting the right pace for learning, depending on group dynamics. I illustrated this with images of a speeding race car and a slow-moving turtle—emphasizing that learning speeds vary significantly among group members.
+
+Another critical point was choosing the right time for meetings. I used the "It's Always Tea Time" meme from Alice in Wonderland to suggest that finding a perfect time depends on the group's preference—some might prefer lunchtime meetups, whereas others might find normal working hours more beneficial.
+
+Promoting an inclusive atmosphere was crucial, too. I stressed that there should be no shaming for not reading the book—everyone is welcome anytime, and discussions can still be enriching for those who haven't caught up with the reading.
+
+Lastly, the talk covered the best format for the reading group. I shared my experiences using a Tommy Boy meme about experimenting with different facilitation styles. Eventually, I discovered that a lean coffee style—allowing open and flowing conversations—fostered engaging discussions.
+
+This talk provided a compact but comprehensive guide to fostering a culture of continuous improvement and collective empowerment through a technical reading group.
+
+Presented at:
+- Agile Alliance Technical Conference 2017
+
+### Conference Talk: How to Create Your First PyPI PackageConference Talk: How to Create Your First PyPI Package
+
+Aug 2016
+
+In July 2016, I took a significant step in my professional journey by presenting at PyOhio, marking my first public speaking engagement. The talk, entitled "How to Create Your First PyPI Package", was also delivered at the CLEpy meetup in January 2017. This presentation introduced attendees to the Python Package Index (PyPI), highlighting its role as a cornerstone in Python's approach to distributing software.
+
+As a first-time speaker, I sought to inform and inspire. I emphasized Python's "batteries included" philosophy, enriched by an extensive library of third-party packages that expand its native capabilities. The heart of my presentation was a straightforward, actionable guide to developing and distributing a Python package. From conceptualization based on a simple idea to the technical rigors of setting up Python, pip, and a virtual environment, I covered it all in accessible terms.
+
+The highlight was a live demonstration, where I actively uploaded a simple package to PyPI. This wasn't just about showing code; it was about demonstrating the possibility and ease with which anyone can contribute to the Python ecosystem. This live demo underscored the practicality and immediate applicability of the talk, emphasizing the empowering feeling of making one's work publicly available with just a few commands.
+
+Reflecting on this experience, the challenge of my first public presentation and the success of the live demo underscored an essential milestone in my career. It was a vivid illustration of how knowledge shared openly educates and builds the community.
+
+Presented At:
+ - PyOhio 2016
+ - CLEpy Meetup, January 2017
+
+Recording:
+ - PyOhio 2016: https://www.youtube.com/watch?v=nelRslDOK_Y
+
+### Speaking History
+
+#### Icebox Zero: Agile UX & The Lean Backlog
+– Agile 2019, Agile DC 2019, Lean Agile Scotland 2019, Business Agility Midwest 2019
+
+#### Agile 2019 in a Flash
+– Lunch and Learn Sherwin Williams 09/19
+
+#### Collaborative Programming: A Taxonomy of Social Programming Techniques 
+– Lunch and Learn Sherwin Williams 06/19

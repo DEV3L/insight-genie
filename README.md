@@ -1,0 +1,158 @@
+# Insight Genie
+
+Your expert craftsman for software wisdom, agile insights, and leadership.
+
+[Assistants API Beta](https://platform.openai.com/docs/assistants/overview)
+
+## Product Definition
+
+**InsightGenie** - Harnessing conversational AI for unparalleled content creativity.
+
+Insight Genie leverages advanced conversational AI, embodying the latest in NLP, NLG, and ML technologies, to inspire and generate unique content. Perfect for creatives and professionals in the digital era, it transforms data and dialogue into insightful content across platforms.
+
+Its persona can be found [here](persona.md).
+
+### Problem
+
+In a digital realm thirsty for fresh, engaging content, the challenge isn’t just generating content—it’s inspiring creativity. Insight Genie tackles this challenge head-on by leveraging conversational AI to transcend traditional content generation methods, empowering users to explore and create unique, insightful content effortlessly.
+
+### North Star
+
+The North Star for Insight Genie is to empower a community of users to consistently generate content that is not only unique and engaging but also deeply insightful. Success is measured by the platform’s ability to inspire continuous creative exploration and the generation of content that resonates on a personal and communal level.
+
+### Product Vision
+
+To become the leading platform in conversational AI-driven content generation, Insight Genie aims to merge the boundaries of technology and creativity. It envisions a future where every chatbot interaction sparks innovation, transforming every user into a creator, and every idea into impactful content.
+
+### Business Case
+
+Insight Genie represents a strategic solution for businesses and creatives seeking to elevate their content game. By automating the creative process with AI-driven dialogue, it not only optimizes content production but also engages audiences on a deeper level. This innovation in content strategy enhances online presence, fosters brand authenticity, and drives digital engagement, positioning Insight Genie as an invaluable tool in the competitive landscape of digital marketing and content creation.
+
+### Technology
+
+Insight Genie, fueled by the innovative power outlined in the discussions on conversational chatbots, leverages advanced technologies to inspire unique content creation:
+
+- **Natural Language Processing (NLP):** Forms the basis for understanding user input, breaking down language intricacies for deeper engagement.
+
+- **Natural Language Generation (NLG):** Powers the chatbot’s ability to craft articulate, contextually relevant responses, enhancing the conversational flow.
+
+- **Machine Learning (ML):** Ensures continuous improvement from interactions, refining the chatbot’s responses to foster creativity and exploration.
+
+- **OpenAI Assistants:** Utilized for their advanced conversational capabilities, OpenAI Assistants manage contextual conversations, making interactions more insightful.
+
+- **APIs for Dynamic Data Retrieval:** Enrich the chatbot’s knowledge base, ensuring content suggestions and insights are grounded in the most current and relevant information available.
+
+This technology stack not only supports the vision of Insight Genie to revolutionize content generation through conversational AI but also aligns with the broader goal of enhancing digital creativity and interaction, as envisioned in the articles by Justin Beall.
+
+### Key Features
+
+#### Content Generation
+
+The core of InsightGenie, allowing users to generate tailored, AI-crafted content based on their personal knowledge base and preferences for topics or random insights.
+
+#### Data Extraction
+
+Users can extract and integrate knowledge from multiple sources including Twitter, LinkedIn, GitHub, and personal blogs, enriching the database InsightGenie draws upon.
+
+#### AI Assistant Management
+
+Leverages OpenAI Assistants to empower the content generation process within InsightGenie, ensuring the creation of high-quality, insightful content. This includes ongoing maintenance and updates to utilize the latest AI capabilities.
+
+#### Collaborative Creativity and Feedback Integration
+
+A feature designed to facilitate user collaboration and incorporate feedback into the AI’s creative process. This fosters a dynamic, inventive community around Insight Genie, encouraging shared creativity and continuous improvement of content generation.
+
+#### Analytics and Insight Generation
+
+This analytic component provides users with insights into the performance of their generated content, including engagement, reach, and impact. Armed with this data, users can refine their content strategies for maximum effect, making informed decisions based on content analytics.
+
+### Users
+
+### Content Creators
+
+Creators, including writers and marketing professionals, seeking to harness AI for dynamic content creation and audience engagement.
+
+#### Developers
+
+Developers seeking to leverage conversational AI for creative content generation, streamlining their workflow and enhancing project documentation.
+
+#### Leaders
+
+Leaders and managers in the tech industry who value insights from advanced analytics to refine their content strategy and foster a collaborative team environment.
+
+### Detailed Summary
+
+Insight Genie: A Beacon of Creativity in Content Generation
+
+In the pursuit of redefining content creation, Insight Genie emerges as a visionary tool, fueled by Justin Beall’s ethos of innovation. It’s a platform where conversational AI chatbots—powered by NLP, NLG, and ML technologies—dive beyond mere data analysis to inspire unique, insightful content. Drawing from diverse data sources via APIs and managed by OpenAI Assistants, these chatbots act as digital muses, engaging users in creative dialogue and transforming interaction into innovation.
+
+Highlighting core principles of understanding user needs, ensuring conversational flow, and integrating feedback loops, Insight Genie is not just about content generation. It’s about fostering a collaborative narrative in digital creativity, inviting developers, creators, and innovators to explore the untapped potential of conversational AI in content creation. From developing chatbots that serve as catalysts for creativity to leveraging technology for continuous improvement, Insight Genie stands at the forefront of the digital content creation revolution, making every interaction a stepping stone towards uncovering the vast potential of collective human creativity.
+
+## Project Summary
+
+It's a conversational AI designed to generate unique content, making it a useful tool for creatives and professionals in the digital era.
+
+The project is organized into several directories:
+
+- `data/`: Contains various data used by the project, including blog data from Dev.to and WordPress, book data, learning journal data, LinkedIn posts, about, and Twitter data.
+- `src/`: Contains the source code of the project.
+  - `assistants/`: This directory contains the InsightGenieAssistantService class which is responsible for managing the assistant's functionalities. It interacts with the OpenAI API client and handles operations like creating, finding, and deleting the assistant and its retrieval files.
+  - `chats/`: This directory contains the Chat class which handles the chat functionality of the project.
+  - `clients/`: This directory contains different client classes that interact with various APIs. The OpenAIClient class is used throughout the project to interact with the OpenAI API.
+  - `exporters/`: This directory contains different exporter classes that handle exporting data to various formats or platforms. The project uses exporters for blogs, books, learning journals, LinkedIn, resumes, and Twitter.
+  - `prompts/`: This directory contains different prompts used in the project.
+  - `encoding.py`: This file contains functionality related to encoding.
+  - `timer/`: This directory contains timing functionality for the project.
+- `.github/workflows/`: Contains the GitHub Actions workflow file continuous-integration.yml for continuous integration.
+- `run_chat.py`: A Python script to run the chat functionality of the project.
+
+## Setup
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/DEV3L/insight-genie
+cd insight-genie
+```
+
+2. Copy the env.local file to a new file named .env and replace `OPENAI_API_KEY` with your actual OpenAI API key:
+
+```bash
+cp env.local .env
+```
+
+3. Setup a virtual environment with dependencies and activate it:
+
+```bash
+brew install hatch
+hatch env create
+hatch shell
+```
+
+1. Run the main script:
+
+```bash
+python run_chat.py
+```
+
+## Testing
+
+### Unit Tests
+
+```bash
+pytest
+```
+
+With coverage:
+
+```bash
+pytest --cov
+```
+
+With coverage for Coverage Gutters:
+
+```bash
+pytest --cov --cov-report lcov
+
+Command + Shift + P => Coverage Gutters: Watch
+```

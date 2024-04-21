@@ -1,0 +1,1148 @@
+{
+  "hard copy": [
+    {
+      "title": "Refactoring: Improving the Design of Existing Code",
+      "author": "Martin Fowler, with Kent Beck",
+      "classification": "engineering",
+      "summary": "Refactoring is about improving the design of existing code, with a focus on making code more understandable and easier to modify without changing its observable behavior. Martin Fowler, along with Kent Beck, outlines a comprehensive process of controlled technique for refactoring code. The book discusses small, behavior-preserving transformations, the importance of testing, code smells, and includes detailed descriptions of seventy refactorings."
+    },
+    {
+      "title": "Working Effectively with Legacy Code",
+      "author": "Michael Feathers",
+      "classification": "engineering",
+      "summary": "Michael Feathers offers strategies for dealing with large, untested legacy code bases, drawing on material from his Object Mentor seminars. The book provides insight into understanding and improving legacy code, emphasizing the importance of tests for code modification. Techniques such as characterization testing, sprout and wrap methods for adding new code, and scratch refactoring are covered to help manage and safely alter legacy systems."
+    },
+    {
+      "title": "The Art of Agile Development, 2nd Edition",
+      "author": "James Shore and Shane Warden",
+      "classification": "agile",
+      "summary": "This book is a comprehensive guide to agile practices, principles, and values with a focus on Extreme Programming (XP). It covers the essentials for newcomers as well as advanced topics for experienced practitioners. The second edition is fully revised and updated, making it a valuable resource for understanding and applying Agile methodologies in software development projects."
+    },
+    {
+      "title": "The Art of Scalability: Scalable Web Architecture, Processes, and Organizations for the Modern Enterprise, 2nd Edition",
+      "author": "Martin L. Abbott and Michael T. Fisher",
+      "classification": "engineering",
+      "summary": "A guide on scaling businesses effectively, covering architectural strategies, processes, and organizational design. It emphasizes the critical role of people, processes, and architecture in scalability, the misconception about cloud services solving all scalability issues, and introduces the AKF Scale Cube, a model for scalability. Essential for those involved in scaling technology infrastructures."
+    },
+    {
+      "title": "Production-Ready Microservices",
+      "author": "Susan J. Fowler",
+      "classification": "engineering",
+      "summary": "A comprehensive guide on building stable, reliable, scalable, fault-tolerant, performant, monitored, and documented microservices, drawing from the author's experience at Uber."
+    },
+    {
+      "title": "Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation",
+      "author": "Jez Humble and Dave Farley",
+      "classification": "engineering",
+      "summary": "This book explores the discipline of continuous delivery, which allows organizations to deliver software in short cycles, ensuring that it can be released at any time."
+    },
+    {
+      "title": "The DevOps Handbook: How to Create World-Class Agility, Reliability, & Security in Technology Organizations",
+      "author": "Gene Kim, Jez Humble, Patrick Debois, John Willis",
+      "classification": "engineering",
+      "summary": "A guide to the DevOps process improvement for increasing productivity across an organization's software development lifecycle."
+    },
+    {
+      "title": "Pragmatic Thinking & Learning: Refactor Your Wetware",
+      "author": "Andy Hunt",
+      "classification": "agile",
+      "summary": "This book provides techniques for improving brain efficiency, based on the premise that understanding how our brains function can enhance our learning, thinking, and problem-solving skills."
+    },
+    {
+      "title": "Five Lines of Code",
+      "author": "Christian Clausen",
+      "classification": "engineering",
+      "summary": "Focuses on practical refactoring strategies to improve code quality, proposing concrete rules to refactor any method to five lines or less."
+    },
+    {
+      "title": "Extreme Programming Explained: Embrace Change, Second Edition",
+      "author": "Kent Beck and Cynthia Andres",
+      "classification": "agile",
+      "summary": "A guide to Extreme Programming (XP), integrating concepts like accountability, transparency, and responsibility into software development, with practical principles for developing better software."
+    },
+    {
+      "title": "Clean Code: A Handbook of Agile Software Craftsmanship",
+      "author": "Robert C. Martin",
+      "classification": "engineering",
+      "summary": "Clean Code guides software professionals in crafting better quality software. It emphasizes the importance of writing clean code and provides practical techniques to achieve this. The book covers various aspects such as naming conventions, functions, comments, formatting, error handling, and unit testing, highlighting the importance of readability, maintainability, and efficiency in code. Through a disciplined approach to coding, it teaches developers to produce code that is easy to understand, modify, and extend. Robert C. Martin's insights help in transforming bad code into good code, enforcing coding standards and practices within a development team for consistent and high-quality output."
+    },
+    {
+      "title": "The Clean Coder: A Code of Conduct for Professional Programmers",
+      "author": "Robert C. Martin",
+      "classification": "engineering",
+      "summary": "In 'The Clean Coder,' Robert C. Martin offers guidance on how to become a professional developer. He emphasizes the importance of commitment to continuous learning, discipline in adhering to coding standards, and honesty regarding project estimates and deadlines. Effective communication, particularly through testing, is highlighted as a critical skill. The book discusses time management techniques, collaboration within teams, and the significance of test-driven development (TDD). It addresses how to handle pressure, the role of QA in the development process, and the importance of making accurate estimates. Martin also explores team dynamics, the value of mentoring and apprenticeship in software craftsmanship, and recommends tools and practices for effective software development. Through these insights, Martin aims to foster professionalism, integrity, and effective communication among developers."
+    },
+    {
+      "title": "Clean Architecture: A Craftsman's Guide to Software Structure and Design",
+      "author": "Robert C. Martin",
+      "classification": "engineering",
+      "summary": "Robert C. Martin's 'Clean Architecture' elaborates on how to create maintainable, flexible software through the use of architectural patterns. The book emphasizes the importance of the SOLID principles (Single Responsibility Principle, Open-Closed Principle, Liskov Substitution Principle, Interface Segregation Principle, Dependency Inversion Principle) for designing clean, scalable software. It introduces component principles focusing on cohesion and coupling to guide the organization of software systems. Clean Architecture advocates for a plugin architecture with dependencies pointing inward, ensuring that details such as databases or web frameworks are treated as mere details, thereby maximizing the software's flexibility. By maintaining a clear separation between policies (business rules) and details (frameworks, databases), the architecture aims to minimize lifetime software costs and facilitate development, deployment, operation, and maintenance. The book also explores various component coupling and cohesion principles, offering metrics for assessing component stability and abstraction. 'Clean Architecture' provides a comprehensive framework for thinking about software architecture that leaves as many options open as possible, for as long as possible, to facilitate easy changes and enhancements over time."
+    },
+    {
+      "title": "Coaching Agile Teams",
+      "author": "Lyssa Adkins",
+      "classification": "agile",
+      "summary": "'Coaching Agile Teams' is a comprehensive guide aimed at agile coaches, ScrumMasters, and project managers transitioning into agile roles. Lyssa Adkins shares her extensive experience in agile coaching, providing readers with the necessary insights to adopt a coaching mindset. The book emphasizes the various roles an agile coach must master, including teacher, mentor, problem solver, conflict navigator, and performance coach. It advocates for creating an environment that nurtures self-organized, high-performance teams. Adkins addresses the shift from traditional 'command and control' to a facilitative coaching approach, essential in agile settings. This book is highly regarded for blending conceptual insights with practical guidance, tools, and checklists, making it an invaluable resource for professionals seeking to lead agile teams towards innovation and excellence&#8203;``【oaicite:2】``&#8203;&#8203;``【oaicite:1】``&#8203;&#8203;``【oaicite:0】``&#8203;."
+    },
+    {
+      "title": "Clean Approaches for Coaches",
+      "author": "Marian Way",
+      "classification": "agile",
+      "summary": "'Clean Approaches for Coaches' by Marian Way provides a comprehensive guide on how coaches can create conditions for change within coaching sessions, employing Clean Language and Symbolic Modelling. The book is designed to answer common questions new coaches have about maintaining a client-centered approach without offering advice or suggestions directly. It includes examples, diagrams, and case studies to enhance learning, making it an invaluable resource for both new and experienced coaches seeking to refine their coaching methods. Written in a clear and engaging style, accompanied by quirky illustrations, the book serves not just as a how-to guide, but also as a storybook and reference book, offering insights into how to empower clients to lead their own change effectively&#8203;``【oaicite:1】``&#8203;&#8203;``【oaicite:0】``&#8203;."
+    },
+    {
+      "title": "Scrum: A Breathtakingly Brief and Agile Introduction",
+      "author": "Chris Sims & Hillary Louise Johnson",
+      "classification": "agile",
+      "summary": "This book provides a concise yet comprehensive overview of Scrum, a lightweight framework designed to help small, closely-knit teams develop complex products efficiently. The core of Scrum involves sprints, short, sustainable bursts of activity, with a focus on continuous improvement through review and reflection. The framework recognizes three primary roles: the Product Owner, responsible for maximizing return on investment; the Scrum Master, acting as a coach to guide the team towards higher performance; and the Team Member, who executes tasks to deliver incrementally valuable product features. The book elaborates on Scrum artifacts like the Product Backlog and Sprint Backlog, essential for making the process visible and ensuring all tasks are clearly defined and prioritized. 'Scrum: A Breathtakingly Brief and Agile Introduction' is an essential read for those looking to understand the essentials of agile development and the Scrum methodology, providing insights into the roles, artifacts, and sprint cycle that define the Scrum workflow&#8203;``【oaicite:2】``&#8203;&#8203;``【oaicite:1】``&#8203;&#8203;``【oaicite:0】``&#8203;."
+    },
+    {
+      "title": "Flow: A Handbook for Change-Makers, Mavericks, Innovation Activists and Leaders",
+      "author": "Fin Goulding and Haydn Shaughnessy",
+      "classification": "agile",
+      "summary": "Flow introduces a new approach to organizational change, aimed at leaders looking to foster innovation and agility in their teams. The book draws on the authors' experiences in leading digital transformations and introduces the concept of 'Flow' as a means to streamline processes, eliminate unnecessary procedures, and adapt quickly to change. Goulding and Shaughnessy propose methods to increase collaboration across teams, leverage technology for efficiency, and encourage a culture of continuous learning and adaptation. Through practical advice and real-world examples, 'Flow' serves as a guide for leaders to navigate the complexities of modern business environments, emphasizing the importance of resilience and flexibility in achieving sustainable success."
+    },
+    {
+      "title": "Accuracy and Precision for Long Range Shooting",
+      "author": "Bryan Litz",
+      "classification": "business",
+      "summary": "There's a lot of good information available on long range shooting which explains how to correct trajectories for drop, wind deflection, etc. This book takes it a step further and discusses how various uncertainties affect your hit percentage. Weapon Employment Zone (WEZ) analysis is a method for showing how effective a weapon system is throughout its range of employment in terms of hit percentage. WEZ analysis is explained, and applied throughout the book to show how effectiveness can be improved thru various means. Accuracy and Precision for Long Range Shooting is written in the same easy to understand language that made Applied Ballistics for Long Range Shooting such an enjoyable and effective book. Long range shooting can be very technical. However, author Bryan Litz, communicates these complex ideas in layman terms, so most average shooters can master the subject with little difficulty."
+    },
+    {
+      "title": "Perfect Strangers: How Project Managers and Developers Relate & Succeed Together",
+      "author": " Justin Browder, Bryan Schoeff",
+      "classification": "agile",
+      "summary": "Project Management is a waste of time and Developers are lazy introverts—at least, it depends who you ask. In this book, we discuss how Project Managers and Developers generally view each other and their projects, and propose strategies to create a happy, healthy, and successful project environment. From Agile to “Waterfall”, from Technology to Construction, all teams must bridge the divide between “Managers” and “Builders.” By better understanding the context and challenges of each role, teams and organizations evolve from satisfied assembly lines to excited and efficient collaborators."
+    },
+    {
+      "title": "Explore It!: Reduce Risk and Increase Confidence with Exploratory Testing",
+      "author": "Elisabeth Hendrickson",
+      "classification": "engineering",
+      "summary": "'Explore It!' by Elisabeth Hendrickson offers a deep dive into the practice of exploratory testing, an approach that combines simultaneous learning, test design, and test execution to improve software quality. Hendrickson emphasizes the importance of curiosity and critical thinking in testing, encouraging testers to go beyond scripted tests to discover potential issues and risks. The book provides practical strategies, techniques, and heuristics for effectively exploring software, from planning exploratory testing sessions to documenting findings and communicating them to the rest of the team. With a focus on enhancing the tester's role in the software development lifecycle, 'Explore It!' aims to equip readers with the skills necessary to reduce risks, increase confidence in the software, and advocate for quality in every phase of development."
+    },
+    {
+      "title": "Agile Retrospectives: Making Good Teams Great",
+      "author": "Esther Derby, Diana Larsen",
+      "classification": "agile",
+      "summary": "This book provides readers with practical advice on how to conduct effective retrospectives, a core practice in Agile methodologies for continuous improvement in teams."
+    },
+    {
+      "title": "Pragmatic Thinking & Learning: Refactor Your Wetware",
+      "author": "Andy Hunt",
+      "classification": "business",
+      "summary": "Andy Hunt offers insights into how software developers can upgrade their cognitive approaches, enhancing problem-solving skills and embracing a pragmatic mindset for learning and growth."
+    },
+    {
+      "title": "Object Thinking",
+      "author": "David West",
+      "classification": "engineering",
+      "summary": "In 'Object Thinking', David West delves into the philosophy and practice of object-oriented programming, advocating for a mindset shift to fully leverage its conceptual and practical benefits."
+    },
+    {
+      "title": "Head First Kotlin",
+      "author": "Dawn Griffiths, David Griffiths",
+      "classification": "engineering",
+      "summary": "This book introduces Kotlin programming in a visually rich format that engages beginners and encourages them to think like Kotlin developers."
+    },
+    {
+      "title": "Cracking the Coding Interview: 189 Programming Questions and Solutions",
+      "author": "Gayle Laakmann McDowell",
+      "classification": "engineering",
+      "summary": "A comprehensive guide to software engineering interview preparation, covering significant concepts and offering strategies to solve common and challenging coding interview questions."
+    },
+    {
+      "title": "Practical Node.js: Building Real-World Scalable Web Apps",
+      "author": "Azat Mardan",
+      "classification": "engineering",
+      "summary": "Azat Mardan explains how to develop scalable and maintainable web applications using Node.js, including best practices and practical implementations."
+    },
+    {
+      "title": "Cracking the PM Interview: How to Land a Product Manager Job in Technology",
+      "author": "Gayle Laakmann McDowell, Jackie Bavaro",
+      "classification": "business",
+      "summary": "This book offers a comprehensive guide for aspiring product managers to navigate the interview process in the tech industry, with insights into resumes, portfolios, and interview strategies."
+    },
+    {
+      "title": "Beginning Node.js",
+      "author": "Basarat Ali Syed",
+      "classification": "engineering",
+      "summary": "A primer for developers looking to dive into Node.js, offering foundational knowledge and hands-on examples to build scalable and efficient web applications."
+    },
+    {
+      "title": "TypeScript Quickly",
+      "author": "Yakov Fain, Anton Moiseev",
+      "classification": "engineering",
+      "summary": "The book introduces TypeScript, providing developers with a guide to mastering the language for building large-scale JavaScript applications that are robust and maintainable."
+    },
+    {
+      "title": "React for Real: Front-End Code, Untangled",
+      "author": "Ludovico Fischer",
+      "classification": "engineering",
+      "summary": "Ludovico Fischer takes readers through React fundamentals and best practices for building interactive user interfaces in a straightforward and practical manner."
+    },
+    {
+      "title": "Data Science from Scratch: First Principles with Python",
+      "author": "Joel Grus",
+      "classification": "engineering",
+      "summary": "Joel Grus introduces the foundational concepts of data science and demonstrates how to implement essential techniques using Python."
+    },
+    {
+      "title": "Terraform: Up & Running: Writing Infrastructure as Code",
+      "author": "Yevgeniy Brikman",
+      "classification": "engineering",
+      "summary": "Yevgeniy Brikman guides readers through using Terraform to manage infrastructure with code for more efficient, reproducible, and scalable deployments."
+    },
+    {
+      "title": "Effective Python: 90 Specific Ways to Write Better Python",
+      "author": "Brett Slatkin",
+      "classification": "engineering",
+      "summary": "Brett Slatkin shares 90 practical tips for enhancing Python code by applying best practices and leveraging its unique features."
+    },
+    {
+      "title": "Effective C#: 50 Specific Ways to Improve Your C#",
+      "author": "Bill Wagner",
+      "classification": "engineering",
+      "summary": "This book provides C# developers with 50 detailed suggestions to improve their C# programming skills by adopting best practices and efficient coding techniques."
+    },
+    {
+      "title": "Fluent Python: Clear, Concise, and Effective Programming",
+      "author": "Luciano Ramalho",
+      "classification": "engineering",
+      "summary": "This book helps Python programmers leverage the best features of Python to write more efficient and readable code. Ramalho covers Python's core language features and libraries, with an emphasis on advanced topics and idioms."
+    },
+    {
+      "title": "Learning Swift: Building Apps for macOS, iOS, and Beyond",
+      "author": "Jonathon Manning, Paris Buttfield-Addison, and Tim Nugent",
+      "classification": "engineering",
+      "summary": "Geared towards beginners and existing developers, this book offers an in-depth look into Swift programming, focusing on creating apps for Apple's ecosystem including macOS, iOS, watchOS, and tvOS."
+    },
+    {
+      "title": "The Well-Grounded Rubyist",
+      "author": "David A. Black",
+      "classification": "engineering",
+      "summary": "David A. Black provides a comprehensive introduction to Ruby, aimed at newcomers and experienced programmers alike. The book covers Ruby's fundamentals along with its dynamic and object-oriented aspects, preparing readers to create complex and robust Ruby applications."
+    },
+    {
+      "title": "Computer Organization and Design: The Hardware/Software Interface",
+      "author": "David A. Patterson and John L. Hennessy",
+      "classification": "engineering",
+      "summary": "This classic textbook provides a thorough exploration of the interface between hardware and software, offering insights into the principles and practices of modern computer design."
+    },
+    {
+      "title": "Unix Power Tools",
+      "author": "Shelley Powers, Jerry Peek, Tim O'Reilly, and Mike Loukides",
+      "classification": "engineering",
+      "summary": "A comprehensive guide to Unix, covering hundreds of tips, tricks, and techniques to help you make the most out of Unix systems. This book is essential for Unix users and administrators wanting to deepen their knowledge and maximize productivity."
+    },
+    {
+      "title": "UML Distilled: A Brief Guide to the Standard Object Modeling Language",
+      "author": "Martin Fowler",
+      "classification": "engineering",
+      "summary": "Martin Fowler's guide simplifies UML (Unified Modeling Language), making it accessible to novice developers while also being a handy reference for experienced professionals. The book explains UML's core concepts and how to apply them in modeling software systems."
+    },
+    {
+      "title": "Concepts of Programming Languages",
+      "author": "Robert W. Sebesta",
+      "classification": "engineering",
+      "summary": "This text offers an in-depth examination of fundamental programming language concepts. Through the study of multiple programming languages, it illustrates the importance of language design in software development."
+    },
+    {
+      "title": "Software Engineering: A Practitioner's Approach",
+      "author": "Roger S. Pressman",
+      "classification": "engineering",
+      "summary": "Regarded as a standard in software engineering, this book offers a comprehensive overview of software development best practices, from the initial stages of system specification through to maintenance and updates post-deployment."
+    },
+    {
+      "title": "Programming .NET Components",
+      "author": "Juval Löwy",
+      "classification": "engineering",
+      "summary": "Juval Löwy's book is an authoritative guide to creating reusable .NET components. It covers component-oriented software engineering techniques, .NET application architecture, and design patterns."
+    },
+    {
+      "title": "Unix Systems Programming: Communication, Concurrency, and Threads",
+      "author": "Kay A. Robbins and Steven Robbins",
+      "classification": "engineering",
+      "summary": "This book provides practical training in Unix system programming. With a focus on communication, concurrency, and threading, it offers insights into developing robust, secure, and efficient Unix software."
+    },
+
+    {
+      "title": "Thinking in C++",
+      "author": "Bruce Eckel",
+      "classification": "engineering",
+      "summary": "This book is a comprehensive guide to the C++ programming language, covering fundamental concepts to advanced techniques. Eckel's approach emphasizes understanding how things work under the hood, making it an essential read for those looking to deepen their C++ knowledge."
+    },
+    {
+      "title": "Database Systems: The Complete Book",
+      "author": "Hector Garcia-Molina, Jeffrey D. Ullman, Jennifer Widom",
+      "classification": "engineering",
+      "summary": "Offering an in-depth examination of database design, theory, and practice, this book covers relational databases, object-based databases, and XML. Case studies and examples help illustrate the practical application of these concepts."
+    },
+    {
+      "title": "Operating Systems: Principles and Practice",
+      "author": "Thomas Anderson, Michael Dahlin",
+      "classification": "engineering",
+      "summary": "Anderson and Dahlin's book provides a practical overview of operating system design and implementation, focusing on principles applicable to a variety of computing environments from embedded systems to traditional desktops and servers."
+    },
+    {
+      "title": "Big Java: Early Objects",
+      "author": "Cay S. Horstmann",
+      "classification": "engineering",
+      "summary": "Targeted towards beginners, 'Big Java: Early Objects' introduces Java programming with a focus on object-oriented design. Through hands-on examples and exercises, readers learn to solve problems and build applications."
+    },
+    {
+      "title": "Java How to Program",
+      "author": "Paul Deitel, Harvey Deitel",
+      "classification": "engineering",
+      "summary": "This book by the Deitels offers a detailed introduction to Java programming, starting from the basics and advancing to complex topics. It's known for its clear explanations and comprehensive coverage of Java programming concepts."
+    },
+    {
+      "title": "Data Structures & Algorithms in Java",
+      "author": "Michael T. Goodrich, Roberto Tamassia, Michael H. Goldwasser",
+      "classification": "engineering",
+      "summary": "This text provides an in-depth look at data structures and algorithms using Java. It covers theoretical concepts as well as practical application, preparing students for software development challenges."
+    },
+    {
+      "title": "Project to Product: How to Survive and Thrive in the Age of Digital Disruption with the Flow Framework",
+      "author": "Mik Kersten",
+      "classification": "business",
+      "summary": "Mik Kersten introduces the Flow Framework™, offering organizations a comprehensive model for transitioning from project-centric to product-centric delivery, thereby improving workflow and addressing the challenges of digital disruption."
+    },
+    {
+      "title": "The Startup Way: How Modern Companies Use Entrepreneurial Management to Transform Culture and Drive Long-Term Growth",
+      "author": "Eric Ries",
+      "classification": "business",
+      "summary": "Eric Ries extends his Lean Startup principles to established companies and startups alike, illustrating how entrepreneurial management can foster innovation, transform corporate culture, and drive sustainable growth."
+    },
+    {
+      "title": "The Tangled Web: A Guide to Securing Modern Web Applications",
+      "author": "Michal Zalewski",
+      "classification": "engineering",
+      "summary": "Zalewski provides a deep dive into web security, uncovering the complexities of modern web applications and offering strategies for developing secure, robust web software."
+    },
+    {
+      "title": "Lean Analytics: Use Data to Build a Better Startup Faster",
+      "author": "Alistair Croll, Benjamin Yoskovitz",
+      "classification": "business",
+      "summary": "This book focuses on how startups can use the power of analytics to measure and scale their progress effectively. Croll and Yoskovitz guide readers through finding the one metric that matters most to their startup's success."
+    },
+
+    {
+      "title": "Grokking Algorithms: An Illustrated Guide for Programmers and Other Curious People",
+      "author": "Aditya Bhargava",
+      "classification": "engineering",
+      "summary": "This book provides a friendly take on core programming concepts through the use of illustrations, making complex topics accessible and engaging for beginners and experts alike."
+    },
+    {
+      "title": "Head First Design Patterns: A Brain-Friendly Guide",
+      "author": "Eric Freeman, Bert Bates, Kathy Sierra, and Elisabeth Robson",
+      "classification": "engineering",
+      "summary": "Using a visually rich format, this book demystifies design patterns and explains how to apply them to create effective Java applications, fostering a deep understanding of object-oriented design."
+    },
+    {
+      "title": "The Mythical Man-Month: Essays on Software Engineering",
+      "author": "Frederick P. Brooks Jr.",
+      "classification": "engineering",
+      "summary": "This classic text on software project management argues against the conventional wisdom of 'man-months', presenting insights on the complexities of software development and team management."
+    },
+    {
+      "title": "User Story Mapping: Discover the Whole Story, Build the Right Product",
+      "author": "Jeff Patton",
+      "classification": "agile",
+      "summary": "Patton introduces the technique of User Story Mapping, a collaborative approach to agile software development that helps teams understand user needs, plan releases, and keep focus on building customer value."
+    },
+    {
+      "title": "Inspired: How To Create Products Customers Love",
+      "author": "Marty Cagan",
+      "classification": "business",
+      "summary": "Cagan shares his experiences and insights from working with some of the most successful tech companies, outlining practical steps for creating products that address customer needs and stand out in the market."
+    },
+    {
+      "title": "Deep Work: Rules for Focused Success in a Distracted World",
+      "author": "Cal Newport",
+      "classification": "business",
+      "summary": "Newport explores the benefits of deep work — the ability to focus without distraction on a cognitively demanding task — and presents strategies for cultivating a deep work ethic in a world filled with distractions."
+    },
+    {
+      "title": "Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones",
+      "author": "James Clear",
+      "classification": "leadership",
+      "summary": "Clear emphasizes the power of small changes and how they can compound over time to produce remarkable results, offering a framework for improving every day by mastering habits."
+    },
+    {
+      "title": "It Doesn't Have to Be Crazy at Work",
+      "author": "Jason Fried and David Heinemeier Hansson",
+      "classification": "business",
+      "summary": "The founders of Basecamp argue against the culture of constant busyness and overtime in the corporate world, advocating for a calmer, more productive, and more enjoyable approach to work."
+    },
+    {
+      "title": "The Hard Hat: 21 Ways to Be a Great Teammate",
+      "author": "Jon Gordon",
+      "classification": "leadership",
+      "summary": "Gordon shares the inspiring true story of George Boiardi, a lacrosse player whose selfless team spirit and hard work ethic made him an exemplary teammate, offering lessons on what it means to be part of a team."
+    },
+    {
+      "title": "Meditations",
+      "author": "Marcus Aurelius",
+      "classification": "leadership",
+      "summary": "This series of personal writings by the Roman Emperor offers profound insights into Stoic philosophy, exploring themes of personal virtue, leadership, and the nature of human life."
+    },
+    {
+      "title": "The Gentle Art of Swedish Death Cleaning: How to Free Yourself and Your Family from a Lifetime of Clutter",
+      "author": "Margareta Magnusson",
+      "classification": "business",
+      "summary": "Magnusson introduces the Swedish practice of 'döstädning', or death cleaning, a decluttering method aimed at simplifying one’s life and possessions to relieve the burden on oneself and others."
+    },
+    {
+      "title": "The Art of Saying No",
+      "author": "Damon Zahariades",
+      "classification": "leadership",
+      "summary": "This book provides strategies for setting boundaries and managing time effectively by mastering the art of saying no. Zahariades offers insight into recognizing and overcoming the guilt associated with saying no, enabling readers to prioritize their commitments and increase their productivity."
+    },
+    {
+      "title": "How F*cked Up Is Your Management",
+      "author": "Johnathan Nightingale & Melissa Nightingale",
+      "classification": "business",
+      "summary": "An unconventional exploration of leadership and management practices that challenge traditional norms. The authors share lessons learned from their experiences in the tech industry, offering candid advice on building resilient and effective teams."
+    },
+    {
+      "title": "Leading with Obeya",
+      "author": "Timm Ursinus",
+      "classification": "agile",
+      "summary": "The book introduces the concept of Obeya (big room) as a visual management tool that facilitates better decision-making and leadership within organizations. Ursinus details how to implement Obeya to align teams and accelerate delivery in complex environments."
+    },
+    {
+      "title": "Managing for Happiness",
+      "author": "Jurgen Appelo",
+      "classification": "leadership",
+      "summary": "Appelo presents a collection of practical management techniques to foster employee engagement, happiness, and productivity. The book emphasizes creating a culture of trust, empowerment, and innovation."
+    },
+    {
+      "title": "Philosophy: History and Problems",
+      "author": "Samuel Enoch Stumpf & James Fieser",
+      "classification": "business",
+      "summary": "This text offers a comprehensive overview of the development of philosophical thought from ancient times to the present, discussing major philosophers and philosophical problems in an accessible manner."
+    },
+    {
+      "title": "Psychology Applied to Modern Life: Adjustment in the 21st Century",
+      "author": "Wayne Weiten, Dana S. Dunn & Elizabeth Yost Hammer",
+      "classification": "business",
+      "summary": "The book applies psychological principles to address the challenges of modern life, covering topics such as stress management, work-life balance, and personal relationships. It provides practical strategies for improving mental health and making effective life adjustments."
+    },
+    {
+      "title": "Essentials of Corporate Finance",
+      "author": "Stephen A. Ross, Randolph W. Westerfield & Bradford D. Jordan",
+      "classification": "business",
+      "summary": "A foundational text that introduces the core principles and techniques of corporate finance, including financial analysis, planning, and the decision-making process for maximizing shareholder value."
+    },
+    {
+      "title": "Marketing: The Core",
+      "author": "Roger A. Kerin, Steven W. Hartley",
+      "classification": "business",
+      "summary": "Marketing: The Core presents a concise approach to the dynamic world of marketing, focusing on how marketing principles are applied in today’s business environment. Kerin and Hartley emphasize core marketing concepts from a practical, managerial perspective, highlighting the importance of marketing to both customer value and relationships. Through current examples, engaging stories, and effective learning features, readers gain a deeper understanding of essential marketing strategies and techniques, including digital marketing, branding, and customer engagement. This book is designed to engage students by relating marketing principles to real-world scenarios, making it an essential resource for anyone looking to grasp the foundational aspects of marketing practice."
+    },
+    {
+      "title": "Management Principles & Concepts",
+      "author": "Unknown",
+      "classification": "business",
+      "summary": "An introductory guide to fundamental management principles and concepts, this book covers topics such as strategic planning, organizational behavior, leadership, and operational management."
+    },
+    {
+      "title": "Classical Myth",
+      "author": "Barry B. Powell",
+      "classification": "business",
+      "summary": "Powell's 'Classical Myth' provides an in-depth exploration of Greek and Roman myths, their origins, and their impact on culture and society. The book examines how these ancient narratives continue to influence modern storytelling, art, and business practices."
+    },
+    {
+      "title": "Perspectives on Argument",
+      "author": "Nancy V. Wood",
+      "classification": "business",
+      "summary": "This book teaches readers how to argue effectively, providing strategies for developing strong arguments and responding to the arguments of others. Wood's approach emphasizes understanding various perspectives to enhance critical thinking and communication skills in both academic and real-world settings."
+    },
+    {
+      "title": "Probability and Statistics",
+      "author": "Morris H. DeGroot, Mark J. Schervish",
+      "classification": "engineering",
+      "summary": "DeGroot and Schervish's textbook offers a comprehensive introduction to the principles of probability and statistics, emphasizing the importance of statistical thinking in decision making and problem solving across various disciplines, including engineering, science, and economics."
+    },
+    {
+      "title": "Calculus",
+      "author": "James Stewart",
+      "classification": "engineering",
+      "summary": "James Stewart's 'Calculus' is renowned for its clear explanations, accurate mathematics, and outstanding problem sets. The book covers all aspects of calculus from fundamental concepts to more advanced topics, making it an essential resource for students and educators alike."
+    },
+    {
+      "title": "Discrete Mathematics with Applications",
+      "author": "Susanna S. Epp",
+      "classification": "engineering",
+      "summary": "Susanna S. Epp's book provides a focused introduction to discrete mathematics, with an emphasis on its applications in computer science and engineering. Through clear explanations and engaging problems, Epp demonstrates how discrete mathematics is applied to solve real-world issues."
+    }
+  ],
+  "audible": [
+    {
+      "title": "14 Habits of Highly Productive Developers",
+      "author": "Zeno Rocha",
+      "classification": "engineering",
+      "summary": "This book by Zeno Rocha, illustrated by Briza Bueno, embarks on a quest to discover what habits can be cultivated to become a superior software engineer. It challenges the notion of a one-size-fits-all path to success, emphasizing the importance of recognizing and shedding bad habits for personal and professional growth. Through a unique structure that eschews the conventional format of books, Rocha offers standalone chapters enriched with questions and answers sections featuring insights from senior developers across a wide spectrum of industries, from tech giants like Google and startups like Shopify to established organizations like The New York Times. The book covers a diverse range of topics, from the importance of focusing on fundamentals and the art of saying 'no', to the balance between being a specialist versus a generalist and the value of side projects. Rocha's narrative is bolstered by interviews with tech leads, providing a multifaceted view on career navigation in the tech world."
+    },
+    {
+      "title": "Prompt Engineering and ChatGPT",
+      "author": "Russel Grant",
+      "classification": "engineering",
+      "summary": "This book explores the emerging field of prompt engineering, specifically focusing on optimizing interactions with AI models like ChatGPT. Grant provides insights into crafting effective prompts to elicit desired responses from AI, enhancing both productivity and creativity in various applications."
+    },
+    {
+      "title": "How to Raise Successful People",
+      "author": "Esther Wojcicki",
+      "classification": "leadership",
+      "summary": "Esther Wojcicki shares her tried-and-true TRICK method (Trust, Respect, Independence, Collaboration, and Kindness) in raising children. Drawing from her experience as an educator and mother, she outlines principles for fostering independence and success in children."
+    },
+    {
+      "title": "AI and Machine Learning for Coders",
+      "author": "Laurence Moroney",
+      "classification": "engineering",
+      "summary": "Laurence Moroney provides a practical guide for software developers looking to integrate AI and machine learning into their projects. Without delving into complex math, the book offers a hands-on approach to implementing intelligent features with accessible tools and technologies."
+    },
+    {
+      "title": "Thanks for the Feedback",
+      "author": "Sheila Heen",
+      "classification": "business",
+      "summary": "Sheila Heen addresses the challenges of receiving feedback, offering strategies to process and use feedback constructively. The book explores different types of feedback and how to leverage them for personal and professional growth."
+    },
+    {
+      "title": "Software Mistakes and Tradeoffs",
+      "author": "Tomasz Lelek",
+      "classification": "engineering",
+      "summary": "Tomasz Lelek explores common pitfalls in software development and how to navigate the inevitable trade-offs. Through case studies and examples, readers learn to make informed decisions that balance performance, scalability, and maintainability."
+    },
+    {
+      "title": "Software Development Pearls",
+      "author": "Karl Wiegers",
+      "classification": "engineering",
+      "summary": "Karl Wiegers distills lessons from decades of software development experience into practical wisdom and best practices. This book covers the spectrum of software development, from requirements gathering to design, testing, and maintenance."
+    },
+    {
+      "title": "Modern Software Engineering",
+      "author": "David Farley",
+      "classification": "engineering",
+      "summary": "David Farley presents an approach to software engineering that emphasizes continuous improvement, automation, and efficiency. He advocates for practices that support robust, reliable, and maintainable code in a fast-paced development environment."
+    },
+    {
+      "title": "The Art of Leadership",
+      "author": "Michael Lopp",
+      "classification": "leadership",
+      "summary": "Michael Lopp, drawing from his experiences in Silicon Valley, outlines the nuances of modern leadership. He offers insights into building and leading teams, making tough decisions, and navigating the challenges of growth and change."
+    },
+    {
+      "title": "Monolith to Microservices",
+      "author": "Sam Newman",
+      "classification": "engineering",
+      "summary": "Sam Newman guides readers through the process of transitioning from monolithic architectures to microservices. The book covers strategies for breaking down applications into smaller, more manageable components, facilitating scalability and agility."
+    },
+    {
+      "title": "Beyond the Phoenix Project",
+      "author": "Gene Kim",
+      "classification": "business",
+      "summary": "Gene Kim expands on the lessons from 'The Phoenix Project', exploring the principles of DevOps in greater depth. This book delves into the historical and methodological foundations of DevOps, offering further insights into its transformative potential."
+    },
+    {
+      "title": "Until the End of Time",
+      "author": "Brian Greene",
+      "classification": "engineering",
+      "summary": "Brian Greene presents a cosmic perspective on the universe, life, and humanity's quest for meaning. Blending physics, philosophy, and biology, Greene explores how everything from the fabric of space-time to the complexities of the human mind are interconnected in the tapestry of the cosmos."
+    },
+    {
+      "title": "The Fabric of the Cosmos",
+      "author": "Brian Greene",
+      "classification": "engineering",
+      "summary": "Brian Greene explores the very nature of the universe, from space and time to the very essence of reality. This book delves into physics, cosmology, and theoretical concepts to explain how the universe is put together."
+    },
+    {
+      "title": "The DevOps Handbook, Second Edition",
+      "author": "Gene Kim",
+      "classification": "agile",
+      "summary": "An updated guide on DevOps practices, showing how integrating product management, development, QA, IT operations, and information security leads to faster, more reliable software deployment."
+    },
+    {
+      "title": "Sooner Safer Happier",
+      "author": "Jonathan Smart",
+      "classification": "business",
+      "summary": "Smart provides insights into optimizing team outcomes through Agile and lean practices, focusing on principles for improving productivity, efficiency, and job satisfaction across organizations."
+    },
+    {
+      "title": "Clean Agile",
+      "author": "Robert C. Martin",
+      "classification": "agile",
+      "summary": "Martin revisits the foundational principles of Agile software development, emphasizing its core values and practices for achieving quality and efficiency in the modern software industry."
+    },
+    {
+      "title": "Team Topologies: Organizing Business and Technology Teams for Fast Flow",
+      "author": "Matthew Skelton",
+      "classification": "business",
+      "summary": "This book introduces a practical, adaptable methodology for team organization within tech companies, aiming to enhance communication, productivity, and the delivery pipeline in software development."
+    },
+    {
+      "title": "The Fourth Turning",
+      "author": "William Strauss",
+      "classification": "leadership",
+      "summary": "Strauss and Howe theorize recurring generational cycles in American history, predicting transformative periods that redefine society. The book examines patterns to forecast future upheavals and changes."
+    },
+    {
+      "title": "Trillion Dollar Coach",
+      "author": "Eric Schmidt",
+      "classification": "leadership",
+      "summary": "Schmidt, along with Jonathan Rosenberg and Alan Eagle, share leadership lessons from Bill Campbell, whose mentoring of Silicon Valley's great leaders shaped the landscape of American technology and business."
+    },
+    {
+      "title": "Empowered",
+      "author": "Marty Cagan",
+      "classification": "business",
+      "summary": "Cagan outlines strategies for building powerful teams that are capable of tackling significant challenges, focusing on creating products that customers love, through empowered and autonomous product teams."
+    },
+    {
+      "title": "Noise",
+      "author": "Daniel Kahneman",
+      "classification": "business",
+      "summary": "Nobel laureate Kahneman, along with co-authors Sibony and Sunstein, delve into the different types of noise that impact decision-making and judgment in professional settings, offering strategies to mitigate bias and reduce errors."
+    },
+    {
+      "title": "Right to Left",
+      "author": "Mike Burrows",
+      "classification": "agile",
+      "summary": "Burrows presents a perspective on Agile and lean software development that starts from outcomes and works backward to processes and inputs, advocating for a holistic view of Agile practices and their implementation."
+    },
+    {
+      "title": "Clean Code",
+      "author": "Robert C. Martin",
+      "classification": "engineering",
+      "summary": "Martin offers a definitive guide for writing clean code, with practical advice and principles on how to improve one's coding skills to develop reliable and maintainable software applications."
+    },
+    {
+      "title": "Coaching Agile Teams: A Companion for ScrumMasters, Agile Coaches, and Project Managers in Transition",
+      "author": "Lyssa Adkins",
+      "classification": "agile",
+      "summary": "Adkins provides insights into the nuances of coaching agile teams to higher efficiency, focusing on the roles of ScrumMasters and Agile Coaches in facilitating and mentoring agile transformations."
+    },
+    {
+      "title": "Mindset: The New Psychology of Success",
+      "author": "Carol S. Dweck, PhD",
+      "classification": "leadership",
+      "summary": "Dweck explores the concept of 'fixed' versus 'growth' mindsets, illustrating how our beliefs about our abilities influence our success. The book offers guidance on cultivating a growth mindset for personal and professional development."
+    },
+    {
+      "title": "User Friendly: How the Hidden Rules of Design Are Changing the Way We Live, Work, and Play",
+      "author": "Cliff Kuang",
+      "classification": "engineering",
+      "summary": "Kuang delves into the history and impact of user experience design in shaping technology and society. He illustrates how design decisions affect our everyday interactions and the importance of creating user-friendly systems."
+    },
+    {
+      "title": "The Design of Everyday Things",
+      "author": "Don Norman",
+      "classification": "engineering",
+      "summary": "Norman presents a seminal perspective on design, focusing on how products should be designed with the user in mind. The book explores the principles of intuitive navigation and the significance of user-centered design."
+    },
+    {
+      "title": "The Practice: Shipping Creative Work",
+      "author": "Seth Godin",
+      "classification": "business",
+      "summary": "Godin encourages readers to overcome the challenges of creative work and the fear of failure. He emphasizes the importance of 'shipping'—delivering creative output consistently and without attachment to perfection."
+    },
+    {
+      "title": "Formula X: How to Reach Extreme Acceleration in Your Organization",
+      "author": "Jurriaan Kamer",
+      "classification": "business",
+      "summary": "Kamer offers a novel approach to organizational change, drawing parallels between Formula 1 teams and business efficiency. The book presents strategies for achieving high-speed adaptation and innovation."
+    },
+    {
+      "title": "Escape Velocity: Free Your Company's Future from the Pull of the Past",
+      "author": "Geoffrey A. Moore",
+      "classification": "business",
+      "summary": "Moore explores the challenges that established companies face in innovating within rapidly changing markets. He provides frameworks for overcoming the inertia of success and achieving growth beyond current business models."
+    },
+    {
+      "title": "Accelerate: How to Build and Scale High Performing Technology Organizations",
+      "author": "John P. Kotter",
+      "classification": "agile",
+      "summary": "Kotter presents methodologies for transforming technology organizations by adopting Agile and DevOps principles. The book focuses on improving delivery speeds, enhancing quality, and building a culture of continuous improvement."
+    },
+    {
+      "title": "The Scrum Fieldbook: A Master Class on Accelerating Performance, Getting Results, and Defining the Future",
+      "author": "J. J. Sutherland",
+      "classification": "agile",
+      "summary": "Sutherland extends the principles of Scrum beyond software development, illustrating its application in various industries. The book offers practical advice on adopting Scrum to drive rapid, sustainable organizational change."
+    },
+    {
+      "title": "Doing Agile Right: Transformation Without Chaos",
+      "author": "Darrell K. Rigby",
+      "classification": "agile",
+      "summary": "Rigby demystifies Agile transformation, offering a roadmap for adopting Agile methodologies in a way that balances flexibility with stability. The book addresses common pitfalls and strategies for embedding Agile practices into organizational culture."
+    },
+    {
+      "title": "Agile Conversations: Transform Your Conversations, Transform Your Culture",
+      "author": "Douglas Squirrel",
+      "classification": "agile",
+      "summary": "Squirrel and Frederick focus on the importance of conversations in fostering an Agile culture. The book provides insights into improving communication and collaboration within teams to enhance agility and innovation."
+    },
+    {
+      "title": "Talking to Strangers: What We Should Know about the People We Don't Know",
+      "author": "Malcolm Gladwell",
+      "classification": "business",
+      "summary": "Gladwell examines the complexities of communicating with strangers, using historical events and psychological research to explore misinterpretations and the human tendency to default to truth."
+    },
+    {
+      "title": "Escaping the Build Trap",
+      "author": "Melissa Perri",
+      "classification": "agile",
+      "summary": "Perri discusses how companies can avoid the 'build trap', where they focus solely on output rather than outcomes. The book offers insights on creating value through product management and leveraging a product-led approach to drive innovation and customer satisfaction."
+    },
+    {
+      "title": "Creativity, Inc.",
+      "author": "Ed Catmull",
+      "classification": "business",
+      "summary": "Co-founder of Pixar Animation Studios, Ed Catmull shares his experience in fostering a culture of creativity. The book is a manual for leaders seeking to infuse creativity into their organization and encourage an environment of innovation and originality."
+    },
+    {
+      "title": "Sense & Respond",
+      "author": "Jeff Gothelf",
+      "classification": "agile",
+      "summary": "Gothelf and Josh Seiden argue for a shift in business strategy from planning to experimentation. They showcase how successful companies sense customer needs and respond quickly by adapting their products, services, and strategies in real time."
+    },
+    {
+      "title": "Good to Great",
+      "author": "Jim Collins",
+      "classification": "business",
+      "summary": "Collins explores what it takes for companies to transition from being good to great. Through rigorous research, he identifies key principles such as leadership, culture, and discipline that contribute to sustained excellence."
+    },
+    {
+      "title": "Understanding Software",
+      "author": "Max Kanat-Alexander",
+      "classification": "engineering",
+      "summary": "Kanat-Alexander provides a unique perspective on software development, focusing on simplification and understanding the essence of software. He offers practical advice for creating simple, maintainable code that meets business needs."
+    },
+    {
+      "title": "The Pragmatic Programmer: 20th Anniversary Edition, 2nd Edition",
+      "author": "David Thomas",
+      "classification": "engineering",
+      "summary": "This anniversary edition updates a classic in software development literature, offering timeless strategies and practices for improving programming efficiency, craftsmanship, and ultimately, the joy of coding."
+    },
+    {
+      "title": "The Infinite Game",
+      "author": "Simon Sinek",
+      "classification": "leadership",
+      "summary": "Sinek introduces the concept of 'The Infinite Game', encouraging businesses to focus on long-term goals and sustainable practices rather than short-term wins. The book inspires leaders to build organizations that thrive over time by playing the infinite game."
+    },
+    {
+      "title": "The Art of War",
+      "author": "Sun Tzu",
+      "classification": "leadership",
+      "summary": "An ancient Chinese military treatise offering strategic advice that has transcended its martial origins. Sun Tzu’s principles on warfare and opponent analysis are widely applied in business and personal success strategies today."
+    },
+    {
+      "title": "The 7 Habits of Highly Effective People",
+      "author": "Stephen R. Covey",
+      "classification": "leadership",
+      "summary": "Covey presents a holistic approach to personal and professional effectiveness. This influential book outlines seven principles for achieving success through character, ethics, and a balanced pursuit of goals."
+    },
+    {
+      "title": "The Unicorn Project",
+      "author": "Gene Kim",
+      "classification": "engineering",
+      "summary": "A novel about IT, DevOps, and helping your business win. Kim illustrates the struggles of a fictional company in embracing digital transformation, underscoring the importance of developer productivity, empowerment, and overcoming legacy systems."
+    },
+    {
+      "title": "The Power of Habit",
+      "author": "Charles Duhigg",
+      "classification": "business",
+      "summary": "Duhigg explores the science behind habit creation and reformation. The book provides insights into how habits work and offers guidance for making transformative changes in organizations, societies, and individual lives."
+    },
+    {
+      "title": "The Power of Habit",
+      "author": "Charles Duhigg",
+      "classification": "business",
+      "summary": "Duhigg explores how habits are formed and how they can be changed, offering insights into the power of habit in personal life, companies, and societies. He combines scientific discoveries with compelling narratives to show how understanding habits can transform our lives."
+    },
+    {
+      "title": "Beyond the Goal",
+      "author": "Eliyahu M. Goldratt",
+      "classification": "business",
+      "summary": "In this audiobook, Goldratt expands on the concepts introduced in 'The Goal', discussing the Theory of Constraints and its applications in management and life. Goldratt provides deeper insights into improving system productivity and strategic thinking."
+    },
+    {
+      "title": "The Goal",
+      "author": "Eliyahu M. Goldratt",
+      "classification": "business",
+      "summary": "'The Goal' is a management-oriented novel that introduces the Theory of Constraints through the story of a plant manager working to save his plant and improve its performance. Goldratt's novel has revolutionized how businesses think about operations and efficiencies."
+    },
+    {
+      "title": "From Contempt to Curiosity",
+      "author": "Caitlin Walker",
+      "classification": "leadership",
+      "summary": "Walker introduces a transformative approach to personal and professional development through Clean Language and systemic modeling. The book shares stories and methodologies for fostering environments of respect, learning, and curiosity."
+    },
+    {
+      "title": "The Future of the Mind",
+      "author": "Michio Kaku",
+      "classification": "engineering",
+      "summary": "Kaku explores the astonishing scientific research into the human mind, discussing potential future advancements in neuroscience. From telepathy and telekinesis to artificial memories, the book offers a glimpse into the potential future shaped by our understanding of the brain."
+    },
+    {
+      "title": "The Agile Samurai",
+      "author": "Jonathan Rasmusson",
+      "classification": "agile",
+      "summary": "Rasmusson presents a practical guide to mastering agile software development. Using the metaphor of a samurai, the book teaches readers how to apply agile principles and practices to deliver software that customers love."
+    },
+    {
+      "title": "Turn the Ship Around!",
+      "author": "L. David Marquet",
+      "classification": "leadership",
+      "summary": "Marquet recounts his experience of transforming the USS Santa Fe from the worst-performing submarine in its fleet to one of the best. He introduces a revolutionary approach to leadership, empowering his crew to take responsibility and lead in their areas of expertise."
+    },
+    {
+      "title": "Solve for Happy",
+      "author": "Mo Gawdat",
+      "classification": "business",
+      "summary": "Gawdat, a former Google executive, shares his personal equation for happiness, derived from his understanding of how the brain processes joy and sadness. 'Solve for Happy' is a mix of personal anecdotes, practical advice, and a touch of engineering analysis."
+    },
+    {
+      "title": "Thinking, Fast and Slow",
+      "author": "Daniel Kahneman",
+      "classification": "business",
+      "summary": "Nobel laureate Kahneman introduces two systems that drive the way we think: System 1 is fast, intuitive, and emotional; System 2 is slower, more deliberative, and more logical. The book explores how these two systems shape our judgments and decisions."
+    },
+    {
+      "title": "Sapiens",
+      "author": "Yuval Noah Harari",
+      "classification": "business",
+      "summary": "Harari chronicles the history of humankind from the Stone Age to the present. 'Sapiens' delves into how Homo sapiens prevailed over other species, the development of societies, and the challenges and opportunities of our future."
+    },
+    {
+      "title": "The Service Startup",
+      "author": "Tenny Pinheiro",
+      "classification": "business",
+      "summary": "Pinheiro introduces the Lean Service Design methodology, blending the lean startup approach with service design thinking. The book provides a step-by-step framework for creating services that truly meet customers' needs."
+    },
+    {
+      "title": "Never Split the Difference",
+      "author": "Chris Voss",
+      "classification": "business",
+      "summary": "Voss, a former FBI hostage negotiator, offers negotiation strategies rooted in human psychology. He provides principles and tactics for negotiating effectively in high-stakes situations as well as in everyday life."
+    },
+    {
+      "title": "How to Win Friends & Influence People",
+      "author": "Dale Carnegie",
+      "classification": "leadership",
+      "summary": "Carnegie's timeless classic provides practical advice on how to communicate effectively, lead efficiently, and enhance interpersonal relationships. The book emphasizes the importance of empathy, genuine interest in others, and the power of appreciation."
+    },
+    {
+      "title": "Sprint",
+      "author": "Jake Knapp",
+      "classification": "business",
+      "summary": "Jake Knapp, with co-authors from Google Ventures, introduces a unique five-day process for solving tough problems and testing new ideas. 'Sprint' offers a transformative formula for testing ideas that any team can use to deliver results faster."
+    },
+    {
+      "title": "Inspired",
+      "author": "Marty Cagan",
+      "classification": "business",
+      "summary": "Marty Cagan shares insights into how today's most successful tech companies like Apple, Netflix, Google, and Amazon design and develop products. 'Inspired' provides valuable techniques for creating products that customers love."
+    },
+    {
+      "title": "Project to Product: How to Survive and Thrive in the Age of Digital Disruption with the Flow Framework",
+      "author": "Mik Kersten",
+      "classification": "agile",
+      "summary": "Mik Kersten introduces the Flow Framework—a new way of building an infrastructure for innovation that enables traditional companies to adapt and thrive in the digital age. The book outlines a shift from project to product-centric approaches."
+    },
+    {
+      "title": "Measure What Matters",
+      "author": "John Doerr",
+      "classification": "leadership",
+      "summary": "John Doerr presents a revolutionary approach to goal-setting and performance improvement through Objectives and Key Results (OKRs). 'Measure What Matters' illustrates how organizations can implement OKRs to drive success and operational excellence."
+    },
+    {
+      "title": "Leaders Eat Last",
+      "author": "Simon Sinek",
+      "classification": "leadership",
+      "summary": "Simon Sinek explores how great leaders inspire action and build environments where people feel trusted and valued, leading to more cooperative and successful organizations. The book underscores the importance of leaders taking care of their teams."
+    },
+    {
+      "title": "The Lean Product Playbook",
+      "author": "Dan Olsen",
+      "classification": "business",
+      "summary": "Dan Olsen offers a repeatable, easy-to-follow process for iterating on product ideas, validating market needs, and creating products that resonate with customers. 'The Lean Product Playbook' provides a step-by-step guide to lean product development."
+    },
+    {
+      "title": "Originals",
+      "author": "Adam Grant",
+      "classification": "business",
+      "summary": "Adam Grant examines how individuals can champion new ideas and how leaders can fight groupthink. 'Originals' provides striking insights into rejecting conformity and improving the status quo with original thinking."
+    },
+    {
+      "title": "The Fifth Discipline",
+      "author": "Peter M. Senge",
+      "classification": "business",
+      "summary": "Peter M. Senge introduces the concept of the learning organization, which adapts and grows in a continually changing environment. 'The Fifth Discipline' outlines five practices essential for building such organizations, emphasizing systems thinking as the cornerstone."
+    },
+    {
+      "title": "It Doesn't Have to Be Crazy at Work",
+      "author": "Jason Fried",
+      "classification": "business",
+      "summary": "Fried and Heinemeier Hansson challenge the conventional beliefs about work culture, arguing against long hours and chaotic work environments. They advocate for a calmer, more balanced approach to work that prioritizes effectiveness and health."
+    },
+    {
+      "title": "Jobs to Be Done: A Roadmap for Customer-Centered Innovation",
+      "author": "Stephen Wunker",
+      "classification": "business",
+      "summary": "Wunker, along with Jessica Wattman and David Farber, introduce the 'Jobs to Be Done' theory, which focuses on understanding customers' needs and the 'jobs' they hire products to do. This framework helps in developing more innovative and customer-focused solutions."
+    },
+    {
+      "title": "Radical Candor: Be a Kick-Ass Boss Without Losing Your Humanity",
+      "author": "Kim Scott",
+      "classification": "leadership",
+      "summary": "Scott presents a guide for leaders to be effective while maintaining humanity. Radical Candor is about caring personally and challenging directly, improving how to give feedback, make decisions, and ensure that team members grow professionally."
+    },
+    {
+      "title": "Thinking for a Living: How to Get Better Performances And Results from Knowledge Workers",
+      "author": "Thomas H. Davenport",
+      "classification": "business",
+      "summary": "Davenport explores strategies for managing and improving the productivity of knowledge workers. The book offers insights into leveraging the intellectual capital of organizations for competitive advantage."
+    },
+    {
+      "title": "The Culture Code: The Secrets of Highly Successful Groups",
+      "author": "Daniel Coyle",
+      "classification": "leadership",
+      "summary": "Coyle delves into the dynamics of successful groups, uncovering skills and practices that lead to trust and cooperation. He provides examples from various organizations to show how culture can drive success."
+    },
+    {
+      "title": "Getting Things Done: The Art of Stress-Free Productivity",
+      "author": "David Allen",
+      "classification": "business",
+      "summary": "Allen introduces a work-life management system that has revolutionized how individuals approach productivity and organization. The GTD method helps reduce stress by capturing tasks externally and breaking them into actionable work items."
+    },
+    {
+      "title": "The Hard Thing About Hard Things: Building a Business When There Are No Easy Answers",
+      "author": "Ben Horowitz",
+      "classification": "business",
+      "summary": "Horowitz shares wisdom from his experiences as a startup founder and venture capitalist, addressing the tough decisions and challenges leaders face. The book offers valuable advice on building and running a startup."
+    },
+    {
+      "title": "The Talent Code: Greatness Isn't Born. It's Grown. Here's How.",
+      "author": "Daniel Coyle",
+      "classification": "leadership",
+      "summary": "Coyle investigates talent hotbeds and uncovers how deep practice, ignition, and master coaching contribute to excellence. The book provides insights into developing skills and nurturing talent effectively."
+    },
+    {
+      "title": "Talk Like TED: The 9 Public-Speaking Secrets of the World's Top Minds",
+      "author": "Carmine Gallo",
+      "classification": "leadership",
+      "summary": "Gallo analyzes the most popular TED Talks to identify the elements that make them compelling. He offers tips and techniques for effective public speaking, inspired by the best TED presenters."
+    },
+    {
+      "title": "Pitch Perfect: How to Say It Right the First Time, Every Time",
+      "author": "Bill McGowan",
+      "classification": "business",
+      "summary": "McGowan provides techniques for delivering persuasive and compelling messages, whether in speeches, interviews, or everyday communications. The book teaches how to craft the right message and deliver it confidently."
+    },
+    {
+      "title": "Toyota Kata: Managing People for Improvement, Adaptiveness and Superior Results",
+      "author": "Mike Rother",
+      "classification": "business",
+      "summary": "Rother explains the managerial approaches used by Toyota to foster continuous improvement and adaptiveness. Through the Improvement Kata and Coaching Kata, the book presents a structured method for building a culture of continuous learning and improvement."
+    },
+    {
+      "title": "Linchpin: Are You Indispensable?",
+      "author": "Seth Godin",
+      "classification": "business",
+      "summary": "Godin challenges readers to become indispensable in their professional lives. He argues that being a 'linchpin'—an essential and unique contributor—is key to success in the modern economy, emphasizing creativity, leadership, and emotional intelligence."
+    },
+    {
+      "title": "The Four: The Hidden DNA of Amazon, Apple, Facebook, and Google",
+      "author": "Scott Galloway",
+      "classification": "business",
+      "summary": "Galloway examines the strategies and influence of the four most powerful tech companies. He explores how these companies have reshaped the economy and culture, and what their dominance means for future innovation and competition."
+    },
+    {
+      "title": "Accelerate: Building and Scaling High Performing Technology Organizations",
+      "author": "Nicole Forsgren PhD",
+      "classification": "engineering",
+      "summary": "Forsgren, along with Jez Humble and Gene Kim, presents research-backed practices for building effective software delivery organizations. The book covers key metrics and capabilities that drive high performance in technology organizations."
+    },
+    {
+      "title": "Principles: Life and Work",
+      "author": "Ray Dalio",
+      "classification": "leadership",
+      "summary": "Dalio shares the guiding principles that he developed over his career for making decisions in life and business. He offers a framework for achieving goals, handling challenges, and building strong teams based on his experiences."
+    },
+    {
+      "title": "The Personal MBA: Master the Art of Business",
+      "author": "Josh Kaufman",
+      "classification": "business",
+      "summary": "Kaufman provides a comprehensive overview of essential business concepts and practices. The book is designed as an alternative to traditional MBA programs, focusing on practical knowledge and skills for entrepreneurs and business professionals."
+    },
+    {
+      "title": "How to Measure Anything: Finding the Value of 'Intangibles' in Business",
+      "author": "Douglas W. Hubbard",
+      "classification": "business",
+      "summary": "Hubbard demystifies the process of measuring complex, seemingly immeasurable concepts in business. He introduces quantitative techniques and tools for making informed decisions and assessing risks."
+    },
+    {
+      "title": "Making Work Visible: Exposing Time Theft to Optimize Work & Flow",
+      "author": "Dominica Degrandis",
+      "classification": "agile",
+      "summary": "Degrandis addresses the issue of work visibility in organizations, offering techniques for identifying and reducing time theft. The book promotes practices that improve workflow and efficiency, particularly in Agile and Lean environments."
+    },
+    {
+      "title": "Start with Why: How Great Leaders Inspire Everyone to Take Action",
+      "author": "Simon Sinek",
+      "classification": "leadership",
+      "summary": "Sinek explores the importance of understanding the 'why' behind actions and decisions. He argues that leaders who start with 'why' are able to inspire deeper motivation and commitment from their teams and customers."
+    },
+    {
+      "title": "A Seat at the Table: IT Leadership in the Age of Agility",
+      "author": "Mark Schwartz",
+      "classification": "agile",
+      "summary": "Schwartz discusses the evolving role of IT leadership within agile organizations. He advocates for IT leaders to embrace Agile and Lean principles to drive digital transformation and contribute to strategic decision-making."
+    },
+    {
+      "title": "Lean In: Women, Work, and the Will to Lead",
+      "author": "Sheryl Sandberg",
+      "classification": "leadership",
+      "summary": "Sandberg examines the challenges facing women in the workplace and offers advice on navigating career paths, achieving goals, and advocating for leadership roles. She encourages women to 'lean in' to opportunities and pursue their ambitions."
+    },
+    {
+      "title": "The Five Dysfunctions of a Team: A Leadership Fable",
+      "author": "Patrick Lencioni",
+      "classification": "leadership",
+      "summary": "Lencioni uses a fable to explore the common challenges that teams face, identifying five dysfunctions that hinder performance. He provides a model and actionable steps for building cohesive, effective teams."
+    },
+    {
+      "title": "The Happiness Advantage: How a Positive Brain Fuels Success in Work and Life",
+      "author": "Shawn Achor",
+      "classification": "business",
+      "summary": "Shawn Achor presents the idea that happiness actually fuels success, not the other way around. Drawing on research in the field of positive psychology, Achor provides actionable strategies for increasing happiness and thus improving performance and outcomes in the workplace."
+    },
+    {
+      "title": "Scrum: The Art of Doing Twice the Work in Half the Time",
+      "author": "Jeff Sutherland",
+      "classification": "agile",
+      "summary": "Jeff Sutherland, co-creator of Scrum, explains how the Scrum methodology can improve productivity and deliver results in any organization. Through case studies and insights, Sutherland illustrates the principles and practices that make Scrum so effective for project management and product development."
+    },
+    {
+      "title": "Work Rules! Insights from Inside Google That Will Transform How You Live and Lead",
+      "author": "Laszlo Bock",
+      "classification": "business",
+      "summary": "Laszlo Bock, former SVP of People Operations at Google, shares the data-driven human resources practices that have made Google one of the world's most desirable places to work. He offers principles and tools for creating a similar culture of innovation and happiness in other organizations."
+    },
+    {
+      "title": "Drive: The Surprising Truth About What Motivates Us",
+      "author": "Daniel H. Pink",
+      "classification": "business",
+      "summary": "Daniel H. Pink examines the three elements of true motivation—autonomy, mastery, and purpose—and offers smart and surprising techniques for putting these into action. 'Drive' discusses the mismatch between what science knows and what business does, offering a new vision for the workplace."
+    },
+    {
+      "title": "Crucial Conversations: Tools for Talking When Stakes Are High",
+      "author": "Kerry Patterson",
+      "classification": "leadership",
+      "summary": "This book provides readers with the tools to handle life's most difficult and important conversations. Patterson, along with his co-authors, offers techniques for ensuring positive outcomes in high-stakes conversations, both in and out of the workplace."
+    },
+    {
+      "title": "Multipliers: How the Best Leaders Make Everyone Smarter",
+      "author": "Liz Wiseman",
+      "classification": "leadership",
+      "summary": "Liz Wiseman explores the leadership style of 'Multipliers'—leaders who use their intelligence to amplify the smarts and capabilities of the people around them. The book contrasts these leaders with 'Diminishers' and provides practical ways to become a Multiplier."
+    },
+    {
+      "title": "The Coaching Habit: Say Less, Ask More & Change the Way You Lead Forever",
+      "author": "Michael Bungay Stanier",
+      "classification": "leadership",
+      "summary": "Michael Bungay Stanier teaches managers to coach in a way that fosters great teamwork and achieves results. The book focuses on breaking out of habitual patterns and becoming more effective through the power of good questions."
+    },
+    {
+      "title": "Algorithms to Live By: The Computer Science of Human Decisions",
+      "author": "Brian Christian",
+      "classification": "engineering",
+      "summary": "Brian Christian and Tom Griffiths show how algorithms developed for computers can be applied to our everyday lives, helping to solve common decision-making problems and understanding the human mind's computational limitations."
+    },
+    {
+      "title": "The Phoenix Project: A Novel About IT, DevOps, and Helping Your Business Win",
+      "author": "Gene Kim",
+      "classification": "engineering",
+      "summary": "Gene Kim, Kevin Behr, and George Spafford use a fictional narrative to explore the benefits of DevOps practices. The story illustrates how an IT department can overcome challenges to help a business succeed in a digital world."
+    },
+    {
+      "title": "The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life",
+      "author": "Mark Manson",
+      "classification": "leadership",
+      "summary": "Manson delivers a blunt reality check, arguing that we need to fundamentally change our priorities. Focusing on only what's truly important allows us to live more fulfilling lives."
+    },
+    {
+      "title": "Switch: How to Change Things When Change Is Hard",
+      "author": "Dan Heath",
+      "classification": "business",
+      "summary": "Dan Heath and Chip Heath explore the difficulties of making significant changes in our lives, businesses, and communities. 'Switch' provides insights into the psychological barriers to change and strategies for overcoming them."
+    },
+    {
+      "title": "2 Second Lean: How to Grow People and Build a Fun Lean Culture at Work & at Home, 3rd Edition",
+      "author": "Paul A. Akers",
+      "classification": "business",
+      "summary": "Paul A. Akers offers a simple, effective framework for implementing lean principles in any environment. By focusing on small, continuous improvements, Akers shows how to create a more efficient, engaged, and enjoyable workplace."
+    },
+    {
+      "title": "You Are a Badass: How to Stop Doubting Your Greatness and Start Living an Awesome Life",
+      "author": "Jen Sincero",
+      "classification": "business",
+      "summary": "Sincero provides a refreshing take on self-help, with actionable advice to help readers overcome doubts, fears, and excuses to become their most badass selves. The book is both humorous and inspiring."
+    },
+    {
+      "title": "Manager 3.0: A Millennial's Guide to Rewriting the Rules of Management",
+      "author": "Brad Karsh",
+      "classification": "leadership",
+      "summary": "Brad Karsh and Courtney Templin address the challenges and opportunities faced by millennial managers. 'Manager 3.0' offers guidance on navigating the modern workplace and leading teams in an era of rapid change."
+    },
+    {
+      "title": "Death by Meeting: A Leadership Fable...About Solving the Most Painful Problem in Business",
+      "author": "Patrick Lencioni",
+      "classification": "leadership",
+      "summary": "Lencioni tackles the universal issue of wasteful meetings through a fable. He proposes a revolutionary model for conducting meetings that are more engaging, effective, and enjoyable."
+    },
+    {
+      "title": "Zero to One: Notes on Startups, or How to Build the Future",
+      "author": "Peter Thiel",
+      "classification": "business",
+      "summary": "Peter Thiel, with Blake Masters, challenges the status quo of innovation, advocating for the pursuit of unique and groundbreaking ideas that move society from 'zero to one' rather than following incremental progress."
+    },
+    {
+      "title": "Nonviolent Communication: A Language of Life",
+      "author": "Marshall Rosenberg PhD",
+      "classification": "leadership",
+      "summary": "Rosenberg introduces a compassionate communication method that can resolve conflicts, build deeper connections, and foster mutual respect and understanding. This approach emphasizes listening empathetically and expressing oneself honestly."
+    },
+    {
+      "title": "The Innovator's Dilemma: When New Technologies Cause Great Firms to Fail",
+      "author": "Clayton M. Christensen",
+      "classification": "business",
+      "summary": "This groundbreaking book by Clayton M. Christensen introduces the concept of disruptive innovation, explaining how companies can be toppled by smaller startups with fewer resources. It challenges traditional business practices and offers strategies for companies to remain competitive and innovative. Christensen uses case studies from different industries to illustrate how recognizing and embracing disruptive technologies can lead to success."
+    },
+    {
+      "title": "Leadership Secrets of Attila the Hun",
+      "author": "Wess Roberts",
+      "classification": "leadership",
+      "summary": "Wess Roberts' book draws unusual but insightful parallels between the leadership strategies of the notorious 5th-century ruler, Attila the Hun, and modern leadership practices. It presents leadership lessons derived from Attila's reign and applies them to contemporary leadership challenges, focusing on the importance of loyalty, determination, and strategic vision. The book is both an intriguing look at a historical figure and a guide to effective leadership skills."
+    },
+    {
+      "title": "The Advantage: Why Organizational Health Trumps Everything Else In Business",
+      "author": "Patrick Lencioni",
+      "classification": "business",
+      "summary": "Patrick Lencioni's 'The Advantage' focuses on the foundational element of successful organizations: organizational health. Lencioni argues that a healthy organization, characterized by unity, clarity, and good communication, is the ultimate competitive advantage in business. Through a practical model and actionable steps, the book guides leaders in creating and maintaining a healthy organizational culture, leading to sustained success."
+    },
+    {
+      "title": "The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses",
+      "author": "Eric Ries",
+      "classification": "business",
+      "summary": "Eric Ries introduces the concept of the Lean Startup, a methodology that helps entrepreneurs to efficiently build a startup by developing products that consumers actually want. It emphasizes the importance of agile development, minimal viable products (MVPs), and validated learning through customer feedback. The book is a guide for startups to achieve their business goals with less waste and greater efficiency."
+    },
+    {
+      "title": "The Toyota Way: 14 Management Principles from the World's Greatest Manufacturer",
+      "author": "Jeffrey Liker",
+      "classification": "engineering",
+      "summary": "Jeffrey Liker explores the management principles and business philosophy behind Toyota's unparalleled success in manufacturing and beyond. 'The Toyota Way' details 14 foundational principles that have made Toyota one of the most successful companies in the world, emphasizing continuous improvement, respect for people, and a long-term approach to work. It provides insights into applying these principles to various businesses to achieve sustained growth and improvement."
+    }
+  ]
+}

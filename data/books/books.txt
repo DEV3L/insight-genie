@@ -1,0 +1,79 @@
+- Refactoring
+- Working Effectively with Legacy Code
+- The Art of Agile Development
+- The Art of Scalability
+- Production Ready Microservices
+- Continuous Delivery
+- The DevOps Handbook
+- Pragmatic Thinking & Learning
+- Five Lines of Code
+- Extreme Programming Explained
+- Clean Code
+- The Clean Coder
+- Clean Architecture
+- Coaching Agile Teams
+- Clean Approaches for Coaches
+- Scrum: A Breathtaking Brief and Agile Introduction
+- Flow by Fin Goulding
+- Accuracy and Precision for Long Range Shooting by Bryan Litz
+- Perfect Strangers How Project Managers and Developers Relate & Succeed
+- Explore It!
+- Agile Retrospectives
+- Pragmatic Thinking & Learning
+- Object Thinking
+- Head First Kotlin
+- Cracking the Coding Interview
+- Practical Node.js
+- Cracking the PM Interview
+- Beginning Node.js
+- TypeScript Quickly
+- React for Real
+- Data Science from Scratch
+- Terraform: Up & Running
+- Effective Python
+- Effective C#
+- Fluent Python
+- Learning Swift
+- The Well-Grounded Rubyist
+- Computer Organization and Design
+- Unix Power Tools
+- UML Distilled
+- Concepts of Programming Languages
+- Software Engineer A Practioner's Approach
+- Progrmming .NET
+- Unix Systems Programming
+- Thinking in C++
+- Database Systems The Complete Book
+- Operating Systems
+- Big Java
+- Java How to Programming
+- Data Structures & Algorithms Java
+- Project to Product
+- The Startup Way
+- The Tangled Web
+- Lean Analytics
+- Grokking Algorithms
+- Head First Design Patterns
+- The Mythical Man Month
+- User Story Mapping
+- Inspired How to Create Products Customers Love
+- Deep Work
+- Atomic Habits
+- It Doesn't Have to be Crazy at Work
+- The Hard Hat
+- Marcus Aurelius Meditations
+- The Gentle Art of Swedish Death Cleaning
+- The Art of Saying No
+- How F*cked up is Your Management
+- Leading with Obeya
+- Managing for Happiness
+- Philosophy History and Problems
+- Pyschology Applied to Modern Life
+- Essentials of Corporate Finance
+- Marketing the Core
+- Management Principles & Concepts
+- Classical Myth
+- Perspectives on Argument
+- Probability and Statistics
+- Calculus
+- Discrete Mathematics with Applications

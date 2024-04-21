@@ -1,0 +1,11 @@
+I am going to give you a list of books. 
+Can you return to me information about each of the books in JSON using the following structure:
+
+```json
+{ 
+"title": "the full title of the book",
+"author": "the author of the book",
+"classification": "engineering, agile, leadership, or business",
+"summary": "a descriptive summary"
+}
+```
