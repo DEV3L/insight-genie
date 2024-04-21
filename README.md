@@ -4,6 +4,8 @@ Your expert craftsman for software wisdom, agile insights, and leadership.
 
 [Assistants API Beta](https://platform.openai.com/docs/assistants/overview)
 
+![Insight Genie](data/about/insight_genie.png)
+
 ## Product Definition
 
 **InsightGenie** - Harnessing conversational AI for unparalleled content creativity.
