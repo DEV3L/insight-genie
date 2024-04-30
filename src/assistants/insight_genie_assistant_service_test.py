@@ -28,7 +28,7 @@ class TestInsightGenieAssistantService(TestCase):
         self.mock_client.assistants_list.assert_called_once()
         self.mock_client.assistants_create.assert_not_called()
 
-    @patch("src.assistants.insight_genie_assistant_service.get_insight_genie_prompt")
+    @patch("src.assistants.insight_genie_assistant_service.get_prompt")
     def test_get_assistant_id_create(self, mock_get_prompt):
         self.mock_client.assistants_list = MagicMock(return_value=[])
         self.mock_client.assistants_create = MagicMock(return_value=MagicMock(id="789"))

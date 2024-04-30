@@ -4,7 +4,7 @@ from loguru import logger
 
 from src.clients.openai_api import OpenAIClient
 from src.exporters.exporter import DATA_FILE_PREFIX
-from src.prompts.prompt import get_insight_genie_prompt
+from src.prompts.prompt import get_prompt
 
 ASSISTANT_NAME = "Jasper Bell - Insight Genie"
 
@@ -33,7 +33,7 @@ class InsightGenieAssistantService:
     def _create_assistant(self):
         logger.info(f"Creating new assistant {self.assistant_name}")
 
-        instructions = get_insight_genie_prompt()
+        instructions = get_prompt()
 
         return self.client.assistants_create(self.assistant_name, instructions, self.get_vector_store_ids()).id
 
