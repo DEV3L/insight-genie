@@ -11,16 +11,16 @@ from src.exporters.exporter import (
     does_data_exist,
 )
 
-FILE_NAME = "about_insight_genie.txt"
+FILE_NAME = "about.txt"
 
 
-class InsightGenieExporter:
+class AboutExporter:
     def export(self):
         if does_data_exist(self.get_file_path()):
-            logger.info("About Insight Genie data exits. Skipping export.")
+            logger.info("About data exits. Skipping export.")
             return
 
-        logger.info("Exporting About Insight Genie data")
+        logger.info("Exporting About data")
         create_dir(self.get_dir_path(), self.get_file_path())
         self.write_data()
 
@@ -28,7 +28,7 @@ class InsightGenieExporter:
         source_path = f"{DATA_DIR}/about/{FILE_NAME}"
         shutil.copy(source_path, self.get_file_path())
 
-        logger.info(f"About Insight Genie data written to file: {self.get_file_path()}")
+        logger.info(f"About data written to file: {self.get_file_path()}")
 
     def get_dir_path(self):
         return os.path.join(

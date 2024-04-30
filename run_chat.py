@@ -1,12 +1,12 @@
 from loguru import logger
 
-from src.assistants.insight_genie_assistant_service import (
+from src.assistants.assistant_service import (
     ASSISTANT_NAME,
-    InsightGenieAssistantService,
+    AssistantService,
 )
 from src.chats.chat import Chat
 from src.clients.openai_api import OpenAIClient, build_openai_client
-from src.exporters.about.insight_genie_exporter import InsightGenieExporter
+from src.exporters.about.about_exporter import AboutExporter
 from src.exporters.about.persona_exporter import PersonaExporter
 from src.exporters.books.books_exporter import BooksExporter
 from src.exporters.linkedin.profile_exporter import ProfileExporter
@@ -18,8 +18,8 @@ START_MESSAGE = """Hello."""
 
 
 def export_data():
+    AboutExporter().export()
     BooksExporter().export()
-    InsightGenieExporter().export()
     PersonaExporter().export()
     ProfileExporter().export()
 
@@ -30,7 +30,7 @@ def main():
     export_data()
 
     client = OpenAIClient(build_openai_client())
-    service = InsightGenieAssistantService(client)
+    service = AssistantService(client)
 
     if SHOULD_DELETE_ASSISTANT:
         logger.info("Removing existing assistant and category files")

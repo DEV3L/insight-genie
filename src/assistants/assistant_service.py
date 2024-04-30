@@ -11,7 +11,7 @@ ASSISTANT_NAME = "Jasper Bell - Insight Genie"
 ASSISTANT_DESCRIPTION = "Transforms structured knowledge into daily tech insights using AI"
 
 
-class InsightGenieAssistantService:
+class AssistantService:
     client: OpenAIClient
     assistant_name: str
 
