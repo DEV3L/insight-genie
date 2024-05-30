@@ -1,5 +1,6 @@
 {
   "recommendations": [
+    "anysphere.pyright",
     "charliermarsh.ruff",
     "github.copilot-chat",
     "github.copilot",
