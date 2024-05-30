@@ -13,8 +13,7 @@ from src.exporters.linkedin.profile_exporter import ProfileExporter
 
 SHOULD_DELETE_ASSISTANT = False
 
-
-START_MESSAGE = """Hello."""
+START_MESSAGE = """"""
 
 
 def export_data():
@@ -43,13 +42,14 @@ def main():
     chat = Chat(
         client,
         assistant_id,
-        start_message=START_MESSAGE,
         # thread_id="abc",
     )
 
-    start_response = chat.start()
+    chat.start()
 
-    print(f"\n{service.assistant_name}:\n{start_response}")
+    if START_MESSAGE:
+        start_response = chat.send_user_message(START_MESSAGE)
+        print(f"\n{service.assistant_name}:\n{start_response}")
 
     while True:
         user_message = input("\nMessage: ")
