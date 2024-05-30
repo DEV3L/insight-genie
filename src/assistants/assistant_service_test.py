@@ -74,13 +74,13 @@ class TestAssistantService(TestCase):
     def test_get_retrieval_file_ids_exists(self):
         self.mock_client.files_list = MagicMock(
             return_value=[
-                MagicMock(filename="insight_genie_blogs.json", id="456"),
+                MagicMock(filename="insight_genie vector store", id="654"),
             ]
         )
 
         result = self.service.get_retrieval_file_ids()
 
-        assert result == ["456"]
+        assert result == ["654"]
         self.mock_client.files_list.assert_called_once()
         self.mock_client.files_create.assert_not_called()
 

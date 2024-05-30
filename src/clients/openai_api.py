@@ -6,7 +6,7 @@ from openai import OpenAI
 
 from src.timer.timer import timer
 
-OPENAI_MODEL = "gpt-4-turbo"
+OPENAI_MODEL = "gpt-4o"
 
 RETRIEVAL_TOOLS = [
     {"type": "file_search"},
@@ -14,7 +14,7 @@ RETRIEVAL_TOOLS = [
 
 
 def build_openai_client():
-    return OpenAI(timeout=45)
+    return OpenAI(timeout=90)
 
 
 class OpenAIClient:
@@ -22,8 +22,8 @@ class OpenAIClient:
         self.open_ai = open_ai
 
     @timer("OpenAIClient.threads_create")
-    def threads_create(self, messages: list[dict]):
-        return self.open_ai.beta.threads.create(messages=messages)
+    def threads_create(self):
+        return self.open_ai.beta.threads.create()
 
     @timer("OpenAIClient.messages_list")
     def messages_list(self, thread_id: str):
@@ -31,11 +31,19 @@ class OpenAIClient:
 
     @timer("OpenAIClient.messages_create")
     def messages_create(self, thread_id: str, content: str, role: str):
-        return self.open_ai.beta.threads.messages.create(thread_id=thread_id, content=content, role=role)
+        return self.open_ai.beta.threads.messages.create(
+            thread_id=thread_id,
+            content=content,
+            role=role,
+        )
 
-    @timer("OpenAIClient.runs_create")
-    def runs_create(self, thread_id: str, assistant_id: str):
-        return self.open_ai.beta.threads.runs.create(thread_id=thread_id, assistant_id=assistant_id)
+    @timer("OpenAIClient.runs_create_and_poll")
+    def runs_create(self, assistant_id: str, thread_id: str, should_force_tool_call: bool):
+        return self.open_ai.beta.threads.runs.create_and_poll(
+            assistant_id=assistant_id,
+            thread_id=thread_id,
+            tool_choice={"type": "file_search"} if should_force_tool_call else None,
+        )
 
     @timer("OpenAIClient.runs_retrieve")
     def runs_retrieve(self, run_id: str, thread_id: str):

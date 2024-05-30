@@ -43,7 +43,11 @@ class AssistantService:
     def _find_existing_vector_stores(self):
         vector_stores = self.client.vector_stores_list()
 
-        return [vector_store.id for vector_store in vector_stores if vector_store.name.startswith(DATA_FILE_PREFIX)]
+        return [
+            vector_store.id
+            for vector_store in vector_stores
+            if vector_store.name and vector_store.name.startswith(DATA_FILE_PREFIX)
+        ]
 
     def create_vector_stores(self):
         logger.info("Creating new vector stores")
