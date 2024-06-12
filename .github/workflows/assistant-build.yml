@@ -1,4 +1,4 @@
-name: Run Assistant
+name: Build Assistant
 
 on:
   workflow_dispatch:
