@@ -1,5 +1,6 @@
 import time
 from io import BufferedReader
+from typing import Literal
 
 from loguru import logger
 from openai import OpenAI
@@ -30,7 +31,7 @@ class OpenAIClient:
         return self.open_ai.beta.threads.messages.list(thread_id)
 
     @timer("OpenAIClient.messages_create")
-    def messages_create(self, thread_id: str, content: str, role: str):
+    def messages_create(self, thread_id: str, content: str, role: Literal["user", "assistant"]):
         return self.open_ai.beta.threads.messages.create(
             thread_id=thread_id,
             content=content,
@@ -79,7 +80,7 @@ class OpenAIClient:
         return self.open_ai.files.list()
 
     @timer("OpenAIClient.files_create")
-    def files_create(self, file: BufferedReader, purpose: str):
+    def files_create(self, file: BufferedReader, purpose: Literal["assistants", "batch", "fine-tune"]):
         return self.open_ai.files.create(file=file, purpose=purpose)
 
     @timer("OpenAIClient.files_delete")

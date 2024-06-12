@@ -6,10 +6,8 @@ from src.assistants.assistant_service import (
 )
 from src.chats.chat import Chat
 from src.clients.openai_api import OpenAIClient, build_openai_client
-from src.exporters.about.about_exporter import AboutExporter
-from src.exporters.about.persona_exporter import PersonaExporter
 from src.exporters.books.books_exporter import BooksExporter
-from src.exporters.linkedin.profile_exporter import ProfileExporter
+from src.exporters.files.files_exporter import FilesExporter
 
 SHOULD_DELETE_ASSISTANT = False
 
@@ -17,10 +15,10 @@ START_MESSAGE = """"""
 
 
 def export_data():
-    AboutExporter().export()
     BooksExporter().export()
-    PersonaExporter().export()
-    ProfileExporter().export()
+    FilesExporter("about.txt").export()
+    FilesExporter("persona.txt").export()
+    FilesExporter("profile.txt").export()
 
 
 def main():

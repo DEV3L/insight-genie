@@ -12,14 +12,14 @@ TOOL_CALL_PREFIX = "tc!"
 class Chat:
     client: OpenAIClient
     assistant_id: str
-    thread_id: str
+    thread_id: str | None
 
     def __init__(
         self,
         client: OpenAIClient,
         assistant_id: str,
         *,
-        thread_id: str = None,
+        thread_id: str | None = None,
     ):
         self.client = client
         self.assistant_id = assistant_id
@@ -62,7 +62,11 @@ class Chat:
         raise RuntimeError(f"Run timed out after {timeout_in_seconds} seconds")
 
     def last_message(self) -> str:
-        return self._get_messages()[0].content[0].text.value
+        message_content = self._get_messages()[0].content[0]
+        if hasattr(message_content, "text"):
+            return message_content.text.value
+
+        raise RuntimeError("No text content found in the messages")
 
     def _get_messages(self):
         return self.client.messages_list(self.thread_id).data

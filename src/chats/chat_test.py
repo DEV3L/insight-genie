@@ -2,6 +2,8 @@ from unittest import TestCase
 from unittest.mock import MagicMock, patch
 
 import pytest
+from openai.types.beta.threads.text import Text
+from openai.types.beta.threads.text_content_block import TextContentBlock
 
 from src.chats.chat import Chat
 
@@ -101,6 +103,21 @@ class TestChat(TestCase):
 
         assert result == "Hello"
         self.mock_client.messages_list.assert_called_once_with("thread_id")
+
+    def test_last_message_with_text_content(self):
+        self.chat._get_messages = MagicMock(
+            return_value=[
+                MagicMock(content=[TextContentBlock(text=Text(annotations=[], value="Hello, world!"), type="text")])
+            ]
+        )
+        assert self.chat.last_message() == "Hello, world!"
+
+    def test_last_message_with_no_text_content(self):
+        not_text = MagicMock()
+        delattr(not_text, "text")
+        self.chat._get_messages = MagicMock(return_value=[MagicMock(content=[not_text])])
+        with pytest.raises(RuntimeError, match="No text content found in the messages"):
+            self.chat.last_message()
 
     def test_remove_tool_call_from_message(self):
         assert self.chat.remove_tool_call_from_message("tc! call") == " call"

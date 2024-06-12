@@ -1,6 +1,6 @@
 # Persona
 
-![Jasper Bell](data/about/jasper_bell.png)
+![Jasper Bell](data/files/jasper_bell.png)
 
 ## Name
 

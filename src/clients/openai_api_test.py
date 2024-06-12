@@ -110,7 +110,7 @@ class TestOpenAIClient(TestCase):
 
     def test_files_create(self):
         file = MagicMock()
-        purpose = "purpose"
+        purpose = "assistants"
 
         self.client.files_create(file, purpose)
 
