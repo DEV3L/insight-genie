@@ -1,13 +1,14 @@
-from loguru import logger
-
-from src.assistants.assistant_service import (
-    ASSISTANT_NAME,
+from ai_assistant_manager.assistants.assistant_service import (
     AssistantService,
 )
-from src.chats.chat import Chat
-from src.clients.openai_api import OpenAIClient, build_openai_client
+from ai_assistant_manager.chats.chat import Chat
+from ai_assistant_manager.clients.openai_api import OpenAIClient, build_openai_client
+from ai_assistant_manager.env_variables import ASSISTANT_NAME
+from ai_assistant_manager.exporters.files.files_exporter import FilesExporter
+from loguru import logger
+
 from src.exporters.books.books_exporter import BooksExporter
-from src.exporters.files.files_exporter import FilesExporter
+from src.prompts.prompt import get_prompt
 
 SHOULD_DELETE_ASSISTANT = False
 
@@ -27,7 +28,7 @@ def main():
     export_data()
 
     client = OpenAIClient(build_openai_client())
-    service = AssistantService(client)
+    service = AssistantService(client, get_prompt())
 
     if SHOULD_DELETE_ASSISTANT:
         logger.info("Removing existing assistant and category files")

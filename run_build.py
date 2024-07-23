@@ -1,12 +1,13 @@
-from loguru import logger
-
-from src.assistants.assistant_service import (
-    ASSISTANT_NAME,
+from ai_assistant_manager.assistants.assistant_service import (
     AssistantService,
 )
-from src.clients.openai_api import OpenAIClient, build_openai_client
+from ai_assistant_manager.clients.openai_api import OpenAIClient, build_openai_client
+from ai_assistant_manager.env_variables import ASSISTANT_NAME
+from ai_assistant_manager.exporters.files.files_exporter import FilesExporter
+from loguru import logger
+
 from src.exporters.books.books_exporter import BooksExporter
-from src.exporters.files.files_exporter import FilesExporter
+from src.prompts.prompt import get_prompt
 
 
 def export_data():
@@ -22,7 +23,7 @@ def main():
     export_data()
 
     client = OpenAIClient(build_openai_client())
-    service = AssistantService(client)
+    service = AssistantService(client, get_prompt())
 
     logger.info("Removing existing assistant and category files")
     service.delete_assistant()

@@ -1,9 +1,9 @@
 from unittest.mock import Mock, patch
 
 import pytest
+from ai_assistant_manager.env_variables import DATA_DIR, DATA_FILE_PREFIX
 
 from src.exporters.books.books_exporter import FILE_NAME, BooksExporter
-from src.exporters.exporter import DATA_DIR, DATA_FILE_PREFIX
 
 
 @pytest.fixture(name="exporter")
