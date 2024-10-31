@@ -1,160 +1,287 @@
 # Insight Genie
 
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/python-3.11%2B-blue)](https://www.python.org/downloads/)
+[![OpenAI Assistants API Beta](https://img.shields.io/badge/OpenAI-Assistants%20API%20Beta-orange)](https://platform.openai.com/docs/assistants/overview)
+[![Build Status](https://github.com/DEV3L/insight-genie/actions/workflows/continuous-integration.yml/badge.svg)](https://github.com/DEV3L/insight-genie/actions/workflows/continuous-integration.yml)
+
 Your expert craftsman for software wisdom, agile insights, and leadership.
 
-[Assistants API Beta](https://platform.openai.com/docs/assistants/overview)
+The full product definition can be found [here](Insight_Genie_Product_Definition.md).
 
 ![Insight Genie](data/files/insight_genie.png)
 
-## Product Definition
+## Table of Contents
 
-**InsightGenie** - Harnessing conversational AI for unparalleled content creativity.
+- [Introduction](#introduction)
+- [Why Insight Genie?](#why-insight-genie)
+- [Key Features](#key-features)
+- [Technology Stack](#technology-stack)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Testing](#testing)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
 
-Insight Genie leverages advanced conversational AI, embodying the latest in NLP, NLG, and ML technologies, to inspire and generate unique content. Perfect for creatives and professionals in the digital era, it transforms data and dialogue into insightful content across platforms.
+## Introduction
 
-Its persona can be found [here](persona.md).
+**Insight Genie** is a conversational AI platform designed to inspire and generate unique, insightful content. Leveraging advanced Natural Language Processing (NLP), Natural Language Generation (NLG), and Machine Learning (ML) technologies, it transforms data and dialogue into creative content across platforms. Perfect for creatives and professionals in the digital era, Insight Genie redefines content generation by fostering creativity through conversation.
 
-### Problem
+Discover more about the assistant's prompt [here](prompts/prompt.md).
 
-In a digital realm thirsty for fresh, engaging content, the challenge isn’t just generating content—it’s inspiring creativity. Insight Genie tackles this challenge head-on by leveraging conversational AI to transcend traditional content generation methods, empowering users to explore and create unique, insightful content effortlessly.
+## Why Insight Genie?
 
-### North Star
+In a digital world craving fresh and engaging content, traditional methods often fall short of inspiring true creativity. **Insight Genie** transcends these limitations by using conversational AI to empower users to effortlessly explore and create unique content that resonates on both personal and communal levels.
 
-The North Star for Insight Genie is to empower a community of users to consistently generate content that is not only unique and engaging but also deeply insightful. Success is measured by the platform’s ability to inspire continuous creative exploration and the generation of content that resonates on a personal and communal level.
+## Key Features
 
-### Product Vision
+### 🚀 Content Generation
 
-To become the leading platform in conversational AI-driven content generation, Insight Genie aims to merge the boundaries of technology and creativity. It envisions a future where every chatbot interaction sparks innovation, transforming every user into a creator, and every idea into impactful content.
+At the heart of Insight Genie is its ability to generate tailored, AI-crafted content based on your personal knowledge base and topic preferences. Whether you're seeking inspiration or looking to expand on specific ideas, Insight Genie delivers insightful content to meet your needs.
 
-### Business Case
+### 📥 Data Extraction and Integration
 
-Insight Genie represents a strategic solution for businesses and creatives seeking to elevate their content game. By automating the creative process with AI-driven dialogue, it not only optimizes content production but also engages audiences on a deeper level. This innovation in content strategy enhances online presence, fosters brand authenticity, and drives digital engagement, positioning Insight Genie as an invaluable tool in the competitive landscape of digital marketing and content creation.
+Enrich your content generation process by integrating knowledge from multiple sources:
 
-### Technology
+- **Twitter**: Analyze tweets and extract meaningful insights.
+- **LinkedIn**: Incorporate professional experiences and posts.
+- **GitHub**: Summarize codebases and projects.
+- **Personal Blogs**: Utilize existing content to generate new ideas.
 
-Insight Genie, fueled by the innovative power outlined in the discussions on conversational chatbots, leverages advanced technologies to inspire unique content creation:
+### 🤖 AI Assistant Management
 
-- **Natural Language Processing (NLP):** Forms the basis for understanding user input, breaking down language intricacies for deeper engagement.
+Leverage the power of OpenAI Assistants to enhance the content generation process. Insight Genie utilizes specialized libraries:
 
-- **Natural Language Generation (NLG):** Powers the chatbot’s ability to craft articulate, contextually relevant responses, enhancing the conversational flow.
+- **[ai-assistant-manager](https://github.com/DEV3L/ai-assistant-manager)**: Manages OpenAI Assistants, including creating, listing, and deleting assistants, as well as handling vector stores and retrieval files.
+- **[ai-code-summary](https://github.com/DEV3L/ai-code-summary)**: Automates the summarization of code files into markdown format, leveraging GPT models for concise summaries.
 
-- **Machine Learning (ML):** Ensures continuous improvement from interactions, refining the chatbot’s responses to foster creativity and exploration.
+### 🖼️ Image Analysis and Description
 
-- **OpenAI Assistants:** Utilized for their advanced conversational capabilities, OpenAI Assistants manage contextual conversations, making interactions more insightful.
+Process and analyze images to extract valuable information:
 
-- **APIs for Dynamic Data Retrieval:** Enrich the chatbot’s knowledge base, ensuring content suggestions and insights are grounded in the most current and relevant information available.
+- Generate descriptions of images from tweets or other sources.
+- Use AI to interpret diagrams, charts, and other visual content.
 
-This technology stack not only supports the vision of Insight Genie to revolutionize content generation through conversational AI but also aligns with the broader goal of enhancing digital creativity and interaction, as envisioned in the articles by Justin Beall.
+### 👥 Collaborative Creativity and Feedback Integration
 
-### Key Features
+Foster a dynamic and inventive community by collaborating with other users. Incorporate feedback into the AI's creative process to continuously improve content generation and encourage shared creativity.
 
-#### Content Generation
+### 📈 Analytics and Insight Generation
 
-The core of InsightGenie, allowing users to generate tailored, AI-crafted content based on their personal knowledge base and preferences for topics or random insights.
+Gain valuable insights into the performance of your generated content, including:
 
-#### Data Extraction
+- **Engagement Metrics**
+- **Reach Analysis**
+- **Impact Assessment**
 
-Users can extract and integrate knowledge from multiple sources including Twitter, LinkedIn, GitHub, and personal blogs, enriching the database InsightGenie draws upon.
+Use this data to refine your content strategies and make informed decisions based on real-world analytics.
 
-#### AI Assistant Management
+## Technology Stack
 
-Leverages OpenAI Assistants to empower the content generation process within InsightGenie, ensuring the creation of high-quality, insightful content. This includes ongoing maintenance and updates to utilize the latest AI capabilities.
+Insight Genie leverages cutting-edge technologies to deliver an unparalleled content creation experience:
 
-#### Collaborative Creativity and Feedback Integration
+- **Python 3.11+**: The core programming language.
+- **Natural Language Processing (NLP)**
+- **Natural Language Generation (NLG)**
+- **Machine Learning (ML)**
+- **OpenAI Assistants API**
+- **APIs for Dynamic Data Retrieval**
 
-A feature designed to facilitate user collaboration and incorporate feedback into the AI’s creative process. This fosters a dynamic, inventive community around Insight Genie, encouraging shared creativity and continuous improvement of content generation.
+### Integrations
 
-#### Analytics and Insight Generation
+- **[ai-assistant-manager](https://github.com/DEV3L/ai-assistant-manager)**: Simplifies the management of OpenAI Assistants.
+- **[ai-code-summary](https://github.com/DEV3L/ai-code-summary)**: Automates the summarization of codebases into markdown files.
 
-This analytic component provides users with insights into the performance of their generated content, including engagement, reach, and impact. Armed with this data, users can refine their content strategies for maximum effect, making informed decisions based on content analytics.
+## Installation
 
-### Users
+Follow these steps to set up Insight Genie on your local machine:
 
-### Content Creators
+### Prerequisites
 
-Creators, including writers and marketing professionals, seeking to harness AI for dynamic content creation and audience engagement.
+- **Python 3.11 or higher**: Ensure you have the correct Python version installed. You can download it [here](https://www.python.org/downloads/).
+- **OpenAI API Key**: Obtain your OpenAI API key from the [OpenAI platform](https://platform.openai.com/).
 
-#### Developers
+### Steps
 
-Developers seeking to leverage conversational AI for creative content generation, streamlining their workflow and enhancing project documentation.
+1. **Clone the repository:**
 
-#### Leaders
+   ```bash
+   git clone https://github.com/DEV3L/insight-genie.git
+   cd insight-genie
+   ```
 
-Leaders and managers in the tech industry who value insights from advanced analytics to refine their content strategy and foster a collaborative team environment.
+2. **Set up environment variables:**
 
-### Detailed Summary
+   Copy the `env.local` file to `.env` and replace `OPENAI_API_KEY` with your actual OpenAI API key:
 
-Insight Genie: A Beacon of Creativity in Content Generation
+   ```bash
+   cp env.local .env
+   ```
 
-In the pursuit of redefining content creation, Insight Genie emerges as a visionary tool, fueled by Justin Beall’s ethos of innovation. It’s a platform where conversational AI chatbots—powered by NLP, NLG, and ML technologies—dive beyond mere data analysis to inspire unique, insightful content. Drawing from diverse data sources via APIs and managed by OpenAI Assistants, these chatbots act as digital muses, engaging users in creative dialogue and transforming interaction into innovation.
+3. **Install Hatch:**
 
-Highlighting core principles of understanding user needs, ensuring conversational flow, and integrating feedback loops, Insight Genie is not just about content generation. It’s about fostering a collaborative narrative in digital creativity, inviting developers, creators, and innovators to explore the untapped potential of conversational AI in content creation. From developing chatbots that serve as catalysts for creativity to leveraging technology for continuous improvement, Insight Genie stands at the forefront of the digital content creation revolution, making every interaction a stepping stone towards uncovering the vast potential of collective human creativity.
+   Insight Genie uses [Hatch](https://hatch.pypa.io/latest/) for environment management and packaging.
 
-## Project Summary
+   ```bash
+   pip install hatch
+   ```
 
-It's a conversational AI designed to generate unique content, making it a useful tool for creatives and professionals in the digital era.
+4. **Set up a virtual environment and install dependencies:**
 
-The project is organized into several directories:
+   ```bash
+   hatch env create
+   hatch shell
+   ```
 
-- `data/`: Contains various data used by the project, including blog data from Dev.to and WordPress, book data, learning journal data, LinkedIn posts, about, and Twitter data.
-- `src/`: Contains the source code of the project.
-  - `assistants/`: This directory contains the InsightGenieAssistantService class which is responsible for managing the assistant's functionalities. It interacts with the OpenAI API client and handles operations like creating, finding, and deleting the assistant and its retrieval files.
-  - `chats/`: This directory contains the Chat class which handles the chat functionality of the project.
-  - `clients/`: This directory contains different client classes that interact with various APIs. The OpenAIClient class is used throughout the project to interact with the OpenAI API.
-  - `exporters/`: This directory contains different exporter classes that handle exporting data to various formats or platforms. The project uses exporters for blogs, books, learning journals, LinkedIn, resumes, and Twitter.
-  - `prompts/`: This directory contains different prompts used in the project.
-  - `encoding.py`: This file contains functionality related to encoding.
-  - `timer/`: This directory contains timing functionality for the project.
-- `.github/workflows/`: Contains the GitHub Actions workflow file continuous-integration.yml for continuous integration.
-- `run_chat.py`: A Python script to run the chat functionality of the project.
+   This will create and activate a virtual environment and install all project dependencies as specified in `pyproject.toml`.
 
-## Setup
+## Usage
 
-1. Clone the repository:
+### Running the Chat Interface
+
+Start interacting with Insight Genie using the chat interface:
 
 ```bash
-git clone https://github.com/DEV3L/insight-genie
-cd insight-genie
+hatch run chat
 ```
 
-2. Copy the env.local file to a new file named .env and replace `OPENAI_API_KEY` with your actual OpenAI API key:
+This command runs the `run_chat.py` script, which initializes the assistant and starts a chat session.
+
+### Building the Assistant
+
+If you need to build or rebuild the assistant (e.g., after updating the persona or prompt), run:
 
 ```bash
-cp env.local .env
+hatch run build
 ```
 
-3. Setup a virtual environment with dependencies and activate it:
+This command executes the `run_build.py` script to set up the assistant.
+
+### Generating Code Summaries
+
+To generate a markdown summary of your codebase using `ai-code-summary`, run:
 
 ```bash
-brew install hatch
-hatch env create
-hatch shell
+hatch run summary .
 ```
 
-1. Run the main script:
+This will create a comprehensive markdown file (`ai-code-summary.md`) summarizing your code, which can be used within Insight Genie or for documentation purposes.
+
+### Processing Twitter Events
+
+To process Twitter data and generate event-based insights, run:
 
 ```bash
-python run_chat.py
+hatch run process-twitter-events
 ```
+
+This script processes tweets, extracts events, and generates markdown summaries with image descriptions and author information.
 
 ## Testing
 
-### Unit Tests
+### Running Tests
+
+Insight Genie includes comprehensive unit and integration tests to ensure reliability and maintainability.
+
+- **Unit Tests** (excluding integration tests):
+
+  ```bash
+  hatch run test
+  ```
+
+- **Integration Tests** (including tests that hit external systems):
+
+  ```bash
+  hatch run test-integration
+  ```
+
+### Coverage Reports
+
+Generate coverage reports to assess test coverage:
 
 ```bash
-pytest
+hatch run test -- --cov
 ```
 
-With coverage:
+For coverage gutters (useful with code editors like VSCode):
 
 ```bash
-pytest --cov
+hatch run test -- --cov --cov-report lcov
+# In your editor, activate coverage gutters to visualize code coverage.
 ```
 
-With coverage for Coverage Gutters:
+### Static Type Checking
+
+Run static type checking with Pyright:
 
 ```bash
-pytest --cov --cov-report lcov
-
-Command + Shift + P => Coverage Gutters: Watch
+hatch run pyright
 ```
+
+## Contributing
+
+We welcome contributions from the community! Please follow these steps:
+
+1. **Fork the repository** on GitHub.
+
+2. **Create a new branch** for your feature or bug fix:
+
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+
+3. **Commit your changes** with clear and descriptive messages.
+
+4. **Push to your branch** on your forked repository:
+
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+
+5. **Create a Pull Request** to the `main` branch of the original repository.
+
+If you encounter any issues or have suggestions, feel free to open an issue on GitHub.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- **[ai-assistant-manager](https://github.com/DEV3L/ai-assistant-manager)**: For providing tools and services to manage OpenAI Assistants.
+- **[ai-code-summary](https://github.com/DEV3L/ai-code-summary)**: For automating codebase summarization.
+- **OpenAI**: For providing powerful AI models and APIs.
+
+---
+
+By integrating the **`ai-assistant-manager`** and **`ai-code-summary`** libraries, Insight Genie enhances its capabilities in AI assistant management and code summarization. This allows users to not only generate insightful content but also to maintain and understand their codebases more effectively.
+
+### Additional Resources
+
+- **[Prompt](prompts/prompt.md)**: View the prompt that defines the assistant's behavior.
+- **[ai-assistant-manager Documentation](https://github.com/DEV3L/ai-assistant-manager)**: Learn how to use `ai-assistant-manager` to manage your AI assistants efficiently.
+- **[ai-code-summary Documentation](https://github.com/DEV3L/ai-code-summary)**: Understand how to generate code summaries.
+
+---
+
+Feel free to explore the capabilities of Insight Genie and contribute to its growth. With its advanced AI features and integrations, it's poised to revolutionize the way we approach content creation and code understanding.
+
+## Project Structure
+
+The project is organized as follows:
+
+- `data/`: Contains data used by the project, including images, prompts, and exported data.
+- `insight_genie/` or root directory: Contains the source code of the project.
+  - `assistants/`: Manages assistant services with `AssistantService`.
+  - `chats/`: Handles chat interactions with `Chat`.
+  - `clients/`: Contains API client implementations.
+  - `exporters/`: Manages data exporting from various sources like Twitter and books.
+  - `prompts/`: Stores prompt templates for the assistant.
+  - `tests/`: Contains unit and integration tests.
+- `run_chat.py`: Main script to start a chat session.
+- `run_build.py`: Script to build or rebuild the assistant.
+- `run_code_summary.py`: Script to generate code summaries.
+- `run_process_twitter_events.py`: Script to process Twitter events.
+- `.github/workflows/`: Contains GitHub Actions workflows for CI/CD.
+- `pyproject.toml`: Configuration file for project dependencies, scripts, and tools.
