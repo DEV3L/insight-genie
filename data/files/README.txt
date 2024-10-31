@@ -17,7 +17,6 @@ The full product definition can be found [here](Insight_Genie_Product_Definition
 - [Why Insight Genie?](#why-insight-genie)
 - [Key Features](#key-features)
 - [Technology Stack](#technology-stack)
-- [Data and Knowledge Base](#data-and-knowledge-base)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Testing](#testing)
@@ -28,6 +27,8 @@ The full product definition can be found [here](Insight_Genie_Product_Definition
 ## Introduction
 
 **Insight Genie** is a conversational AI platform designed to inspire and generate unique, insightful content. Leveraging advanced Natural Language Processing (NLP), Natural Language Generation (NLG), and Machine Learning (ML) technologies, it transforms data and dialogue into creative content across platforms. Perfect for creatives and professionals in the digital era, Insight Genie redefines content generation by fostering creativity through conversation.
+
+Discover more about the assistant's prompt [here](prompts/prompt.md).
 
 ## Why Insight Genie?
 
@@ -91,51 +92,6 @@ Insight Genie leverages cutting-edge technologies to deliver an unparalleled con
 
 - **[ai-assistant-manager](https://github.com/DEV3L/ai-assistant-manager)**: Simplifies the management of OpenAI Assistants.
 - **[ai-code-summary](https://github.com/DEV3L/ai-code-summary)**: Automates the summarization of codebases into markdown files.
-
-## Data and Knowledge Base
-
-### Vector Store and Uploaded Data
-
-Insight Genie's assistant utilizes a vector store to enhance its knowledge base, allowing for more informed and context-aware responses. This vector store is created by uploading various data files to the OpenAI API, which are then loaded into the assistant's vector store.
-
-#### Types of Data Included
-
-The assistant's vector store includes a rich set of data covering different aspects of software development, personal profiles, and event summaries. Here's a breakdown of the types of data integrated:
-
-- **Product Definitions**:
-  - `insight-genie-product-definition.txt`: Detailed descriptions of Insight Genie's features and capabilities.
-- **Professional Profiles**:
-  - `linkedin-profile.txt`: Professional experiences and skills from LinkedIn.
-  - `persona.txt`: The persona behind Insight Genie, embodying Justin Beall's expertise.
-  - `README.txt`: Comprehensive information about the project.
-- **Books and Literature**:
-  - `books.json`: A collection of books related to software development, agile methodologies, and leadership.
-- **Code Summaries**:
-  - `ai-assistant-manager.txt`: Summary of the `ai-assistant-manager` project.
-  - `ai-code-summary.txt`: Summary of the `ai-code-summary` project.
-  - `insight-genie.txt`: Summary of the Insight Genie codebase.
-- **Event Summaries**:
-  - `Event Summary - The Agile Samurai - How Agile Masters Deliver Great Software.txt`: Summaries and insights from specific events or books.
-
-#### How It's Used
-
-By incorporating these diverse data types into the vector store, the assistant can:
-
-- Reference specific projects and codebases to provide detailed explanations or insights.
-- Leverage personal profiles and personas to maintain consistency in tone and expertise.
-- Utilize book summaries and event information to enrich conversations with relevant knowledge.
-- Access a broader context when generating content, leading to more accurate and valuable responses.
-
-#### Extensibility
-
-This setup serves as an example of how various data can be integrated into the assistant. You can customize and extend the vector store by adding your own data files, such as:
-
-- Company-specific documentation
-- Additional code summaries
-- Industry reports or whitepapers
-- Personalized content relevant to your needs
-
-By doing so, you can tailor Insight Genie to better suit your domain and enhance the assistant's effectiveness.
 
 ## Installation
 

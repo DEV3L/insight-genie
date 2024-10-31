@@ -16,8 +16,7 @@ def _format_event(title: str, event: EventGroup) -> str:
     hashtags = "- " + "\n- ".join(event.hashtags) if event.hashtags else ""
     media_markdown = _build_media_section(event.media_urls, title)
 
-    return f"""
-## {title}
+    return f"""## {title}
 
 ### Full Text
 

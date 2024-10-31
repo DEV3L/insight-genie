@@ -1,0 +1,319 @@
+## The Agile Samurai - How Agile Masters Deliver Great Software
+
+### Full Text
+
+Computers run the code, it is the people that create and maintain it
+What counts: Regular delivery of working software - customer ciew
+ @GeorgeMurphy33 @leandog 
+Regular Delivery++:
+The buck stops with you,
+no place to hide
+Agile Planning:
+Backlogs, stories, velocity, ready/done
+"Do less" 
+3 Project Truths
+- more to know
+- change happens
+- more than allowed
+Working software is the primary measure of success - 
+Teams:
+- rolls blur
+- continuous analysis, code, testing
+- shift left quality
+Colocation and 
+Engaged customers  
+Fierce executor to get things done
+Drops in the trust bucket
+Self-organizing
+Empowerment over accountability
+Real demos
+"Who moved my cheese"
+Direct the rider, motivate the elephant, make the path easy 
+Agile Roles:
+Customer 
+Development team 
+Coach
+Look for: generalists, ambiguity comfort, no egos
+Drucker Exercise:
+- What am/are I/you good at
+- How do I/you perform
+- What do I/you value
+- What results can you/I expect me/you to deliver
+That which needs to be done, the team will do
+Inception Deck
+- lightweight project chartering
+- living doc, 6 months
+WHY
+- Why here
+Customer gemba
+Commander's intent
+- Elevator pitch
+- Product box
+- Not list 
+- Meet neighbors map 
+HOW
+- Show solution 
+- Up at night 
+- Size it up 
+- What gives
+- What will it take
+Big up front design largest waste in software industry
+User story: short descriptions of features customers want  
+Customer-centric value 
+The most efficient and effective method of conveying information to and within a development team is face-to-face conversation 
+User Story  
+Estimation:
+Cone of uncertainty
+Relative sizing &amp; points 
+Time-boxed spike
+Planning poker
+Planning:
+Strategy to deal with change
+Team throughput to determine plan
+Forecast over commitment
+Flexible scope
+Pareto principle
+Data sanitizes
+Welcome changing requirements, Even late in development 
+Change happens regardless of plans
+ is your choice
+Iteration Management:
+Collaboration spreads knowledge, increases quality, and better ideas
+Just enough, Just in Time
+Definition "Ready"
+Personas
+Foundation of excellence
+Collective code ownership 
+Automation unit / e2e
+Customer demo
+Communication Plan:
+Setting expectations
+Showcase - Demo with Feedback
+Iteration planning meeting 
+Stand up
+Mini Retro 
+At regular intervals the team reflects on how to become more effective and then tunes and adjust its behavior accordingly 
+Visual Workspace:
+Information radiator set expectations with stakeholders
+Story wall &amp; Release wall
+Domain specific language
+Unit Testing:
+Proves micro expectations
+Instant feedback
+Product Armor
+Minimize manual regression testing
+Refactoring:
+Change structure of code, without changing the behavior
+Technical debt makes easy things hard and miserable
+Continuous attention to excellence and good design enhances agility 
+Production-ready attitude
+Test-Driven Development:
+Red, green, refactor
+Code with end in mind
+Lowers total cost of ownership
+Gateway to intent
+Continuous Integration:
+Work in small chunks
+Turns releasing code into a non-event
+Always be integrating
+The less human involvement the better
+
+### MetaData
+
+#### Hashtags
+
+- Analysis
+- Dev
+- INVEST
+- Test
+- accountable
+- agile
+- agileengineering
+- agileprinciple
+- agileprinciples
+- change
+- closethegap
+- conversation
+- conwayslaw
+- feedback
+- fibonacci
+- focus
+- forecast
+- humantrust
+- jit
+- notecard
+- notvacuum
+- po
+- quality
+- readability
+- risks
+- simplicity
+- slice
+- smallbatch
+- swag
+- switch
+- understandability
+- ux
+- wholeteam
+- xp
+
+#### Favorite Count
+
+0
+
+#### KCV
+
+^295m
+
+#### Author
+
+Author: Jonathan Rasmusson
+
+##### Description
+
+```markdown
+Jonathan Rasmusson is a software developer, agile coach, and author best known for his work in promoting agile methodologies through his book *The Agile Samurai - How Agile Masters Deliver Great Software*. With a strong background in software engineering, Rasmusson has helped several teams globally to understand and adopt agile practices effectively. As a former developer at Spotify, he gained insights into scaling agile processes in fast-paced environments. On platforms such as Twitter (@jrasmusson), he shares knowledge about technology trends, software best practices, and agile development techniques. His book is a seminal guide for teams aiming to improve their software delivery through practical, real-world strategies based on the Agile framework. His expertise in agile development, combined with his hands-on experience, makes him an influential voice in the software engineering and leadership spaces.
+```
+
+#### Event Ids
+
+- 1169728515115278337
+- 1169063599500906496
+- 1169063598527827968
+- 1169728513693364224
+- 1169063604039159808
+- 1169063600473985031
+- 1169728516553945089
+- 1169728520035192832
+- 1169728518810406912
+- 1169728509360709634
+- 1169728517774462976
+- 1169063612247355392
+- 1169063596485160960
+- 1169728502163300358
+
+### Media
+#### Audiobook Cover: The Agile Samurai
+
+https://pbs.twimg.com/media/EDlZJQ2XYAA5yj-.jpg
+
+##### Description
+
+```markdown
+This image represents the cover of an audiobook titled "The Agile Samurai: How Agile Masters Deliver Great Software," authored by Jonathan Rasmusson and edited by Susannah Davidson Pfalzer. 
+
+The book is part of "The Pragmatic Programmers" series, suggesting a strong focus on practical, hands-on approaches to software development. The title, "The Agile Samurai," metaphorically positions expert software developers as "samurais" in the context of agile methodologies. 
+
+Key themes (inferred from the title) likely include:
+- Mastery in Agile practices
+- Efficient and adaptable software delivery
+- Practical methods for developing high-quality software products.
+
+The visual image of the samurai suggests discipline, focus, and precision—qualities typically associated with the Agile process.
+
+The prominent mention of "Great Software" indicates specific insights on creating successful and high-performance software using Agile principles.
+```
+#### User Story Template
+
+https://pbs.twimg.com/media/EDu14KPWsAAO-j-.png
+
+##### Description
+
+```markdown
+This image displays a template specifically for writing user stories in agile development methodologies. It is structured as follows:
+
+1. **Header Section:**
+   - **Title:** Space to indicate a descriptive title for the user story, representing a specific feature or functionality.
+   - **Priority:** Field to specify the urgency or importance of the user story relative to others.
+   - **Estimate:** A placeholder to input the estimated effort (typically in story points) required to complete the user story.
+
+2. **User Story Composition:**
+   - **As a <type of user>:** Describes the role of the user, identifying the type of person (usually an end-user or stakeholder) interested in the feature.
+   - **I want to <perform some task>:** States the task or action the user aims to accomplish.
+   - **So that I can <achieve some goal>:** Clarifies the goal or benefit the user derives from performing the task.
+
+3. **Acceptance Criteria Section:**
+   - **Acceptance criteria** define the conditions that must be fulfilled for the user story to be considered complete.
+   - **Given <some context>:** Describes the initial setup or context that must exist for the function to work as expected.
+   - **When <some action is carried out>:** Specifies the action or event.
+   - **Then <a set of observable outcomes should occur>:** Indicates the expected outcome, ensuring the system behaves as intended when the conditions are met.
+
+This format is widely used in agile methodologies like Scrum to break work into actionable tasks while maintaining focus on the user experience and measurable success.
+```
+#### Agile Project Inception Activities
+
+https://pbs.twimg.com/media/EDlZJvGXsAA81r5.jpg
+
+##### Description
+
+```markdown
+The image outlines key elements often associated with Agile project inception or kickoff activities, offering a structured approach to initiating a project. The content focuses on various facets of team alignment, goal clarification, and problem-solving. Here's a breakdown of each element:
+
+1. **Why are we here?**  
+   - This likely questions the fundamental objective or purpose of the project. It aims to establish the project's mission and rationale.
+
+2. **Elevator pitch**  
+   - A concise, persuasive explanation of the project or initiative, often used to quickly communicate its value to stakeholders in a clear and effective manner.
+
+3. **Product box**  
+   - A creative exercise where teams design a “box” that would contain the product, forcing them to consider the most appealing features and benefits in a customer-facing way.
+
+4. **NOT list**  
+   - A list identifying what the project will *not* include, helping to manage scope and expectations while avoiding scope creep.
+
+5. **Meet the neighbors**  
+   - This likely refers to identifying adjacent teams, stakeholders, or systems that will either interact with or be impacted by the project. It emphasizes collaboration and interdependencies.
+
+6. **Show solution**  
+   - Presenting or visualizing potential solutions to the problem at hand, enabling the team to discuss options and gauge feasibility.
+
+7. **Up at night**  
+   - A space for identifying the risks, worries, and challenges that keep team members or stakeholders concerned about the project's success. It helps surface potential blockers.
+
+8. **Size it up**  
+   - Estimating the scope, complexity, or effort required to deliver the project successfully. This may include time, resources, or difficulty level.
+
+9. **What’s going to give**  
+   - Assessment of trade-offs or compromises needed to navigate constraints like time, budget, or resources. Helps the team prioritize.
+
+10. **What’s it going to take**  
+    - Outlining the steps, resources, and conditions necessary to reach the project's goals. This could involve planning out high-level milestones or defining success criteria.
+
+Each block seems to represent a facilitated session designed to align the team, clearly define objectives, understand constraints, and encourage collaboration. This grid is commonly used in project kickoff meetings to set the foundation for agile projects.
+```
+#### Audiobook Cover: The Agile Samurai
+
+https://pbs.twimg.com/media/EDu13viXoAIC-hO.jpg
+
+##### Description
+
+```markdown
+This audiobook cover is titled *The Agile Samurai*. The subtitle, *How Agile Masters Deliver Great Software*, suggests that the content provides strategies or insights into how experts effectively apply Agile methodologies to build high-quality software.
+
+Key author: Jonathan Rasmusson  
+Editor: Susannah Davidson Pfalzer  
+It is published by **The Pragmatic Programmers**, indicating a focus on software development best practices.
+
+The imagery shows a stylized, minimalistic samurai holding a katana, emphasizing the theme of precision, dedication, and mastery, much like what is expected of Agile practitioners in the context of software development!
+```
+#### Elevator Pitch Template
+
+https://pbs.twimg.com/media/EDlZJ-uWwAEIACl.png
+
+##### Description
+
+```markdown
+This image presents a structured **elevator pitch template** designed to concisely communicate the value proposition of a product in **10 seconds or less**. The template consists of several fields prompting the user to insert specific details, including:
+
+1. **Target customer** – Who the product is for.
+2. **Dissatisfaction with current solutions** – What issue or dissatisfaction the target customer has with existing solutions or products.
+3. **Product category** – The type or category of the product being introduced.
+4. **Key benefit for the customer** – The primary benefit the product delivers to the target customer.
+5. **Alternative solution** – The product or solution the customer might otherwise use.
+6. **How it solves the issue better** – Explanation of how the product solves the problem in a better or more efficient way than the alternative.
+
+Additionally, there is a **disclaimer at the bottom** advising users not to rely solely on this formula. Instead, it encourages them to use the template to understand and refine the trade-offs in their product offering for a more natural and compelling pitch.
+
+The document credits the concept to **Geoffrey Moore’s "Crossing the Chasm"** and was designed by **Wall-Skills.com**, which specializes in creating single-page, skill-enhancing resources.
+```
+

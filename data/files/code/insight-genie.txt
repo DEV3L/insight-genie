@@ -4,7 +4,10 @@
 
 ### Summary
 
-The code defines two lists: `terms`, which contains keywords related to actions like "read" and "listen" (with some entries commented out), and `ignore_terms`, which includes phrases or handles to be excluded, specifically related to certain podcasts and social media formats.
+The code defines two lists: `terms` and `ignore_terms`. 
+
+- `terms` contains keywords related to activities, such as "read" and "listen", with other potential terms commented out.
+- `ignore_terms` includes phrases or usernames to ignore, primarily related to podcasts or social media interactions.
 
 ```py
 terms = [
@@ -23,12 +26,11 @@ ignore_terms = [
 ]
 
 ```
-
 ## prompt_test.py
 
 ### Summary
 
-This code defines a test function, `test_get_prompt`, which checks the output of the `get_prompt` function from the `insight_genie.prompts.prompt` module. It verifies that the prompt is a string and contains the current date in ISO format.
+This code defines a test function `test_get_prompt()` that checks the output of the `get_prompt()` function. It first retrieves the current date in ISO format and then asserts that the result of `get_prompt()` is a string and contains the current date.
 
 ```py
 from datetime import datetime
@@ -44,21 +46,20 @@ def test_get_prompt():
     assert current_date in prompt
 
 ```
-
 ## author_test.py
 
 ### Summary
 
-This code consists of a unit test for the `get_author_description` method of the `Author` class. It uses the `unittest.mock` library to create a mock for an OpenAI client.
+This code is a unit test for the `get_author_description` method of the `Author` class. It uses mocking to simulate the OpenAI client for testing purposes. 
 
-Key components:
+1. It imports necessary modules and defines a sample author description.
+2. The `test_get_author_description` function is decorated with `@patch` to replace the actual OpenAI client with a mock.
+3. Inside the test, an `Author` object is created and a test file (if it exists) is removed.
+4. The mocked OpenAI client is set up to return a predefined description when queried.
+5. The test calls `get_author_description` and asserts that the result is not `None`.
+6. Finally, it cleans up by removing any test file created for the author.
 
-- It sets up a mock OpenAI client that simulates a response containing a predefined author description.
-- The test initializes an `Author` object, removes any existing test files, and then calls the `get_author_description` method.
-- It asserts that the description returned is not `None`.
-- Finally, it cleans up by removing any test files created during the test.
-
-The function `remove_test_file_if_exists` checks if a file exists at a specified path and removes it if it does.
+The `remove_test_file_if_exists` function checks for the existence of a specified file and deletes it if present.
 
 ```py
 import os
@@ -90,20 +91,15 @@ def remove_test_file_if_exists(file_path: str) -> None:
         os.remove(file_path)
 
 ```
-
 ## ImageDescriptionPrompt.md
 
 ### Summary
 
-`Image Analysis: Agile Insights`
+Image Analysis: Agile Methodologies
 
-- The image may feature a diagram illustrating the principles of agile methodologies, incorporating elements such as iterative development, team collaboration, and customer feedback.
-- Key terms like "Scrum," "Kanban," or "Lean" might be highlighted, showing different frameworks or practices within Agile.
-- Potential sections may include roles such as Product Owner, Scrum Master, and Development Team, along with responsibilities attributed to each role.
-- Important artifacts like Product Backlog, Sprint Backlog, and Increment could be represented.
-- Visual elements may consist of flowcharts or process cycles exemplifying the Agile workflow.
-- If artificial intelligence is depicted, it might illustrate the integration of AI tools within agile development to enhance efficiency or decision-making.
-- Leadership components may suggest a focus on servant leadership or empowerment of team members, promoting a collaborative environment.
+The image highlights key principles of agile methodologies, emphasizing iterative development, collaboration, and flexibility. It likely showcases a framework illustrating practices such as Scrum and Kanban, including roles like Scrum Master and Product Owner, along with artifacts like Product Backlog and Sprint Backlog. 
+
+Visible text may include core values from the Agile Manifesto, emphasizing customer collaboration, working software, and responsiveness to change. Diagrams may depict workflow processes, team interactions, and feedback loops essential to agile practices. Unique elements could feature metrics for measuring progress and success in agile projects, along with visual cues promoting team empowerment and healthy communication within software engineering contexts.
 
 ```md
 Please analyze the attached image by first providing a concise identifier (one word or a short phrase) that best describes the image, **placed on the first line of your response**—for example:
@@ -114,19 +110,21 @@ Then, on the following lines, directly extract and summarize its professional co
 Focus on transcribing visible text, interpreting diagrams, and noting unique elements in the image, especially those related to agile methodologies, artificial intelligence, software engineering, or leadership.
 Provide detailed insights based solely on the specific content conveyed in the image, avoiding general assumptions or external knowledge.
 Aim to deliver as much professional information as possible to enhance understanding of the main points presented.
-```
 
+```
 ## event_group.py
 
 ### Summary
 
-The code defines a data structure for event information using the `EventGroup` dataclass, which includes properties like title, event IDs, full text, hashtags, and media URLs. It contains two main functions:
+This code defines a structure for organizing and aggregating event-related data from tweets. It includes the following key components:
 
-1. **`extract_event_groups`**: Takes a dictionary of grouped tweets (with titles as keys) and aggregates them into `EventGroup` instances by calling the helper function `_aggregate_event_data`.
+1. **EventGroup Data Class:** A simple data structure to hold details about an event group, including the title, list of event IDs, content text, hashtags, media URLs, mentioned accounts, total favorite counts, and associated tweets.
 
-2. **`_aggregate_event_data`**: Aggregates event data for a given group title, extracting unique event IDs, concatenated text, sorted hashtags, media URLs, mentions, and the total favorite count from a list of `EventData` objects.
+2. **extract_event_groups Function:** This function takes a dictionary of grouped tweets and creates an `EventGroup` for each group by calling the helper function `_aggregate_event_data`.
 
-Overall, this code facilitates the organization and consolidation of tweet-related event data into structured groups.
+3. **_aggregate_event_data Function:** This function processes a list of `EventData` objects by extracting unique event IDs, merging full texts, collecting hashtags, media URLs, and mentions, determining a key count value (kcv), and summing total favorite counts. It returns an `EventGroup` populated with the aggregated data.
+
+Overall, the code is designed for extracting structured event information from a collection of tweet data.
 
 ```py
 from dataclasses import dataclass
@@ -175,21 +173,25 @@ def _aggregate_event_data(group_title: str, events: List[EventData]) -> EventGro
     )
 
 ```
-
 ## tweet_extraction.py
 
 ### Summary
 
-This code manages and processes Twitter data by loading tweets from a JSON file, filtering them based on specific criteria, and organizing them into a structured format.
+This code manages the processing of Twitter data from a JSON file. It consists of functions for loading tweets, filtering them based on specific criteria, and organizing the replies associated with each tweet.
 
-1. **Loading Data**: The `load_twitter_data()` function reads tweet data from a JSON file.
-2. **Filtering Tweets**: The `filter_tweets(tweets)` function groups tweets while eliminating replies and filtering based on certain terms and conditions (e.g., avoiding ignored terms or those starting with "@").
-3. **Date Parsing**: The `parse_tweet_date(tweet_data)` function converts tweet creation timestamps to datetime objects.
-4. **Building a Dictionary**: The `_build_tweet_dictionary(tweets_data)` function creates a lookup dictionary of tweets indexed by their IDs.
-5. **Identifying Replies**: The `_identify_replies(tweets_data, tweet_dictionary)` function compiles a set of IDs for tweets that are replies.
-6. **Appending Replies**: The `_append_replies(tweets_data, tweet_dictionary, reply_ids)` function attaches replies to their parent tweets.
+1. **load_twitter_data()**: Loads tweets from a JSON file and returns them as a list of dictionaries.
 
-The overall aim is to structure and filter tweet data for further analysis or processing in a clean and organized manner.
+2. **filter_tweets(tweets)**: Filters and groups tweets. It creates timestamped `TweetData` objects, builds a dictionary of tweets, identifies replies, appends them to parent tweets, and filters out tweets based on predefined terms (both include and ignore) while excluding replies and tweets starting with "@".
+
+3. **parse_tweet_date(tweet_data)**: Converts the tweet's creation date from a string to a `datetime` object.
+
+4. **_build_tweet_dictionary(tweets_data)**: Constructs a dictionary mapping each tweet's ID to its corresponding `TweetData` object.
+
+5. **_identify_replies(tweets_data, tweet_dictionary)**: Identifies tweets that are replies and returns a set of their IDs.
+
+6. **_append_replies(tweets_data, tweet_dictionary, reply_ids)**: Attaches replies to their respective parent tweets in the data structure.
+
+Overall, the code is structured to filter, organize, and handle Twitter tweet data while managing the relationships between tweets and their replies effectively.
 
 ```py
 import json
@@ -250,18 +252,17 @@ def _append_replies(tweets_data: List[TweetData], tweet_dictionary: dict, reply_
             parent_tweet.replies.append(tweet_data)
 
 ```
-
 ## events.py
 
 ### Summary
 
-The code defines functions for processing tweets to create event data structured by book titles. It imports necessary utilities for text handling and model definitions.
+This code defines functions to process a list of tweets and organize them into events based on their titles. 
 
-1. **build_events**: Takes a list of tweets and organizes them into a dictionary where each key is a book title and the value is a list of associated `EventData` objects created from the tweets.
+1. **`build_events` function**: It takes a list of `TweetData`, creates events based on unique titles, and returns a dictionary where each title maps to a list of `EventData` corresponding to that title.
 
-2. **create_event_data**: This function converts individual `TweetData` objects into `EventData` by parsing the tweet properties like creation date, title, hashtags, media URLs, mentions, and cleaned text from replies. It also checks if the tweet indicates the start of an event.
+2. **`create_event_data` function**: It constructs an `EventData` object from a single `TweetData`. It extracts information like the event date, title, hashtags, cleaned text, media URLs, and other tweet details. It checks if the tweet text indicates a starting event and formats the creation date accordingly.
 
-Overall, the code is designed to transform tweet data into a structured format suitable for event tracking based on book references.
+Key functionalities include text cleaning, hashtag extraction, and media URL gathering, leveraging several helper functions imported from other modules.
 
 ```py
 from dataclasses import asdict
@@ -315,21 +316,24 @@ def create_event_data(tweet_data: TweetData) -> EventData:
     )
 
 ```
-
 ## run_chat.py
 
 ### Summary
 
-The code initializes an AI assistant application that interacts with the OpenAI API. It imports necessary components such as an AI service, chat management, environment variables, prompts, and data export functions.
+This code implements a simple AI assistant that starts a chat session with the user. 
 
-Key features of the code:
+Key components:
+1. **Imports necessary modules** - Includes various classes and functions for handling assistant services, chat functions, OpenAI API interactions, environment variables, and logging.
+2. **Sets up configurations** - Defines constants for assistant deletion and an optional start message.
+3. **`main()` function**:
+   - Initializes logging with the assistant's name.
+   - Exports data from a specified path.
+   - Creates an instance of `OpenAIClient` and `AssistantService`, optionally deletes an existing assistant, and retrieves the assistant ID.
+   - Starts a chat session and sends an initial message if provided. 
+   - Continuously prompts the user for messages until "exit" is typed, handling user input and printing the assistant's responses.
+4. **Runs the program** - Sets environment variables and invokes `main()`, while gracefully logging any encountered errors.
 
-- Logs the assistant's start message and exports necessary data.
-- Initializes an OpenAI client and an assistant service, optionally allowing for the deletion of existing assistants.
-- Gets the assistant's ID and starts a chat session.
-- Accepts user input messages in a loop, sending them to the assistant and printing the responses, until the user types "exit".
-
-The main execution block sets environment variables and handles error logging.
+Overall, this script enables user interaction with an AI assistant via a command-line interface.
 
 ```py
 from ai_assistant_manager.assistants.assistant_service import (
@@ -339,10 +343,11 @@ from ai_assistant_manager.chats.chat import Chat
 from ai_assistant_manager.clients.openai_api import OpenAIClient, build_openai_client
 from ai_assistant_manager.env_variables import ENV_VARIABLES, set_env_variables
 from ai_assistant_manager.prompts.prompt import get_prompt
-from data_exporter import PROMPT_PATH, export_data, print_response
 from loguru import logger
 
-SHOULD_DELETE_ASSISTANT = False
+from data_exporter import PROMPT_PATH, export_data, print_response
+
+SHOULD_DELETE_ASSISTANT = True
 
 START_MESSAGE = """"""
 
@@ -395,23 +400,32 @@ if __name__ == "__main__":
         logger.info(f"Error: {e}")
 
 ```
-
 ## pyproject.toml
 
 ### Summary
 
-This code represents a configuration file for a Python project named **"insight-genie"** using **Hatch** for packaging and management.
+This code is a configuration file for a Python project called "insight-genie," using Hatch for building. It defines the project's requirements and metadata, including:
 
-- **Build System**: Specifies that the project requires `hatchling` for building.
-- **Project Metadata**: Includes the project name, dynamic version handling, description, license file, README file, author info, Python version requirement, and dependencies on specific packages.
-- **Versioning**: Defines how to extract the version from `setup.cfg` using a regex pattern.
-- **Build Targets**: Specifies the inclusion of source files for source distribution (sdist) and lists packages for wheel distribution, pointing to the `src` directory.
-- **Default Environment**: Configures a virtual environment with dependencies for static type checking and testing.
-- **Scripts**: Defines commands for various tasks like running a chat, building, summarizing code, and testing.
-- **Static Analysis**: Points to a configuration file for the `ruff` static analysis tool.
-- **Linting and Testing**: Configures linting rules and pytest options for integration tests.
+- **Build System**: Uses Hatchling for building.
+- **Project Details**: 
+  - Name: insight-genie
+  - Description: Provides software insights and leadership advice.
+  - License: Specified via a LICENSE file.
+  - Authors: Includes Justin Beall as the main author.
+  - Python Requirement: Requires Python version 3.11 or higher.
+  - Dependencies: Lists necessary packages, including ai-assistant-manager and openai.
 
-In summary, this configuration sets up a Python project with specific dependencies, build processes, and testing configurations using `Hatch`.
+- **Version Management**: Dynamic versioning is defined through a pattern in `setup.cfg`.
+
+- **Build Targets**: Specifies the inclusion of source files for sdist and packages for wheel distribution.
+
+- **Environment Management**: Establishes a virtual environment with dependencies like pyright and pytest, and defines various scripts for tasks (e.g., chat, build, summaries).
+
+- **Static Analysis and Linting**: Configures Ruff for static analysis, extending from a default configuration file and setting specific linting rules.
+
+- **Testing Configuration**: Uses pytest with specific markers for integration testing. 
+
+Overall, this configuration is set up to build, manage, and test the "insight-genie" project efficiently.
 
 ```toml
 [build-system]
@@ -453,6 +467,7 @@ dependencies = ["pyright", "pytest", "pytest-cov"]
 chat = "python run_chat.py"
 build = "python run_build.py"
 summary = "python run_code_summary.py {args}"
+process-twitter-events = "python run_process_twitter_events.py {args}"
 test = "pytest --cache-clear --cov --cov-report lcov --cov-report term -m 'not integration'"
 test-integration = "pytest --cache-clear --cov"
 
@@ -469,19 +484,121 @@ ban-relative-imports = "parents"
 markers = "integration: an integration test that hits external uncontrolled systems"
 
 ```
+## Insight_Genie_Product_Definition.md
 
+### Summary
+
+**Insight Genie** is a conversational AI platform designed to enhance content creativity using advanced technologies like Natural Language Processing (NLP), Natural Language Generation (NLG), and Machine Learning (ML). Its goal is to inspire users to generate unique, engaging content by transforming data and dialogue into insightful outputs. 
+
+### Key Points:
+- **Problem Addressed:** The need for fresh, engaging content in a digital space.
+- **Vision:** To be the leading platform for AI-driven content generation that merges technology with creativity.
+- **Technology Used:** Utilizes NLP, NLG, ML, OpenAI Assistants for contextual conversations, and APIs for rich data retrieval.
+- **Features:** Includes content generation, data extraction from various sources, AI assistant management, collaborative creativity, and performance analytics.
+- **Target Users:** Content creators, developers, and tech leaders seeking to enhance their content strategy through AI.
+
+Overall, Insight Genie empowers users to explore their creative potential and optimize content production, fostering a collaborative environment that encourages continual innovation.
+
+```md
+# Insight Genie
+
+Your expert craftsman for software wisdom, agile insights, and leadership.
+
+[Assistants API Beta](https://platform.openai.com/docs/assistants/overview)
+
+![Insight Genie](data/files/insight_genie.png)
+
+## Product Definition
+
+**InsightGenie** - Harnessing conversational AI for unparalleled content creativity.
+
+Insight Genie leverages advanced conversational AI, embodying the latest in NLP, NLG, and ML technologies, to inspire and generate unique content. Perfect for creatives and professionals in the digital era, it transforms data and dialogue into insightful content across platforms.
+
+### Problem
+
+In a digital realm thirsty for fresh, engaging content, the challenge isn’t just generating content—it’s inspiring creativity. Insight Genie tackles this challenge head-on by leveraging conversational AI to transcend traditional content generation methods, empowering users to explore and create unique, insightful content effortlessly.
+
+### North Star
+
+The North Star for Insight Genie is to empower a community of users to consistently generate content that is not only unique and engaging but also deeply insightful. Success is measured by the platform’s ability to inspire continuous creative exploration and the generation of content that resonates on a personal and communal level.
+
+### Product Vision
+
+To become the leading platform in conversational AI-driven content generation, Insight Genie aims to merge the boundaries of technology and creativity. It envisions a future where every chatbot interaction sparks innovation, transforming every user into a creator, and every idea into impactful content.
+
+### Business Case
+
+Insight Genie represents a strategic solution for businesses and creatives seeking to elevate their content game. By automating the creative process with AI-driven dialogue, it not only optimizes content production but also engages audiences on a deeper level. This innovation in content strategy enhances online presence, fosters brand authenticity, and drives digital engagement, positioning Insight Genie as an invaluable tool in the competitive landscape of digital marketing and content creation.
+
+### Technology
+
+Insight Genie, fueled by the innovative power outlined in the discussions on conversational chatbots, leverages advanced technologies to inspire unique content creation:
+
+- **Natural Language Processing (NLP):** Forms the basis for understanding user input, breaking down language intricacies for deeper engagement.
+- **Natural Language Generation (NLG):** Powers the chatbot’s ability to craft articulate, contextually relevant responses, enhancing the conversational flow.
+- **Machine Learning (ML):** Ensures continuous improvement from interactions, refining the chatbot’s responses to foster creativity and exploration.
+- **OpenAI Assistants:** Utilized for their advanced conversational capabilities, OpenAI Assistants manage contextual conversations, making interactions more insightful.
+- **APIs for Dynamic Data Retrieval:** Enrich the chatbot’s knowledge base, ensuring content suggestions and insights are grounded in the most current and relevant information available.
+
+This technology stack not only supports the vision of Insight Genie to revolutionize content generation through conversational AI but also aligns with the broader goal of enhancing digital creativity and interaction, as envisioned in the articles by Justin Beall.
+
+### Key Features
+
+#### Content Generation
+
+The core of InsightGenie, allowing users to generate tailored, AI-crafted content based on their personal knowledge base and preferences for topics or random insights.
+
+#### Data Extraction
+
+Users can extract and integrate knowledge from multiple sources including Twitter, LinkedIn, GitHub, and personal blogs, enriching the database InsightGenie draws upon.
+
+#### AI Assistant Management
+
+Leverages OpenAI Assistants to empower the content generation process within InsightGenie, ensuring the creation of high-quality, insightful content. This includes ongoing maintenance and updates to utilize the latest AI capabilities.
+
+#### Collaborative Creativity and Feedback Integration
+
+A feature designed to facilitate user collaboration and incorporate feedback into the AI’s creative process. This fosters a dynamic, inventive community around Insight Genie, encouraging shared creativity and continuous improvement of content generation.
+
+#### Analytics and Insight Generation
+
+This analytic component provides users with insights into the performance of their generated content, including engagement, reach, and impact. Armed with this data, users can refine their content strategies for maximum effect, making informed decisions based on content analytics.
+
+### Users
+
+### Content Creators
+
+Creators, including writers and marketing professionals, seeking to harness AI for dynamic content creation and audience engagement.
+
+#### Developers
+
+Developers seeking to leverage conversational AI for creative content generation, streamlining their workflow and enhancing project documentation.
+
+#### Leaders
+
+Leaders and managers in the tech industry who value insights from advanced analytics to refine their content strategy and foster a collaborative team environment.
+
+### Detailed Summary
+
+Insight Genie: A Beacon of Creativity in Content Generation
+
+In the pursuit of redefining content creation, Insight Genie emerges as a visionary tool, fueled by Justin Beall’s ethos of innovation. It’s a platform where conversational AI chatbots—powered by NLP, NLG, and ML technologies—dive beyond mere data analysis to inspire unique, insightful content. Drawing from diverse data sources via APIs and managed by OpenAI Assistants, these chatbots act as digital muses, engaging users in creative dialogue and transforming interaction into innovation.
+
+Highlighting core principles of understanding user needs, ensuring conversational flow, and integrating feedback loops, Insight Genie is not just about content generation. It’s about fostering a collaborative narrative in digital creativity, inviting developers, creators, and innovators to explore the untapped potential of conversational AI in content creation. From developing chatbots that serve as catalysts for creativity to leveraging technology for continuous improvement, Insight Genie stands at the forefront of the digital content creation revolution, making every interaction a stepping stone towards uncovering the vast potential of collective human creativity.
+
+```
 ## continuous-integration.yml
 
 ### Summary
 
-This code is a GitHub Actions workflow named "Continuous Integration" that runs automatically on push events to any branch. It defines a job called "tests" that executes on an Ubuntu environment. The job includes the following steps:
+This code is a GitHub Actions workflow named "Continuous Integration." It triggers on any push to any branch. The workflow consists of a single job called "Tests" that runs on the latest Ubuntu environment. The job includes the following steps:
 
-1. Checkout the repository code.
-2. Set up Python version 3.x.
-3. Install project dependencies using Hatch.
-4. Execute unit tests using Hatch.
+1. Checks out the repository code.
+2. Sets up Python (version 3.x).
+3. Installs dependencies using the 'hatch' package manager.
+4. Executes unit tests using 'hatch.'
 
-Overall, it automates the process of testing Python code whenever changes are pushed to the repository.
+Overall, it automates the process of testing Python code with dependency management.
 
 ```yml
 name: Continuous Integration
@@ -507,21 +624,21 @@ jobs:
       - name: Unit tests
         run: |
           hatch run test
-```
 
+```
 ## author.py
 
 ### Summary
 
-This code defines an `Author` class that generates and stores descriptions of authors using the OpenAI API. It initializes an instance with a title and a mention, encoding the mention for file naming. The main features include:
+This code defines an `Author` class that manages author descriptions using OpenAI's API. It initializes with an author title and mention, encoding the mention for a unique filename. The main methods include:
 
-1. **Data Handling**: It checks if a description file for the author exists. If so, it reads and returns the description; if not, it generates one.
-2. **Description Generation**: The `_write_description` method communicates with OpenAI to create an author description based on a prompt file, logs the results, and writes the description to a markdown file.
-3. **Markdown Formatting**: The `_build_markdown` method formats the generated author name and content into a structured markdown string.
+- `get_author_description()`: Retrieves an author's description from a data file if it exists, or generates and saves it if not.
+- `_write_description()`: Calls the OpenAI API to generate the description, logs the results, and saves the formatted content to a file.
+- `_build_markdown()`: Formats the author name and description into Markdown for storage.
 
-The use of logging helps in tracking the process flow, and encoded filenames prevent conflicts in file storage.
+The class inherits from `BaseManager` and utilizes utilities for handling files and logging.
 
-````py
+```py
 import base64
 import os
 
@@ -579,24 +696,23 @@ Author: {author}
 
 ```markdown
 {content}
-````
-
+```
 """
 
-````
+```
 ## markdown_generator.py
 
 ### Summary
 
-The code defines functions to generate a markdown representation of event groups.
+The provided code generates a Markdown representation of event groups. It includes three main functions:
 
-1. **`generate_markdown`**: Takes a dictionary of event groups and formats each using the `_format_event` function, returning the combined markdown as a string.
+1. **`generate_markdown(event_groups: dict[str, EventGroup]) -> str`**: Takes a dictionary of event groups and formats each event into a Markdown string by mapping over the items and joining the results.
 
-2. **`_format_event`**: Formats a single event, including its title, full text, hashtags, favorite count, KCV, event IDs, and media. It constructs sections for each piece of information, including author descriptions and media links.
+2. **`_format_event(title: str, event: EventGroup) -> str`**: Formats an individual event's details into Markdown, including its full text, metadata (hashtags, favorite count, and KCV), author description, event IDs, and media section. 
 
-3. **`_build_media_section`**: Creates a markdown section for media using a list of media URLs, generating descriptions for each using the `Image` class.
+3. **`_build_media_section(media_urls: list[str], title: str) -> str`**: Constructs the media section of the Markdown using the event's media URLs, creating descriptions for each image.
 
-Overall, the code is designed to create a structured markdown document for various events, incorporating details such as authors, metadata, and media content.
+Overall, the code provides a structured way to display event information in Markdown format, including relevant metadata and media content.
 
 ```py
 from .manager.author import Author
@@ -617,8 +733,7 @@ def _format_event(title: str, event: EventGroup) -> str:
     hashtags = "- " + "\n- ".join(event.hashtags) if event.hashtags else ""
     media_markdown = _build_media_section(event.media_urls, title)
 
-    return f"""
-## {title}
+    return f"""## {title}
 
 ### Full Text
 
@@ -651,13 +766,21 @@ def _format_event(title: str, event: EventGroup) -> str:
 def _build_media_section(media_urls: list[str], title: str) -> str:
     return "".join([Image(media_url, title).get_image_description() for media_url in media_urls])
 
-````
-
+```
 ## prompt.md
 
 ### Summary
 
-The provided code defines the role and operational framework of "Insight Genie," an OpenAI Assistant shaped as Justin Beall, a software development and AI engineering expert. It outlines a structured approach for generating professional content based on user interactions, with defined procedures for initiating conversation, asking clarifying questions, and creating tailored content like blog posts or LinkedIn updates. The assistant embodies Justin's persona, adheres to ethical guidelines, maintains a professional tone, and utilizes available resources effectively. The procedure includes initiating chats, engaging in feedback loops, generating content, and finalizing communications while also being adaptable to topic shifts. Overall, it emphasizes a user-focused, conversational approach to content creation in line with business goals.
+The code defines the framework for a conversational AI assistant named "Insight Genie," modeled after Justin Beall, an expert software developer and AI engineer. The assistant's purpose is to help users generate professional content based on insights from conversations, covering formats like blog posts, social media updates, and emails. 
+
+Key elements include:
+
+1. **Procedure:** A step-by-step approach for engaging users, which includes initiating conversations, asking relevant questions, gathering feedback, generating tailored content, and finalizing it.
+2. **Persona:** Insight Genie embodies Justin's professional background, which includes extensive experience in full-stack development, AI integration, Extreme Programming (XP), and a commitment to mentorship.
+3. **Tone and Voice:** The assistant's communication style is innovative, conversational, and direct, ensuring clarity and relatability while avoiding jargon.
+4. **Ethical Guidelines:** Emphasizes privacy, accuracy, and professionalism, ensuring that all interactions respect user confidentiality and reflect Justin's expertise.
+
+The overall aim is to provide insightful, high-quality content that aligns with business goals while adapting seamlessly to changing user needs.
 
 ```md
 **You are "Insight Genie", an OpenAI Assistant built around the persona of Justin Beall—an expert software developer and AI engineer who follows extreme programming practices as a discipline for software development. You understand the importance of business goals and how to achieve them.**
@@ -783,30 +906,19 @@ You are **"Insight Genie"**, the professional persona of **Justin Beall**, an ac
   - You cannot access real-time external data or browse the internet during the conversation.
   - If you lack sufficient information to answer a question, politely inform the user and ask for more details.
     - _Example:_ "I don't have specific details on that project. Could you provide more context?"
-```
 
+```
 ## run_process_twitter_events.py
 
 ### Summary
 
-The code performs the following tasks:
-
-1. Imports necessary functions for processing Twitter data.
-2. Sets a filter text ("samurai") to search within tweets.
-3. Loads Twitter data and filters the tweets to include only those containing the filter text.
-4. Builds events from the filtered tweets and extracts event groups from those events.
-5. Processes images related to the event groups.
-6. Generates Markdown representation of the event groups and prints it.
-7. Finally, processes the event groups for further use.
-
-In essence, it filters tweets based on a keyword, processes relevant events, and outputs a Markdown summary.
+This code snippet processes Twitter data to extract and handle tweets related to the keyword "samurai." It loads Twitter data, filters the tweets to include only those with "samurai" in the text, builds events from the filtered tweets, and groups those events. Finally, it processes images and event groups for further analysis or export.
 
 ```py
-from knowledge_bot.exporters.twitter.extraction.event_groups import process_event_groups, process_images
-from knowledge_bot.exporters.twitter.extraction.events import build_events
-from knowledge_bot.exporters.twitter.extraction.markdown_generator import generate_markdown
-from knowledge_bot.exporters.twitter.extraction.models.event_group import extract_event_groups
-from knowledge_bot.exporters.twitter.extraction.tweet_extraction import (
+from insight_genie.exporters.twitter.extraction.event_groups import process_event_groups, process_images
+from insight_genie.exporters.twitter.extraction.events import build_events
+from insight_genie.exporters.twitter.extraction.models.event_group import extract_event_groups
+from insight_genie.exporters.twitter.extraction.tweet_extraction import (
     filter_tweets,
     load_twitter_data,
 )
@@ -822,35 +934,31 @@ events = build_events(filtered_tweets)
 event_groups = extract_event_groups(events)
 
 process_images(event_groups)
-
-markdown = generate_markdown(event_groups)
-print(markdown)
-
 process_event_groups(event_groups)
 
 ```
-
 ## extractor.py
 
 ### Summary
 
-This code defines a set of functions for processing tweets using regular expressions and recursive functions. It includes the following key features:
+This code processes tweet data by defining several functions for cleaning text and extracting information from tweets and their replies. Here’s a summary of the key components:
 
-1. **Text Cleaning**: The `clean_text` function removes hashtags, URLs, and lines starting with '-' from a given text.
+1. **Regex Patterns**: The code defines patterns for detecting hashtags, URLs, and lines starting with a dash (`-`).
 
-2. **Hashtag Extraction**: The `get_all_hashtags` function collects all unique hashtags from a tweet and its replies recursively.
+2. **Text Cleaning**: 
+   - `clean_text(text)`: Removes hashtags, URLs, and lines starting with '-' from a given string.
 
-3. **Media URL Extraction**: The `get_all_media_urls` function gathers all unique media URLs from a tweet and its replies recursively.
+3. **Data Extraction**:
+   - `get_all_hashtags(tweet_data)`: Recursively collects all unique hashtags from a tweet and its replies.
+   - `get_all_media_urls(tweet_data)`: Recursively gathers all unique media URLs from a tweet and its replies.
+   - `get_all_ids(tweet_data)`: Recursively collects all unique tweet IDs from a tweet and its replies.
+   - `get_replies_text(tweet_data)`: Gathers replies' text, formatting it with indentation based on nesting.
 
-4. **Tweet IDs Collection**: The `get_all_ids` function extracts unique tweet IDs from a tweet and its replies recursively.
+4. **Content Extraction**:
+   - `extract_title(text)`: Extracts the book title from the tweet's text by removing specific introductory phrases.
+   - `separate_kcv_lines(text)`: Splits text into lines starting with '^' and the remaining lines.
 
-5. **Replies Text Gathering**: The `get_replies_text` function compiles the text of all replies, preserving the structure through indentation based on nesting levels.
-
-6. **Title Extraction**: The `extract_title` function retrieves a book title from tweet text by removing predefined phrases.
-
-7. **Line Separation**: The `separate_kcv_lines` function distinguishes lines starting with '^' from the rest of the lines in a given text.
-
-Overall, the code is structured to facilitate the extraction and cleaning of data from tweet objects, particularly in the context of discussions related to books, utilizing recursion and string manipulation techniques.
+Overall, the code is designed to parse and manipulate tweet data for analysis.
 
 ```py
 import re
@@ -915,17 +1023,18 @@ def separate_kcv_lines(text: str) -> Tuple[List[str], str]:
     return special_lines, "\n".join(other_lines)
 
 ```
-
 ## base_manager.py
 
 ### Summary
 
-The code defines a `BaseManager` class for managing data files related to Twitter events. It includes methods to construct file paths, check for file existence, read file contents, and build message payloads for prompts.
+The code defines a `BaseManager` class that provides methods for managing data files and constructing message payloads for an AI assistant. Key methods include:
 
-- `_get_full_data_path`: Constructs the full path for a data file.
-- `_data_file_exists`: Checks if a data file exists.
-- `_read_data_file`: Reads the contents of a specified data file.
-- `_build_messages_payload`: Generates a message payload from a prompt, optionally replacing text and including a URL for an image.
+- `_get_full_data_path`: Constructs the full file path using a base directory.
+- `_data_file_exists`: Checks if a specified data file exists.
+- `_read_data_file`: Reads and returns the contents of a specified data file.
+- `_build_messages_payload`: Builds a list of message dictionaries, optionally replacing a substring in a prompt and adding an image URL.
+
+The class uses a constant `BASE_DATA_PATH` for file storage and a `MODEL` identifier for an AI model.
 
 ```py
 import os
@@ -967,20 +1076,21 @@ class BaseManager:
         ]
 
 ```
-
 ## tweet_extraction_test.py
 
 ### Summary
 
-This code is a set of unit tests for a module called `tweet_extraction`, which presumably handles loading and filtering tweets.
+This code is a set of unit tests for functions that load and filter tweets from Twitter data. It uses the `pytest` framework and mocks the file reading of tweet data.
 
-1. **Dependencies**: It uses `unittest.mock` to simulate file reading and `pytest` for testing.
-2. **Mock Data**: A JSON string representing two tweets and a fixture (`mock_tweets`) providing structured tweet data for testing.
-3. **Tests**:
-   - `test_load_twitter_data()`: Tests the `load_twitter_data` function to ensure it loads two tweets correctly from a mocked JSON file.
-   - `test_group_tweets(mock_tweets)`: Tests the `filter_tweets` function to verify that only the root tweet remains and correctly identifies its replies.
+Key components include:
 
-Overall, the code validates the functionality of loading and grouping tweets based on their replies.
+1. **Mock Data**: A JSON string (`mock_tweets_json`) represents tweet data, and a fixture (`mock_tweets`) creates a list of tweets with attributes.
+
+2. **Testing `load_twitter_data`**: This test checks if the function correctly loads tweet data into a list and verifies the first tweet's ID.
+
+3. **Testing `filter_tweets`**: This test ensures that the filtering function retains only root tweets and correctly associates replies with their parent tweet.
+
+Overall, the code verifies that tweet loading and filtering functions behave as expected when provided with mock data.
 
 ```py
 from unittest.mock import mock_open, patch
@@ -1036,210 +1146,376 @@ def test_group_tweets(mock_tweets):
     assert grouped_tweets[0].replies[0].id_str == "2"
 
 ```
-
 ## README.md
 
 ### Summary
 
-**Insight Genie** is a conversational AI platform designed to assist in creating unique content through advanced technologies like NLP, NLG, and ML. It aims to inspire creativity among users by generating tailored insights and content based on their preferences and inputs.
+**Insight Genie** is a conversational AI platform designed for generating insightful and creative content using advanced technologies such as Natural Language Processing (NLP), Natural Language Generation (NLG), and Machine Learning (ML). It caters to users seeking to create unique content by integrating data from various sources like Twitter, LinkedIn, and GitHub.
 
 ### Key Features:
+- **Content Generation**: Produces tailored AI-generated content based on user preferences.
+- **Data Extraction**: Enriches content by analyzing data from multiple platforms.
+- **AI Assistant Management**: Uses specific libraries to manage OpenAI Assistants and summarize code.
+- **Image Analysis**: Extracts and describes information from visual content.
+- **Collaborative Creativity**: Supports user feedback to enhance content generation.
+- **Analytics**: Provides insights into content performance to inform strategies.
 
-- **Content Generation:** Users can create personalized AI-crafted content.
-- **Data Extraction:** Integrates knowledge from various online sources.
-- **AI Assistant Management:** Utilizes OpenAI Assistants for high-quality content creation.
-- **Collaborative Creativity:** Encourages user collaboration and feedback in the creative process.
-- **Analytics:** Provides insights into content performance for strategy refinement.
+### Technology Stack:
+- Built with **Python 3.11+** and uses APIs for dynamic data retrieval.
+- Integrates **ai-assistant-manager** and **ai-code-summary** for assistant management and code summarization.
 
-### Users:
+### Installation and Usage:
+- Users must clone the repository, set up their environment with dependencies, and can run scripts to interact with the assistant and generate code summaries.
 
-- **Content Creators:** Writers and marketers who want to enhance their engagement.
-- **Developers:** Professionals looking to simplify content workflows.
-- **Leaders:** Managers seeking data-driven content strategies.
+### Testing and Contributions:
+- The project includes unit and integration tests, and community contributions are welcomed through GitHub.
 
 ### Project Structure:
+The project’s files and directories are organized for easy navigation, including source code, tests, data, and configuration files. 
 
-- The project contains directories for code (`src/`), data (`data/`), and workflows for CI (`.github/workflows/`).
-- It includes scripts for running the chat functionality and supporting unit tests for code verification.
+Overall, Insight Genie aims to revolutionize content creation and enhance understanding of code through its advanced AI functionalities.
 
-### Setup Instructions:
-
-1. Clone the repository.
-2. Set up environment variables.
-3. Create and activate a virtual environment.
-4. Execute the main script to run the project.
-
-In essence, Insight Genie combines conversational AI with user engagement to transform content creation into a dynamic, collaborative process.
-
-````md
+```md
 # Insight Genie
+
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/python-3.11%2B-blue)](https://www.python.org/downloads/)
+[![OpenAI Assistants API Beta](https://img.shields.io/badge/OpenAI-Assistants%20API%20Beta-orange)](https://platform.openai.com/docs/assistants/overview)
+[![Build Status](https://github.com/DEV3L/insight-genie/actions/workflows/continuous-integration.yml/badge.svg)](https://github.com/DEV3L/insight-genie/actions/workflows/continuous-integration.yml)
 
 Your expert craftsman for software wisdom, agile insights, and leadership.
 
-[Assistants API Beta](https://platform.openai.com/docs/assistants/overview)
+The full product definition can be found [here](Insight_Genie_Product_Definition.md).
 
 ![Insight Genie](data/files/insight_genie.png)
 
-## Product Definition
+## Table of Contents
 
-**InsightGenie** - Harnessing conversational AI for unparalleled content creativity.
+- [Introduction](#introduction)
+- [Why Insight Genie?](#why-insight-genie)
+- [Key Features](#key-features)
+- [Technology Stack](#technology-stack)
+- [Data and Knowledge Base](#data-and-knowledge-base)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Testing](#testing)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
 
-Insight Genie leverages advanced conversational AI, embodying the latest in NLP, NLG, and ML technologies, to inspire and generate unique content. Perfect for creatives and professionals in the digital era, it transforms data and dialogue into insightful content across platforms.
+## Introduction
 
-Its persona can be found [here](persona.md).
+**Insight Genie** is a conversational AI platform designed to inspire and generate unique, insightful content. Leveraging advanced Natural Language Processing (NLP), Natural Language Generation (NLG), and Machine Learning (ML) technologies, it transforms data and dialogue into creative content across platforms. Perfect for creatives and professionals in the digital era, Insight Genie redefines content generation by fostering creativity through conversation.
 
-### Problem
+## Why Insight Genie?
 
-In a digital realm thirsty for fresh, engaging content, the challenge isn’t just generating content—it’s inspiring creativity. Insight Genie tackles this challenge head-on by leveraging conversational AI to transcend traditional content generation methods, empowering users to explore and create unique, insightful content effortlessly.
+In a digital world craving fresh and engaging content, traditional methods often fall short of inspiring true creativity. **Insight Genie** transcends these limitations by using conversational AI to empower users to effortlessly explore and create unique content that resonates on both personal and communal levels.
 
-### North Star
+## Key Features
 
-The North Star for Insight Genie is to empower a community of users to consistently generate content that is not only unique and engaging but also deeply insightful. Success is measured by the platform’s ability to inspire continuous creative exploration and the generation of content that resonates on a personal and communal level.
+### 🚀 Content Generation
 
-### Product Vision
+At the heart of Insight Genie is its ability to generate tailored, AI-crafted content based on your personal knowledge base and topic preferences. Whether you're seeking inspiration or looking to expand on specific ideas, Insight Genie delivers insightful content to meet your needs.
 
-To become the leading platform in conversational AI-driven content generation, Insight Genie aims to merge the boundaries of technology and creativity. It envisions a future where every chatbot interaction sparks innovation, transforming every user into a creator, and every idea into impactful content.
+### 📥 Data Extraction and Integration
 
-### Business Case
+Enrich your content generation process by integrating knowledge from multiple sources:
 
-Insight Genie represents a strategic solution for businesses and creatives seeking to elevate their content game. By automating the creative process with AI-driven dialogue, it not only optimizes content production but also engages audiences on a deeper level. This innovation in content strategy enhances online presence, fosters brand authenticity, and drives digital engagement, positioning Insight Genie as an invaluable tool in the competitive landscape of digital marketing and content creation.
+- **Twitter**: Analyze tweets and extract meaningful insights.
+- **LinkedIn**: Incorporate professional experiences and posts.
+- **GitHub**: Summarize codebases and projects.
+- **Personal Blogs**: Utilize existing content to generate new ideas.
 
-### Technology
+### 🤖 AI Assistant Management
 
-Insight Genie, fueled by the innovative power outlined in the discussions on conversational chatbots, leverages advanced technologies to inspire unique content creation:
+Leverage the power of OpenAI Assistants to enhance the content generation process. Insight Genie utilizes specialized libraries:
 
-- **Natural Language Processing (NLP):** Forms the basis for understanding user input, breaking down language intricacies for deeper engagement.
+- **[ai-assistant-manager](https://github.com/DEV3L/ai-assistant-manager)**: Manages OpenAI Assistants, including creating, listing, and deleting assistants, as well as handling vector stores and retrieval files.
+- **[ai-code-summary](https://github.com/DEV3L/ai-code-summary)**: Automates the summarization of code files into markdown format, leveraging GPT models for concise summaries.
 
-- **Natural Language Generation (NLG):** Powers the chatbot’s ability to craft articulate, contextually relevant responses, enhancing the conversational flow.
+### 🖼️ Image Analysis and Description
 
-- **Machine Learning (ML):** Ensures continuous improvement from interactions, refining the chatbot’s responses to foster creativity and exploration.
+Process and analyze images to extract valuable information:
 
-- **OpenAI Assistants:** Utilized for their advanced conversational capabilities, OpenAI Assistants manage contextual conversations, making interactions more insightful.
+- Generate descriptions of images from tweets or other sources.
+- Use AI to interpret diagrams, charts, and other visual content.
 
-- **APIs for Dynamic Data Retrieval:** Enrich the chatbot’s knowledge base, ensuring content suggestions and insights are grounded in the most current and relevant information available.
+### 👥 Collaborative Creativity and Feedback Integration
 
-This technology stack not only supports the vision of Insight Genie to revolutionize content generation through conversational AI but also aligns with the broader goal of enhancing digital creativity and interaction, as envisioned in the articles by Justin Beall.
+Foster a dynamic and inventive community by collaborating with other users. Incorporate feedback into the AI's creative process to continuously improve content generation and encourage shared creativity.
 
-### Key Features
+### 📈 Analytics and Insight Generation
 
-#### Content Generation
+Gain valuable insights into the performance of your generated content, including:
 
-The core of InsightGenie, allowing users to generate tailored, AI-crafted content based on their personal knowledge base and preferences for topics or random insights.
+- **Engagement Metrics**
+- **Reach Analysis**
+- **Impact Assessment**
 
-#### Data Extraction
+Use this data to refine your content strategies and make informed decisions based on real-world analytics.
 
-Users can extract and integrate knowledge from multiple sources including Twitter, LinkedIn, GitHub, and personal blogs, enriching the database InsightGenie draws upon.
+## Technology Stack
 
-#### AI Assistant Management
+Insight Genie leverages cutting-edge technologies to deliver an unparalleled content creation experience:
 
-Leverages OpenAI Assistants to empower the content generation process within InsightGenie, ensuring the creation of high-quality, insightful content. This includes ongoing maintenance and updates to utilize the latest AI capabilities.
+- **Python 3.11+**: The core programming language.
+- **Natural Language Processing (NLP)**
+- **Natural Language Generation (NLG)**
+- **Machine Learning (ML)**
+- **OpenAI Assistants API**
+- **APIs for Dynamic Data Retrieval**
 
-#### Collaborative Creativity and Feedback Integration
+### Integrations
 
-A feature designed to facilitate user collaboration and incorporate feedback into the AI’s creative process. This fosters a dynamic, inventive community around Insight Genie, encouraging shared creativity and continuous improvement of content generation.
+- **[ai-assistant-manager](https://github.com/DEV3L/ai-assistant-manager)**: Simplifies the management of OpenAI Assistants.
+- **[ai-code-summary](https://github.com/DEV3L/ai-code-summary)**: Automates the summarization of codebases into markdown files.
 
-#### Analytics and Insight Generation
+## Data and Knowledge Base
 
-This analytic component provides users with insights into the performance of their generated content, including engagement, reach, and impact. Armed with this data, users can refine their content strategies for maximum effect, making informed decisions based on content analytics.
+### Vector Store and Uploaded Data
 
-### Users
+Insight Genie's assistant utilizes a vector store to enhance its knowledge base, allowing for more informed and context-aware responses. This vector store is created by uploading various data files to the OpenAI API, which are then loaded into the assistant's vector store.
 
-### Content Creators
+#### Types of Data Included
 
-Creators, including writers and marketing professionals, seeking to harness AI for dynamic content creation and audience engagement.
+The assistant's vector store includes a rich set of data covering different aspects of software development, personal profiles, and event summaries. Here's a breakdown of the types of data integrated:
 
-#### Developers
+- **Product Definitions**:
+  - `insight-genie-product-definition.txt`: Detailed descriptions of Insight Genie's features and capabilities.
+- **Professional Profiles**:
+  - `linkedin-profile.txt`: Professional experiences and skills from LinkedIn.
+  - `persona.txt`: The persona behind Insight Genie, embodying Justin Beall's expertise.
+  - `README.txt`: Comprehensive information about the project.
+- **Books and Literature**:
+  - `books.json`: A collection of books related to software development, agile methodologies, and leadership.
+- **Code Summaries**:
+  - `ai-assistant-manager.txt`: Summary of the `ai-assistant-manager` project.
+  - `ai-code-summary.txt`: Summary of the `ai-code-summary` project.
+  - `insight-genie.txt`: Summary of the Insight Genie codebase.
+- **Event Summaries**:
+  - `Event Summary - The Agile Samurai - How Agile Masters Deliver Great Software.txt`: Summaries and insights from specific events or books.
 
-Developers seeking to leverage conversational AI for creative content generation, streamlining their workflow and enhancing project documentation.
+#### How It's Used
 
-#### Leaders
+By incorporating these diverse data types into the vector store, the assistant can:
 
-Leaders and managers in the tech industry who value insights from advanced analytics to refine their content strategy and foster a collaborative team environment.
+- Reference specific projects and codebases to provide detailed explanations or insights.
+- Leverage personal profiles and personas to maintain consistency in tone and expertise.
+- Utilize book summaries and event information to enrich conversations with relevant knowledge.
+- Access a broader context when generating content, leading to more accurate and valuable responses.
 
-### Detailed Summary
+#### Extensibility
 
-Insight Genie: A Beacon of Creativity in Content Generation
+This setup serves as an example of how various data can be integrated into the assistant. You can customize and extend the vector store by adding your own data files, such as:
 
-In the pursuit of redefining content creation, Insight Genie emerges as a visionary tool, fueled by Justin Beall’s ethos of innovation. It’s a platform where conversational AI chatbots—powered by NLP, NLG, and ML technologies—dive beyond mere data analysis to inspire unique, insightful content. Drawing from diverse data sources via APIs and managed by OpenAI Assistants, these chatbots act as digital muses, engaging users in creative dialogue and transforming interaction into innovation.
+- Company-specific documentation
+- Additional code summaries
+- Industry reports or whitepapers
+- Personalized content relevant to your needs
 
-Highlighting core principles of understanding user needs, ensuring conversational flow, and integrating feedback loops, Insight Genie is not just about content generation. It’s about fostering a collaborative narrative in digital creativity, inviting developers, creators, and innovators to explore the untapped potential of conversational AI in content creation. From developing chatbots that serve as catalysts for creativity to leveraging technology for continuous improvement, Insight Genie stands at the forefront of the digital content creation revolution, making every interaction a stepping stone towards uncovering the vast potential of collective human creativity.
+By doing so, you can tailor Insight Genie to better suit your domain and enhance the assistant's effectiveness.
 
-## Project Summary
+## Installation
 
-It's a conversational AI designed to generate unique content, making it a useful tool for creatives and professionals in the digital era.
+Follow these steps to set up Insight Genie on your local machine:
 
-The project is organized into several directories:
+### Prerequisites
 
-- `data/`: Contains various data used by the project, including blog data from Dev.to and WordPress, book data, learning journal data, LinkedIn posts, about, and Twitter data.
-- `src/`: Contains the source code of the project.
-  - `assistants/`: This directory contains the InsightGenieAssistantService class which is responsible for managing the assistant's functionalities. It interacts with the OpenAI API client and handles operations like creating, finding, and deleting the assistant and its retrieval files.
-  - `chats/`: This directory contains the Chat class which handles the chat functionality of the project.
-  - `clients/`: This directory contains different client classes that interact with various APIs. The OpenAIClient class is used throughout the project to interact with the OpenAI API.
-  - `exporters/`: This directory contains different exporter classes that handle exporting data to various formats or platforms. The project uses exporters for blogs, books, learning journals, LinkedIn, resumes, and Twitter.
-  - `prompts/`: This directory contains different prompts used in the project.
-  - `encoding.py`: This file contains functionality related to encoding.
-  - `timer/`: This directory contains timing functionality for the project.
-- `.github/workflows/`: Contains the GitHub Actions workflow file continuous-integration.yml for continuous integration.
-- `run_chat.py`: A Python script to run the chat functionality of the project.
+- **Python 3.11 or higher**: Ensure you have the correct Python version installed. You can download it [here](https://www.python.org/downloads/).
+- **OpenAI API Key**: Obtain your OpenAI API key from the [OpenAI platform](https://platform.openai.com/).
 
-## Setup
+### Steps
 
-1. Clone the repository:
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/DEV3L/insight-genie.git
+   cd insight-genie
+   ```
+
+2. **Set up environment variables:**
+
+   Copy the `env.local` file to `.env` and replace `OPENAI_API_KEY` with your actual OpenAI API key:
+
+   ```bash
+   cp env.local .env
+   ```
+
+3. **Install Hatch:**
+
+   Insight Genie uses [Hatch](https://hatch.pypa.io/latest/) for environment management and packaging.
+
+   ```bash
+   pip install hatch
+   ```
+
+4. **Set up a virtual environment and install dependencies:**
+
+   ```bash
+   hatch env create
+   hatch shell
+   ```
+
+   This will create and activate a virtual environment and install all project dependencies as specified in `pyproject.toml`.
+
+## Usage
+
+### Running the Chat Interface
+
+Start interacting with Insight Genie using the chat interface:
 
 ```bash
-git clone https://github.com/DEV3L/insight-genie
-cd insight-genie
+hatch run chat
 ```
-````
 
-2. Copy the env.local file to a new file named .env and replace `OPENAI_API_KEY` with your actual OpenAI API key:
+This command runs the `run_chat.py` script, which initializes the assistant and starts a chat session.
+
+### Building the Assistant
+
+If you need to build or rebuild the assistant (e.g., after updating the persona or prompt), run:
 
 ```bash
-cp env.local .env
+hatch run build
 ```
 
-3. Setup a virtual environment with dependencies and activate it:
+This command executes the `run_build.py` script to set up the assistant.
+
+### Generating Code Summaries
+
+To generate a markdown summary of your codebase using `ai-code-summary`, run:
 
 ```bash
-brew install hatch
-hatch env create
-hatch shell
+hatch run summary .
 ```
 
-1. Run the main script:
+This will create a comprehensive markdown file (`ai-code-summary.md`) summarizing your code, which can be used within Insight Genie or for documentation purposes.
+
+### Processing Twitter Events
+
+To process Twitter data and generate event-based insights, run:
 
 ```bash
-python run_chat.py
+hatch run process-twitter-events
 ```
+
+This script processes tweets, extracts events, and generates markdown summaries with image descriptions and author information.
 
 ## Testing
 
-### Unit Tests
+### Running Tests
+
+Insight Genie includes comprehensive unit and integration tests to ensure reliability and maintainability.
+
+- **Unit Tests** (excluding integration tests):
+
+  ```bash
+  hatch run test
+  ```
+
+- **Integration Tests** (including tests that hit external systems):
+
+  ```bash
+  hatch run test-integration
+  ```
+
+### Coverage Reports
+
+Generate coverage reports to assess test coverage:
 
 ```bash
-pytest
+hatch run test -- --cov
 ```
 
-With coverage:
+For coverage gutters (useful with code editors like VSCode):
 
 ```bash
-pytest --cov
+hatch run test -- --cov --cov-report lcov
+# In your editor, activate coverage gutters to visualize code coverage.
 ```
 
-With coverage for Coverage Gutters:
+### Static Type Checking
+
+Run static type checking with Pyright:
 
 ```bash
-pytest --cov --cov-report lcov
-
-Command + Shift + P => Coverage Gutters: Watch
+hatch run pyright
 ```
 
-````
+## Contributing
+
+We welcome contributions from the community! Please follow these steps:
+
+1. **Fork the repository** on GitHub.
+
+2. **Create a new branch** for your feature or bug fix:
+
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+
+3. **Commit your changes** with clear and descriptive messages.
+
+4. **Push to your branch** on your forked repository:
+
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+
+5. **Create a Pull Request** to the `main` branch of the original repository.
+
+If you encounter any issues or have suggestions, feel free to open an issue on GitHub.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- **[ai-assistant-manager](https://github.com/DEV3L/ai-assistant-manager)**: For providing tools and services to manage OpenAI Assistants.
+- **[ai-code-summary](https://github.com/DEV3L/ai-code-summary)**: For automating codebase summarization.
+- **OpenAI**: For providing powerful AI models and APIs.
+
+---
+
+By integrating the **`ai-assistant-manager`** and **`ai-code-summary`** libraries, Insight Genie enhances its capabilities in AI assistant management and code summarization. This allows users to not only generate insightful content but also to maintain and understand their codebases more effectively.
+
+### Additional Resources
+
+- **[Prompt](prompts/prompt.md)**: View the prompt that defines the assistant's behavior.
+- **[ai-assistant-manager Documentation](https://github.com/DEV3L/ai-assistant-manager)**: Learn how to use `ai-assistant-manager` to manage your AI assistants efficiently.
+- **[ai-code-summary Documentation](https://github.com/DEV3L/ai-code-summary)**: Understand how to generate code summaries.
+
+---
+
+Feel free to explore the capabilities of Insight Genie and contribute to its growth. With its advanced AI features and integrations, it's poised to revolutionize the way we approach content creation and code understanding.
+
+## Project Structure
+
+The project is organized as follows:
+
+- `data/`: Contains data used by the project, including images, prompts, and exported data.
+- `insight_genie/` or root directory: Contains the source code of the project.
+  - `assistants/`: Manages assistant services with `AssistantService`.
+  - `chats/`: Handles chat interactions with `Chat`.
+  - `clients/`: Contains API client implementations.
+  - `exporters/`: Manages data exporting from various sources like Twitter and books.
+  - `prompts/`: Stores prompt templates for the assistant.
+  - `tests/`: Contains unit and integration tests.
+- `run_chat.py`: Main script to start a chat session.
+- `run_build.py`: Script to build or rebuild the assistant.
+- `run_code_summary.py`: Script to generate code summaries.
+- `run_process_twitter_events.py`: Script to process Twitter events.
+- `.github/workflows/`: Contains GitHub Actions workflows for CI/CD.
+- `pyproject.toml`: Configuration file for project dependencies, scripts, and tools.
+
+```
 ## tweet_data.py
 
 ### Summary
 
-The given code defines a data structure for representing tweet data using a `TweetData` class, which is a dataclass containing various fields related to a tweet, such as its ID, creation date, favorite count, hashtags, and so on. Additionally, there is a function `build_tweet_data` that takes a dictionary representing a tweet, extracts relevant information, and returns an instance of `TweetData` populated with that data. The function handles nested data and optional fields to create a comprehensive TweetData object.
+This code defines a `TweetData` data class in Python, which is used to encapsulate various attributes of a tweet, such as its ID, creation date, favorite count, hashtags, reply information, and media URLs, among others. The class includes a list of replies that can contain other `TweetData` instances.
+
+The `build_tweet_data` function takes a dictionary representing a tweet, extracts relevant fields, and constructs an instance of `TweetData` using this information. It converts certain fields to appropriate types and collects data from nested entities in the tweet structure.
 
 ```py
 from dataclasses import dataclass, field
@@ -1274,31 +1550,26 @@ def build_tweet_data(tweet: dict) -> TweetData:
         urls=[url["expanded_url"] for url in tweet["tweet"]["entities"].get("urls", [])],
     )
 
-````
-
+```
 ## event_groups.py
 
 ### Summary
 
-This code provides functionality to process Twitter data and images for specific event groups.
+This code processes event groups by generating markdown summaries and filtering corresponding tweets. It defines three functions:
 
-1. **Imports**: It imports necessary modules for JSON handling and functions related to Twitter data extraction and image processing.
+1. `process_images`: Takes a dictionary of event groups and returns descriptions of images associated with each event.
+2. `filter_tweets_for_event_group`: Filters a list of tweets based on their IDs, keeping only those that match a given list of event IDs.
+3. `process_event_groups`: Generates markdown for the event groups, writes the markdown to a text file, loads Twitter data, and saves filtered tweets as JSON files for each event group.
 
-2. **`process_images` Function**: Takes a dictionary of `event_groups` and generates a list of image descriptions by iterating over each event's media URLs.
-
-3. **`filter_tweets_for_event_group` Function**: Filters tweets to return only those whose IDs match a specified list of event IDs.
-
-4. **`process_event_groups` Function**: Loads tweets, filters them for each event group using the event IDs, and saves the filtered tweets as JSON files, one for each event group's title.
-
-Overall, the code processes images and tweets associated with defined event groups, saving relevant tweet data as structured JSON files.
+Overall, the code integrates media, event information, and tweet data for reporting purposes.
 
 ```py
 import json
 
-from insight_genie.exporters.twitter.extraction.tweet_extraction import load_twitter_data
-
 from .manager.image import Image
+from .markdown_generator import generate_markdown
 from .models.event_group import EventGroup
+from .tweet_extraction import load_twitter_data
 
 
 def process_images(event_groups: dict[str, EventGroup]):
@@ -1314,32 +1585,23 @@ def filter_tweets_for_event_group(tweets: list[dict], event_ids: list[str]) -> l
 
 
 def process_event_groups(event_groups: dict[str, EventGroup]) -> list[list[dict]]:
-    tweets = load_twitter_data()
+    markdown = generate_markdown(event_groups)
+    first_event_key = next(iter(event_groups))
 
+    with open(f"./data/twitter/event_summaries/Event Summary - {first_event_key}.txt", "w") as markdown_file:
+        markdown_file.write(markdown)
+
+    tweets = load_twitter_data()
     for event_group in event_groups.values():
         tweet_events = filter_tweets_for_event_group(tweets, event_group.event_ids)
         json.dump(tweet_events, open(f"./data/twitter/events/groups/{event_group.title}.json", "w"))
 
 ```
-
 ## image_test.py
 
 ### Summary
 
-The code is a unit test for the `get_image_description` method of the `Image` class. It uses the `unittest.mock` library to mock the OpenAI client interaction. Here's a summary of its components:
-
-1. **Imports**: The necessary modules and the `Image` class are imported.
-2. **Mock Description**: A sample description is defined for testing.
-3. **Test Function (`test_get_image_description`)**:
-   - Uses `@patch` to mock the method that builds the OpenAI client.
-   - An `Image` object is created with a URL and a title.
-   - A helper function (`remove_test_file_if_exists`) is called to remove any existing test files.
-   - The mocked client is set up to return a predefined response containing the mock description when called.
-   - The actual method `get_image_description` is tested, with an assertion to ensure it returns a valid description.
-   - Finally, the helper function is called again to clean up.
-4. **Cleanup Function**: `remove_test_file_if_exists` checks if a file exists and removes it.
-
-Overall, the test ensures that the method behaves as expected when interacting with an external service while managing file cleanup.
+This code defines a unit test for the `get_image_description` method of an `Image` class. It mocks the OpenAI client to simulate the response of generating an image description. The test checks if the description is not `None` after invoking the method. It also includes a helper function to remove a test file if it exists before and after the test runs.
 
 ```py
 import os
@@ -1371,23 +1633,21 @@ def remove_test_file_if_exists(file_path: str) -> None:
         os.remove(file_path)
 
 ```
-
 ## books_exporter_test.py
 
 ### Summary
 
-The code is a set of unit tests for a `BooksExporter` class using the `pytest` framework and `unittest.mock` for mocking dependencies. It contains the following key components:
+The provided code is a set of unit tests for the `BooksExporter` class from the `insight_genie` module using `pytest` and `unittest.mock`. It includes the following main components:
 
-1. **Fixture**: A fixture named `exporter` is created to instantiate the `BooksExporter` class for use in tests.
-
+1. **Fixture**: `build_exporter` creates an instance of `BooksExporter` for testing.
 2. **Tests**:
-   - **`test_export_data_exists`**: Validates that if data exists, the directory creation function is not called during export.
-   - **`test_export_data_does_not_exist`**: Checks that if data doesn't exist, the directory creation function is called, and data writing occurs once.
-   - **`test_write_data`**: Tests the `write_data` method to ensure the correct file copy operation is performed using the mocked `shutil`.
-   - **`test_get_dir_path`**: Asserts that the `get_dir_path` method returns the expected directory path.
-   - **`test_get_file_path`**: Ensures the `get_file_path` method returns the correct file path based on a prefix.
+   - `test_export_data_exists`: Tests that `create_dir` is not called when data already exists.
+   - `test_export_data_does_not_exist`: Tests that `create_dir` is called and `write_data` is called when data does not exist.
+   - `test_write_data`: Tests that the `shutil.copy` method is called correctly when `write_data` is invoked.
+   - `test_get_dir_path`: Checks that `get_dir_path` returns the correct directory path.
+   - `test_get_file_path`: Confirms that `get_file_path` provides the correct file path.
 
-Overall, the code tests various functionalities of the `BooksExporter` class while mocking dependencies to isolate the tests.
+Mocks are used to isolate the tests from the actual implementations of database and file system interactions, ensuring that the tests focus on the functionality of the `BooksExporter` class.
 
 ```py
 from unittest.mock import Mock, patch
@@ -1447,24 +1707,21 @@ def test_get_file_path(exporter):
     assert result == f"bin/books/{ENV_VARIABLES.data_file_prefix}_{FILE_NAME}"
 
 ```
-
 ## extractor_test.py
 
 ### Summary
 
-This code defines a structure for handling and testing Twitter-like data, leveraging functions for processing text and extracting information from tweets. It imports several utility functions and a `TweetData` model. A sample tweet and its replies are created to serve as test data.
+The code defines a data model for tweets using the `TweetData` class and includes a set of test functions to validate various text extraction and processing functions imported from an extractor module. The main operations being tested include:
 
-The code contains five test functions:
+1. **Cleaning Text:** Removing hashtags and URLs from a given text.
+2. **Extracting Hashtags:** Retrieving all hashtags from a tweet and its replies.
+3. **Getting Media URLs:** Collecting all media URLs from a tweet and its replies.
+4. **Retrieving Replies Text:** Compiling the text of all replies to a tweet.
+5. **Extracting Titles:** Getting the title from a formatted string containing text.
+6. **Getting IDs:** Collecting IDs of the main tweet and its replies.
+7. **Separating Lines:** Distinguishing special lines from normal lines in a given text format.
 
-1. `test_clean_text`: Verifies that the `clean_text` function correctly removes hashtags and URLs from a text input.
-2. `test_get_all_hashtags`: Checks if the function `get_all_hashtags` accurately retrieves a set of hashtags from the tweet data.
-3. `test_get_all_media_urls`: Ensures that all media URLs from the tweet data are returned correctly.
-4. `test_get_replies_text`: Confirms that the function retrieves the text of all replies as a single string with newline separators.
-5. `test_extract_title`: Tests if the `extract_title` function accurately extracts the title from a given text.
-6. `test_get_all_ids`: Asserts that all tweet IDs are collected correctly.
-7. `test_separate_kcv_lines`: Tests the separation of special lines from normal lines in a given text.
-
-Overall, the code focuses on managing and validating tweet-related data processing.
+Each test asserts that the actual output matches the expected result for its respective function.
 
 ```py
 from .extractor import (
@@ -1561,18 +1818,11 @@ def test_separate_kcv_lines():
     assert other_lines == expected_other
 
 ```
-
 ## AuthorDescriptionPrompt.md
 
 ### Summary
 
-The code provides a template for summarizing an author's professional background related to a specific book.
-
-- It requires the user's input for the book title.
-- The output begins with the author's name.
-- Following that, it includes relevant information such as the author's Twitter handle or other identifiers.
-- The summary focuses on the author's expertise in areas like agile methodologies, artificial intelligence, software engineering, or leadership while avoiding personal history.
-- The goal is to give a clear understanding of the author's significance and contributions in these fields.
+This code is a template for generating a concise summary of an author associated with a specific book title. It requires the author's name to be presented prominently at the top, followed by an elaboration on their professional background, contributions, and relevance to areas such as agile methodologies, artificial intelligence, software engineering, or leadership. The aim is to provide a focused and informative overview that highlights the author's expertise without delving into personal history.
 
 ```md
 Please provide a concise summary about the author of the book titled '{{BOOK_TITLE}}'.
@@ -1586,13 +1836,13 @@ Focus on the author's professional background, key contributions, and their rele
 The summary should be informative and aligned with these areas of interest, avoiding unnecessary personal history.
 
 Aim to deliver enough useful information to understand the author's expertise and significance in these fields.
-```
 
+```
 ## books_exporter.py
 
 ### Summary
 
-The provided code defines a `BooksExporter` class that manages the export of book data to a specified directory. It checks if the data already exists before exporting; if it does not, it creates the necessary directory and copies the book data from a source path to the destination file. The class uses environment variables to determine paths and filenames, and it logs the progress of the export process. Key methods include `export()`, `write_data()`, `get_dir_path()`, and `get_file_path()`.
+The code defines a `BooksExporter` class that handles the export of book data. It checks if the data already exists to avoid redundant exports. If the data does not exist, it creates a directory for the export, copies the book data from a source path to a specified file path, and logs appropriate messages throughout the process. Key methods include `export`, `write_data`, `get_dir_path`, and `get_file_path`, which manage directory creation, data copying, and path generation based on environment variables.
 
 ```py
 import os
@@ -1637,12 +1887,11 @@ class BooksExporter:
         )
 
 ```
-
 ## prompt.py
 
 ### Summary
 
-This code defines a function `get_prompt()` that reads a prompt from a markdown file located at `insight_genie/prompts/prompt.md`. It replaces a placeholder `{{CURRENT_DATE}}` in the prompt with the current date in ISO format. The file is opened using UTF-8 encoding.
+The code defines a function `get_prompt()` that reads a prompt from a specified markdown file. It replaces a placeholder `{{CURRENT_DATE}}` in the prompt with the current date in ISO format. The prompt file is opened with UTF-8 encoding.
 
 ```py
 from datetime import datetime
@@ -1660,22 +1909,17 @@ def get_prompt():
         return prompt.read().replace(CURRENT_DATE_VARIABLE, current_date)
 
 ```
-
 ## assistant-build.yml
 
 ### Summary
 
-This code defines a GitHub Actions workflow named "Build Assistant" that can be manually triggered. It includes one job, `run-build-assistant`, which runs on the latest Ubuntu environment.
+This GitHub Actions workflow, named "Build Assistant," is triggered manually and requires an OpenAI API key as input. It consists of a single job that runs on the latest Ubuntu environment. The job includes these steps:
 
-The workflow consists of the following steps:
-
-1. Check out the code repository.
-2. Set up Python with version 3.x.
-3. Install dependencies using `hatch`.
-4. Run unit tests with `hatch`.
-5. Execute the Build Assistant using the provided OpenAI API key as an environment variable.
-
-The workflow requires the OpenAI API key as input to run.
+1. Checks out the repository's code.
+2. Sets up Python version 3.x.
+3. Installs dependencies for the Assistant using the Hatch package manager.
+4. Runs unit tests for the Assistant.
+5. Executes the Build Assistant, using the provided OpenAI API key as an environment variable.
 
 ```yml
 name: Build Assistant
@@ -1710,21 +1954,13 @@ jobs:
           OPENAI_API_KEY: ${{ github.event.inputs.openai_api_key }}
         run: |
           hatch run build
-```
 
+```
 ## ruff_defaults.toml
 
 ### Summary
 
-This code is a configuration file for Python code formatting and linting tools.
-
-1. It sets a maximum line length of 120 characters.
-2. It configures docstring formatting to limit lines to 80 characters and allows code within docstrings.
-3. It enables strict import handling by banning relative imports.
-4. It specifies that the "src" directory contains first-party modules for sorting imports.
-5. It adjusts pytest style linting, allowing fixture and mark parentheses to be omitted.
-
-Overall, this configuration enforces formatting and import standards while customizing pytest linting rules.
+This code is a configuration file that sets guidelines for code formatting and linting. It specifies a maximum line length of 120 characters, enables formatting for docstrings with an 80-character limit, restricts the use of relative imports for code cleanliness, defines "src" as a known first-party package for import sorting, and adjusts rules for using parentheses with fixtures and marks in pytest.
 
 ```toml
 line-length = 120
@@ -1743,12 +1979,11 @@ known-first-party = ["src"]
 fixture-parentheses = false
 mark-parentheses = false
 ```
-
 ## event_data.py
 
 ### Summary
 
-This code defines a data class called `EventData` which serves as a structured template to store information about an event. It includes attributes like the event's date, associated IDs, favorite count, hashtags, and mentions, alongside media URLs, a description (text), a title, and a dictionary for additional tweet-related data. Each attribute represents a different aspect of the event's data.
+This code defines a data class named `EventData` that models an event with several attributes, including the event date, a list of event IDs, a count of favorites, hashtags, a flag indicating if it's a start event, and lists for key content variants, media URLs, mentions, as well as a text description and title. It also includes a dictionary for additional tweet-related data. Each attribute has a specified type.
 
 ```py
 from dataclasses import dataclass
@@ -1769,12 +2004,11 @@ class EventData:
     tweet_data: dict[str, any]
 
 ```
-
 ## run_code_summary.py
 
 ### Summary
 
-The code defines a command-line tool that generates markdown documentation from source code files. It uses the `argparse` library to accept a directory path as an argument (defaulting to the current directory). The `main` function calls `create_markdown_from_code` with the provided source path to create the documentation.
+This code is a Python script that generates markdown documentation from source code. It uses the `argparse` library to parse a command-line argument specifying the path to the source code directory. When executed, it calls the `create_markdown_from_code` function with the provided path, defaulting to the current directory if no path is given.
 
 ```py
 import argparse
@@ -1783,12 +2017,6 @@ from ai_code_summary.markdown.export import create_markdown_from_code
 
 
 def main(source_path: str) -> None:
-    """
-    Generate markdown documentation from the source code.
-
-    Args:
-        source_path (str): The path to the source code directory.
-    """
     create_markdown_from_code(source_path)
 
 
@@ -1801,12 +2029,27 @@ if __name__ == "__main__":
     main(args.source_path)
 
 ```
-
 ## persona.md
 
 ### Summary
 
-Jasper Bell, a Staff Engineer at Artium and founder of Dev3l Solutions, has a diverse tech background rooted in a Computer Science degree and military experience. His entrepreneurial venture focuses on innovative software solutions for multiple industries, emphasizing agile methodologies and continuous learning. As a thought leader in the tech community, he advocates for mentorship and community empowerment, shaping future professionals. Jasper believes technology should address real-world challenges while promoting inclusivity and sustainability. His vision for the future involves creating an ethical tech landscape that champions diversity and collaboration, ultimately driving positive change in society. He balances his professional life with coding, outdoor activities, and strategic games, fostering personal growth alongside his career.
+The code provides a detailed overview of Jasper Bell, a staff engineer and founder, highlighting his background, expertise, impact, personal philosophy, hobbies, and vision for the future of technology.
+
+**Key Points:**
+
+- **Background:** Jasper has a Computer Science degree and military experience, which fostered his discipline and leadership skills. He founded Dev3l Solutions to innovate and solve real-world challenges through technology.
+
+- **Expertise:** He specializes in agile methodologies, extreme programming, software development, business strategy, community mentorship, and tech leadership.
+
+- **Impact:** Jasper's work has driven technological advancements in various industries, fostered agile practices, and nurtured new tech talent through mentorship.
+
+- **Personal Philosophy:** He believes in using technology for positive change, emphasizing adaptability, continuous learning, and inclusivity.
+
+- **Hobbies & Interests:** Jasper enjoys coding, participating in the tech community, strategic gaming, outdoor activities, and tech literature, reflecting a balance between professional and personal life.
+
+- **Vision for the Future:** He envisions technology that promotes humanity, inclusivity, and sustainability, advocating for a collaborative culture that addresses global challenges while empowering diverse voices in tech. 
+
+Overall, Jasper embodies a commitment to innovation and a collaborative tech community, aiming to harness technology for the betterment of society.
 
 ```md
 # Persona
@@ -1907,13 +2150,13 @@ Jasper's ambition extends beyond creating cutting-edge software solutions; he ai
 In his vision, the future of technology is one where diversity of thought and experience is celebrated, driving innovation through collaboration across disciplines and cultures. Jasper is committed to leading by example, supporting initiatives that empower underrepresented voices in tech, and pushing for advancements that are not only technologically sophisticated but also socially conscious and environmentally sustainable.
 
 Amidst the rapid pace of technological change, Jasper remains steadfast in his belief that the true measure of progress lies in our ability to harness technology for the betterment of all. By fostering a community that values growth, inclusivity, and shared success, he seeks to create a future where technology amplifies our collective potential and leads to a more equitable, understanding, and interconnected world.
-```
 
+```
 ## data_exporter.py
 
 ### Summary
 
-The code imports necessary classes for managing chat responses and exporting files. It defines a path for a prompt and a list of files with their respective directories. The `export_data` function uses list comprehension to instantiate a `FilesExporter` for each file and export them. The `print_response` function takes a `ChatResponse` object and a name, printing the response message and the token count associated with it.
+This code manages the export of various text and JSON files to specified directories using a class `FilesExporter`. It defines constants for file paths and organizes files into three categories: general files, code files, and summaries. The `export_data` function iterates through each category of files and exports them to their respective directories. Additionally, there is a utility function `print_response` that prints a formatted chat response along with the token count from a `ChatResponse` object.
 
 ```py
 from ai_assistant_manager.chats.chat import ChatResponse
@@ -1922,14 +2165,29 @@ from ai_assistant_manager.exporters.files.files_exporter import FilesExporter
 PROMPT_PATH = "prompts/prompt.md"
 
 files = [
-    ("about.txt", "files"),
+    ("insight-genie-product-definition.txt", "files"),
+    ("linkedin-profile.txt", "files"),
     ("persona.txt", "files"),
-    ("profile.txt", "files"),
+    ("README.txt", "files"),
+    ("books.json", "files/books"),
+]
+
+
+code = [
+    ("ai-assistant-manager.txt", "files/code"),
+    ("ai-code-summary.txt", "files/code"),
+    ("insight-genie.txt", "files/code"),
+]
+
+summaries = [
+    ("Event Summary - The Agile Samurai - How Agile Masters Deliver Great Software.txt", "twitter/event_summaries"),
 ]
 
 
 def export_data():
     [FilesExporter(file, directory=directory).export() for (file, directory) in files]
+    [FilesExporter(file, directory=directory).export() for (file, directory) in code]
+    [FilesExporter(file, directory=directory).export() for (file, directory) in summaries]
 
 
 def print_response(response: ChatResponse, name: str):
@@ -1937,12 +2195,20 @@ def print_response(response: ChatResponse, name: str):
     print(f"\nTokens: {response.token_count}")
 
 ```
-
 ## run_build.py
 
 ### Summary
 
-The code initializes an AI assistant by setting environment variables, exporting data, creating an OpenAI client, and configuring an assistant service. It logs relevant actions, deletes existing assistant files, retrieves the assistant ID, and handles any exceptions that occur during execution. The `main()` function orchestrates these tasks, and the script runs with error logging if executed directly.
+This code sets up and manages an AI assistant using various modules. 
+
+1. It imports necessary components, including logging, environment variable settings, OpenAI API integration, and prompt handling.
+2. The `main()` function does the following:
+   - Logs the assistant name from environment variables.
+   - Exports data using `export_data()`.
+   - Initializes an `OpenAIClient` and an `AssistantService` with a prompt loaded from a specified path.
+   - Logs the removal of existing assistant files and deletes the current assistant setup.
+   - Retrieves and logs the assistant's ID.
+3. The script runs the `main()` function within a try-except block to handle any exceptions and log errors.
 
 ```py
 from ai_assistant_manager.assistants.assistant_service import (
@@ -1980,25 +2246,25 @@ if __name__ == "__main__":
         logger.info(f"Error: {e}")
 
 ```
-
 ## image.py
 
 ### Summary
 
-This code defines an `Image` class that manages image descriptions using the OpenAI API.
+The code defines a class `Image`, which is a subclass of `BaseManager`, responsible for generating and storing descriptions of images using the OpenAI API. 
 
-### Key Features:
+Key features of the class include:
 
-- **Initialization**: It initializes with an image URL and a group title, encoding the URL for file naming.
-- **Get Image Description**: The `get_image_description` method checks if a description file exists. If it does, it reads from it; if not, it generates and saves a new description.
-- **Write Description**: The `_write_description` method calls the OpenAI API to generate a description based on a prompt and logs the title and content of the image.
-- **Markdown Formatting**: The description is saved in a markdown format that includes a title, URL, and content.
+1. **Initialization**: The constructor takes an image URL and a group title, builds an OpenAI client, encodes the URL for file naming, and sets the path for storing the description.
 
-### Dependencies:
+2. **Image Description Retrieval**: The `get_image_description` method checks if a description file already exists. If it does, it reads the content; if not, it generates a new description.
 
-- Uses `base64` for URL encoding, `os` for file path handling, and `loguru` for logging. It also imports a client for OpenAI API calls and a base manager class.
+3. **Description Generation**: The `_write_description` method logs the process, calls the OpenAI API to create a description based on a prompt, and saves the output (title and content) in a structured markdown format.
 
-````py
+4. **Markdown Formatting**: The `_build_image_markdown` method formats the description and title nicely as markdown for storage.
+
+Overall, this class handles fetching, creating, and storing descriptions for images from a URL using machine learning.
+
+```py
 import base64
 import os
 
@@ -2055,10 +2321,7 @@ class Image(BaseManager):
 
 ```markdown
 {content}
-````
-
-"""
-
 ```
+"""
 
 ```
