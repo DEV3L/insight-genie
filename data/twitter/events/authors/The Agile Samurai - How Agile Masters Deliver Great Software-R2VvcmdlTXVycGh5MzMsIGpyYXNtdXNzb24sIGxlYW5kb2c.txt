@@ -1,0 +1,9 @@
+#### Author
+
+Author: Jonathan Rasmusson
+
+##### Description
+
+```markdown
+Jonathan Rasmusson is a software developer, agile coach, and author best known for his work in promoting agile methodologies through his book *The Agile Samurai - How Agile Masters Deliver Great Software*. With a strong background in software engineering, Rasmusson has helped several teams globally to understand and adopt agile practices effectively. As a former developer at Spotify, he gained insights into scaling agile processes in fast-paced environments. On platforms such as Twitter (@jrasmusson), he shares knowledge about technology trends, software best practices, and agile development techniques. His book is a seminal guide for teams aiming to improve their software delivery through practical, real-world strategies based on the Agile framework. His expertise in agile development, combined with his hands-on experience, makes him an influential voice in the software engineering and leadership spaces.
+```

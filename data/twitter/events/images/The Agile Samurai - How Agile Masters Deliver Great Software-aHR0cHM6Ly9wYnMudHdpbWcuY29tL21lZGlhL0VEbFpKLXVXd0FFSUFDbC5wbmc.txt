@@ -1,0 +1,20 @@
+#### Elevator Pitch Template
+
+https://pbs.twimg.com/media/EDlZJ-uWwAEIACl.png
+
+##### Description
+
+```markdown
+This image presents a structured **elevator pitch template** designed to concisely communicate the value proposition of a product in **10 seconds or less**. The template consists of several fields prompting the user to insert specific details, including:
+
+1. **Target customer** – Who the product is for.
+2. **Dissatisfaction with current solutions** – What issue or dissatisfaction the target customer has with existing solutions or products.
+3. **Product category** – The type or category of the product being introduced.
+4. **Key benefit for the customer** – The primary benefit the product delivers to the target customer.
+5. **Alternative solution** – The product or solution the customer might otherwise use.
+6. **How it solves the issue better** – Explanation of how the product solves the problem in a better or more efficient way than the alternative.
+
+Additionally, there is a **disclaimer at the bottom** advising users not to rely solely on this formula. Instead, it encourages them to use the template to understand and refine the trade-offs in their product offering for a more natural and compelling pitch.
+
+The document credits the concept to **Geoffrey Moore’s "Crossing the Chasm"** and was designed by **Wall-Skills.com**, which specializes in creating single-page, skill-enhancing resources.
+```

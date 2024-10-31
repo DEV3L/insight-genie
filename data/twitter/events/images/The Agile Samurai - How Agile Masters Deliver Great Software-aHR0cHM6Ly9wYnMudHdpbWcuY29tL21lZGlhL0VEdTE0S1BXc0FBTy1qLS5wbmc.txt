@@ -1,0 +1,27 @@
+#### User Story Template
+
+https://pbs.twimg.com/media/EDu14KPWsAAO-j-.png
+
+##### Description
+
+```markdown
+This image displays a template specifically for writing user stories in agile development methodologies. It is structured as follows:
+
+1. **Header Section:**
+   - **Title:** Space to indicate a descriptive title for the user story, representing a specific feature or functionality.
+   - **Priority:** Field to specify the urgency or importance of the user story relative to others.
+   - **Estimate:** A placeholder to input the estimated effort (typically in story points) required to complete the user story.
+
+2. **User Story Composition:**
+   - **As a <type of user>:** Describes the role of the user, identifying the type of person (usually an end-user or stakeholder) interested in the feature.
+   - **I want to <perform some task>:** States the task or action the user aims to accomplish.
+   - **So that I can <achieve some goal>:** Clarifies the goal or benefit the user derives from performing the task.
+
+3. **Acceptance Criteria Section:**
+   - **Acceptance criteria** define the conditions that must be fulfilled for the user story to be considered complete.
+   - **Given <some context>:** Describes the initial setup or context that must exist for the function to work as expected.
+   - **When <some action is carried out>:** Specifies the action or event.
+   - **Then <a set of observable outcomes should occur>:** Indicates the expected outcome, ensuring the system behaves as intended when the conditions are met.
+
+This format is widely used in agile methodologies like Scrum to break work into actionable tasks while maintaining focus on the user experience and measurable success.
+```

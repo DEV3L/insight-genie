@@ -1,0 +1,41 @@
+#### Agile Project Inception Activities
+
+https://pbs.twimg.com/media/EDlZJvGXsAA81r5.jpg
+
+##### Description
+
+```markdown
+The image outlines key elements often associated with Agile project inception or kickoff activities, offering a structured approach to initiating a project. The content focuses on various facets of team alignment, goal clarification, and problem-solving. Here's a breakdown of each element:
+
+1. **Why are we here?**  
+   - This likely questions the fundamental objective or purpose of the project. It aims to establish the project's mission and rationale.
+
+2. **Elevator pitch**  
+   - A concise, persuasive explanation of the project or initiative, often used to quickly communicate its value to stakeholders in a clear and effective manner.
+
+3. **Product box**  
+   - A creative exercise where teams design a “box” that would contain the product, forcing them to consider the most appealing features and benefits in a customer-facing way.
+
+4. **NOT list**  
+   - A list identifying what the project will *not* include, helping to manage scope and expectations while avoiding scope creep.
+
+5. **Meet the neighbors**  
+   - This likely refers to identifying adjacent teams, stakeholders, or systems that will either interact with or be impacted by the project. It emphasizes collaboration and interdependencies.
+
+6. **Show solution**  
+   - Presenting or visualizing potential solutions to the problem at hand, enabling the team to discuss options and gauge feasibility.
+
+7. **Up at night**  
+   - A space for identifying the risks, worries, and challenges that keep team members or stakeholders concerned about the project's success. It helps surface potential blockers.
+
+8. **Size it up**  
+   - Estimating the scope, complexity, or effort required to deliver the project successfully. This may include time, resources, or difficulty level.
+
+9. **What’s going to give**  
+   - Assessment of trade-offs or compromises needed to navigate constraints like time, budget, or resources. Helps the team prioritize.
+
+10. **What’s it going to take**  
+    - Outlining the steps, resources, and conditions necessary to reach the project's goals. This could involve planning out high-level milestones or defining success criteria.
+
+Each block seems to represent a facilitated session designed to align the team, clearly define objectives, understand constraints, and encourage collaboration. This grid is commonly used in project kickoff meetings to set the foundation for agile projects.
+```

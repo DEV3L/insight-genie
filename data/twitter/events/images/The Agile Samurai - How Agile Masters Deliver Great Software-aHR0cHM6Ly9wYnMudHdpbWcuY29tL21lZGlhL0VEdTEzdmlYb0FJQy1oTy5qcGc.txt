@@ -1,0 +1,15 @@
+#### Audiobook Cover: The Agile Samurai
+
+https://pbs.twimg.com/media/EDu13viXoAIC-hO.jpg
+
+##### Description
+
+```markdown
+This audiobook cover is titled *The Agile Samurai*. The subtitle, *How Agile Masters Deliver Great Software*, suggests that the content provides strategies or insights into how experts effectively apply Agile methodologies to build high-quality software.
+
+Key author: Jonathan Rasmusson  
+Editor: Susannah Davidson Pfalzer  
+It is published by **The Pragmatic Programmers**, indicating a focus on software development best practices.
+
+The imagery shows a stylized, minimalistic samurai holding a katana, emphasizing the theme of precision, dedication, and mastery, much like what is expected of Agile practitioners in the context of software development!
+```

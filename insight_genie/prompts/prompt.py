@@ -2,7 +2,7 @@ from datetime import datetime
 
 from ai_assistant_manager.encoding import UTF_8
 
-PROMPT_PATH = "src/prompts/prompt.md"
+PROMPT_PATH = "insight_genie/prompts/prompt.md"
 
 CURRENT_DATE_VARIABLE = "{{CURRENT_DATE}}"
 

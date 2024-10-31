@@ -1,6 +1,6 @@
 from datetime import datetime
 
-from src.prompts.prompt import get_prompt
+from insight_genie.prompts.prompt import get_prompt
 
 
 def test_get_prompt():

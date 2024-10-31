@@ -11,10 +11,11 @@ readme = "README.md"
 authors = [{ name = "Justin Beall", email = "jus.beall@gmail.com" }]
 requires-python = ">=3.11"
 dependencies = [
+    "ai-assistant-manager==2.0.0",
+    "ai-code-summary==0.1.1",
     "loguru",
     "openai",
     "python-dotenv",
-    "ai-assistant-manager==2.0.0",
 ]
 
 [tool.hatch.version]
@@ -35,6 +36,8 @@ dependencies = ["pyright", "pytest", "pytest-cov"]
 [tool.hatch.envs.default.scripts]
 chat = "python run_chat.py"
 build = "python run_build.py"
+summary = "python run_code_summary.py {args}"
+process-twitter-events = "python run_process_twitter_events.py {args}"
 test = "pytest --cache-clear --cov --cov-report lcov --cov-report term -m 'not integration'"
 test-integration = "pytest --cache-clear --cov"
 
